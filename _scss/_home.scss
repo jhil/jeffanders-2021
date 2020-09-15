@@ -2,8 +2,17 @@
 
 .intro {
 	margin: 6rem 0;
+	@media screen and (max-width: $phone-portrait-max) {
+		margin: 2rem 0;
+	}
 	h1 {
 		font-size: calc(.125rem + 3.25vw);
+		@media screen and (max-width: $tablet-portrait-min) {
+			font-size: 4.5vw;
+		}
+		@media screen and (max-width: $phone-portrait-max) {
+			font-size: 1.25rem;
+		}
 		line-height: 1.75;
 		font-weight: $regular;
 		margin-bottom: 0;

@@ -4,6 +4,10 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	@media screen and (max-width: $phone-portrait-max) {
+		flex-direction: column;
+		align-items: flex-start;
+	}
 	a {
 		font-weight: $regular;
 	}
@@ -24,6 +28,9 @@
 }
 
 .nav-right {
+	@media screen and (max-width: $phone-portrait-max) {
+		display: none;
+	}
 }
 
 
@@ -41,6 +48,9 @@
 
 .nav-title h1 {
 	@extend h3;
+	@media screen and (max-width: $phone-portrait-max) {
+		font-size: 1.25rem;
+	}
 	margin-bottom: 0;
 	font-weight: $medium;
 	letter-spacing: 0;

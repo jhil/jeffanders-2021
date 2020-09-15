@@ -54,12 +54,18 @@ hr.section-divider {
 	max-width: $content-width;
 	position: relative;
 	padding: 0 $space;
+	@media screen and (max-width: $phone-portrait-max) {
+		padding: $space/2;
+	}
 }
 
 section {
 	margin: $space auto 0;
 	@media screen and (max-width: $laptop-max) {
 		padding: 0;
+	}
+	@media screen and (max-width: $phone-portrait-max) {
+		margin: 1rem auto;
 	}
 }
 
