@@ -26,7 +26,7 @@ A few quick and cursory observations:
   {% for 2015-album in site.data.2015-albums limit:50 %}
   <li class="list-item">
       <h5 class="list-rank"></h5>
-      <img src="/img/albums/{{ 2015-album.album }}.jpeg" class="list-image">
+      <img src="/img/albums/{{ 2015-album.album }}.jpeg" class="list-image" loading="lazy">
       <h3>{{ 2015-album.album }}</h3>
       <h5>{{ 2015-album.artist }}</h5>
   </li>

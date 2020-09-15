@@ -11,7 +11,7 @@ layout: default
 
   {% unless page.hero == false %}
   <section class="full-width article-image-hero">
-    <img src="/img/{{ page.url | slugify }}/{% if page.hero %}{{ page.hero }}{% else %}{{ page.thumb }}{% endif %}"">
+    <img src="/img/{{ page.url | slugify }}/{% if page.hero %}{{ page.hero }}{% else %}{{ page.thumb }}{% endif %}" loading="lazy">
   </section>
   {% endunless %}
 
@@ -31,7 +31,7 @@ layout: default
   <a href="{% if page.next.external %}{{ page.next.external }}{% else %}{{ page.next.url }}{% endif %}" class="post-item-wrapper post-item-category-{{ page.next.category }}">
     <li class="post-item">
       <div class="post-image">
-        <img src="/img/{{ page.next.url | slugify }}/{{ page.next.thumb }}">
+        <img src="/img/{{ page.next.url | slugify }}/{{ page.next.thumb }}" loading="lazy">
       </div>
       <div class="post-info-wrapper">
         <div class="post-info">
@@ -46,7 +46,7 @@ layout: default
   <a href="{% if page.previous.external %}{{ page.previous.external }}{% else %}{{ page.previous.url }}{% endif %}" class="post-item-wrapper post-item-category-{{ page.previous.category }}">
     <li class="post-item">
       <div class="post-image">
-        <img src="/img/{{ page.previous.url | slugify }}/{{ page.previous.thumb }}">
+        <img src="/img/{{ page.previous.url | slugify }}/{{ page.previous.thumb }}" loading="lazy">
       </div>
       <div class="post-info-wrapper">
         <div class="post-info">

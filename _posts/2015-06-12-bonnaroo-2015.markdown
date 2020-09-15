@@ -16,7 +16,7 @@ color: "#F90D1B"
   <li class="list-item">
     <div class="list-row">
       <a href="{{ item.link }}">
-        <img src="/img/{{ page.title | slugify }}/{{ item.artist | slugify }}.jpg" class="list-image">
+        <img src="/img/{{ page.title | slugify }}/{{ item.artist | slugify }}.jpg" class="list-image" loading="lazy">
       </a>
       <a href="{{ item.link }}">
         <h3 class="list-title">{{ item.artist }}</h3>

@@ -17,7 +17,7 @@ I love collecting board games and sharing fun times with friends and family. The
   {% for boardgame in site.data.boardgames %}
   <li class="list-item">
     <a href="{{ boardgame.link }}">
-      <img src="/img/board-games/{{ boardgame.title | slugify }}.jpg" class="list-image list-image-nonuniform">
+      <img src="/img/board-games/{{ boardgame.title | slugify }}.jpg" class="list-image list-image-nonuniform" loading="lazy">
       <h3 class="list-title">{{ boardgame.title }}</h3>
       <h5 class="list-detail">{{ boardgame.rating }}<span class="subsub">/10</span></h5>
     </a>

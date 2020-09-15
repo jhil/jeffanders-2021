@@ -16,7 +16,7 @@ color: "#1ED760"
   {% if all-album.imageurl %}
   <li class="list-item">
     <a href="{{ all-album.albumurl }}" target="_blank">
-      <img src="/img/albums/{{ all-album.albumid }}.png" class="list-image">
+      <img src="/img/albums/{{ all-album.albumid }}.png" class="list-image" loading="lazy">
       <h3>{{ all-album.album }}</h3>
       <h5>{{ all-album.artist }}</h5>
       <h5 class="list-rating list-rating-{{all-album.rating}}">{{ all-album.rating }}</h5>
