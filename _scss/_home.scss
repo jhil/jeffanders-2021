@@ -1,0 +1,179 @@
+// intro
+
+.intro {
+	padding: $space 0;
+	h2 {
+		line-height: 2;
+		font-weight: $regular;
+		margin-bottom: 0;
+	@media screen and (max-width: $tablet-portrait-max) {
+		font-size: 1.5*$base-font-size;
+	}
+
+
+	}
+	a {
+		font-weight: $regular;
+		white-space: nowrap;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.intro-link-scale {
+	color: #9347FB;
+	&:hover {
+		color: #9347FB;
+	}
+}
+
+.intro-link-facebook {
+	color: #3b5998;
+	&:hover {
+		color: #3b5998;
+	}
+}
+
+.intro-link-minimill {
+	color: #3399FF;
+	&:hover {
+		color: #3399FF;
+	}
+}
+
+.intro-link-autodesk {
+	color: #87BC40;
+	&:hover {
+		color: #87BC40;
+	}
+}
+
+.intro-link-venmo {
+	color: #3D95CE;
+	&:hover {
+		color: #3D95CE;
+	}
+}
+
+.intro-link-startupshell {
+	color: #D74034;
+	&:hover {
+		color: #D74034;
+	}
+}
+
+.intro-link-bitcamp {
+	color: #FF7040;
+	&:hover {
+		color: #FF7040;
+	}
+}
+
+sub > a.intro-link {
+	opacity: .75;
+	&:hover {
+		opacity: 1;
+	}
+}
+
+
+
+// category headers
+
+.category-header {
+	margin-bottom: $space;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.category-title {
+}
+
+.category-link {
+	@extend .h5;
+	font-weight: $bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: $green;
+	&:hover {
+		color: $green-trans;
+	}
+}
+
+
+// posts grid
+
+.post-index {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: left;
+}
+
+.post-item-wrapper {
+	&:hover {
+		h3 {
+			text-decoration: underline;
+		}
+		.post-metadata {
+			color: $dark-gray;
+		}
+		.post-image {
+			transform: scale(1.025);
+			transition: $t;
+		}
+	}
+	width: calc(25% - 2rem);
+	margin-bottom: $space;
+	text-align: center;
+
+	@media screen and (max-width: $laptop-max) {
+		width: calc(33% - 2rem);
+	}
+	@media screen and (max-width: $tablet-portrait-max) {
+		width: calc(50% - 2rem);
+	}
+	@media screen and (max-width: $phone-portrait-max) {
+		width: 100%;
+	}
+}
+
+.related-posts .post-item-wrapper {
+	width: calc(50% - 2rem);
+	@media screen and (max-width: $phone-portrait-max) {
+		width: 100%;
+	}
+
+}
+
+.metadata-label {
+	color: $green;
+	text-transform: uppercase;
+}
+
+.post-image {
+	margin-bottom: 1rem;
+	@extend .ratio;
+	@extend .image-fill;
+	@extend .ratio-8_5;
+	width: 100%;
+	transition: $t;
+}
+
+.post-info {
+	text-align: left;
+}
+
+.post-info-wrapper {
+	display: flex;
+}
+
+.post-title {
+	padding-right: .25rem;
+}
+
+.post-metadata {
+	margin-top: .5rem;
+}

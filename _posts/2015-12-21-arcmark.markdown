@@ -1,0 +1,13 @@
+---
+layout: post
+category: project
+title: "Arcmark Pen"
+date: 2015-12-21
+thumb: arcmark.jpg
+hero: IMG_0552.JPG
+color: "#A2D3F8"
+---
+
+Arcmark is a smart pen that helps artists learn new techniques and trains architects to monitor their penmanship in real-time.
+
+{% include embed.html url="docs.google.com/presentation/d/1q9FfIqkxvoFCtQCG-xhJLOkONZYpVIhDew467WP71EE/embed?start=false&loop=false&delayms=3000" %}

@@ -1,0 +1,17 @@
+---
+layout: post
+category: project
+title: "SoGal Ventures"
+date: 2017-10-14
+thumb: sogal-ring-dr@2x.png
+color: "#ED396F"
+link: http://www.sogalventures.com/
+---
+
+SoGal is a lifestyle brand that is "redefining the next generation of diverse founders and funders." I teamed up with founders Elizabeth Galbut and Pocket Sun to work on brand explorations together. The identity explorations placed special focus on the venture capital arm, SoGal Ventures, but were also designed to be able to expand into future verticals. Here are some of our favorite ideas that informed the final design.
+
+<!-- {% include i.html src="sogal-3@2x.png" %} -->
+{% include i.html src="sogal-brief-2.png" %}
+{% include i.html src="sogal-logo-1-brief.png" %}
+
+{% include button-link.html text="Visit SoGal" %}

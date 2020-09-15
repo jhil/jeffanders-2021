@@ -1,0 +1,29 @@
+---
+layout: post
+category: project
+title: "Bop It!"
+date: 2014-02-14
+thumb: bopit_thumbnail.jpg
+hero: bopit-demo-3.jpg
+color: "#71607F"
+---
+
+At PennApps Spring 2014, my team brought the classic Bop It! toy to the modern era with Leap Motion. I worked with [Mariel Bartolome](https://twitter.com/whatmariel), [Luis Santos](https://twitter.com/_lssr), and [Zach Fogg](https://twitter.com/zfogg) to develop the project. Players use mid-air gestures to control an immersive web game. Play solo to challenge your personal best, or connect with friends for "Pass It" game mode with multiple Leap Motion controllers through different computers. Philips "hue" lights also flash corresponding colors with each command.
+
+After initially coming up with the concept, my role consisted of designing the interface and toy graphics. After illustrating the toy's vector elements, I worked with Mariel to animate them to respond to the input from the Leap Motion. I also scoured the web for Bop It! sounds, then cut and mastered the individual audio clips to be triggered by the gestures.
+
+{% include i.html src="bopit-web-play.png" %}
+
+Major League Hacking featured our team in a quick video midway through the hackathon. It demos some of the functionality and visuals of the game.
+
+{% include embed.html url="youtube.com/embed/Un50KKFU7E4?rel=0&amp;showinfo=0" %}
+
+Leap Motion liked our project, awarding us their second place award and featuring us in a couple blog posts (["Hangouts Hacking and Retro Gaming at PennApps Spring 2014"](http://blog.leapmotion.com/hangouts-hacking-and-retro-gaming-at-pennapps-spring-2014/) and ["The Collegiate Hackathon Community: Every Computer Science Student’s Dream-Come-True"](http://blog.leapmotion.com/the-collegiate-hackathon-community-every-computer-science-students-dream-come-true/).
+
+All in all, this was one of the most fun and nostalgic projects I've had the pleasure of working on at a hackathon. I'll wrap up with a few pictures of people playing our Bop It! game.
+
+{% include i.html src="bopit-demo-1.jpg" %}
+
+{% include i.html src="bopit-demo-2.jpg" %}
+
+Photos from Polina Vorozheykina.

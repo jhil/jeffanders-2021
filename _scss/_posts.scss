@@ -1,0 +1,144 @@
+.article-header {
+	max-width: 100%;
+	margin-top: 2*$space;
+}
+
+.article-header-tight {
+	width: 43rem;
+	margin-left: auto;
+	margin-right: auto;
+	.article-metadata {
+		margin-bottom: 0;
+	}
+}
+
+.article-title {
+	font-weight: $medium;
+}
+
+.article-metadata {
+	margin: $space/2 0 $space;
+	color: $dark-gray;
+	a:hover {
+		color: $black;
+		text-decoration: underline;
+	}
+}
+
+.article-image-hero {
+	margin-bottom: 2 * $space;
+	@extend .image-fill;
+}
+
+.article-body {
+	width: $content-width * .75;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	p a {
+		text-decoration: underline;
+		&:hover {
+			color: $dark-gray;
+		}
+	}
+	h1 {
+		margin: 4rem 0;
+	}
+	h2 {
+		margin: 4rem 0 2rem;
+	}
+	h3 {
+		margin: 3rem 0 2rem 0;
+	}
+	img {
+		display: block;
+	}
+	blockquote p {
+		padding: .25rem 0 .25rem 2rem;
+		border-left: 4px $light-gray solid;
+		margin: 3rem 0;
+		color: $dark-gray;
+	}
+	p em {
+		font-style: italic;
+	}
+	ul {
+		margin-bottom: 2rem;
+		li {
+			@extend .p;
+			display: list-item;
+			list-style-type: disc;
+			margin-bottom: 1rem;
+			margin-left: 1.5rem;
+			padding-left: 1rem;
+		}
+	}
+}
+
+.article-body-full {
+	width: 100%;
+}
+
+.post-talk .article-body {
+	padding: 0 0;
+
+}
+
+ul.article-list {
+	margin-bottom: 4rem;
+	h3 {
+		margin: 0;
+	}
+}
+
+p img {
+	margin: 4rem 0;
+	width: 100%;
+}
+
+.embed {
+	max-width: 100%;
+	vertical-align: middle;
+	clear: both;
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	margin: 6rem 0;
+	iframe, object, embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.button-link {
+	@extend .h5;
+	color: $white;
+	border-radius: 3px;
+	display: block;
+	width: 50%;
+	max-width: 100% !important;
+	padding: 1rem 0;
+	transition: $t;
+	text-align: center;
+	text-decoration: none !important;
+	margin: 6rem auto;
+	&:after {
+		content: "→";
+		margin-left: 1rem;
+	}
+	&:hover {
+		color: $white !important;
+	}
+}
+
+.button-link-dark {
+	color: $black;
+	&:hover {
+		color: $black !important;
+	}
+}

@@ -1,45 +1,106 @@
 // Font weights
+$heavy: 900;
 $extra-bold: 800;
 $bold: 700;
+$demi: 600;
 $medium: 500;
 $regular: 400;
 $light: 300;
 
-$sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$monospace: monospace;
+$base-font-size: 1rem;
 
-h1, %h1 {
-  font-size: 2.5rem;
+@font-face {
+	font-family: 'Maison Neue';
+	src: url('/fonts/MaisonNeueWEB-Book.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 
-h2, %h2 {
-  font-size: 2rem;
+@font-face {
+	font-family: 'Maison Neue';
+	src: url('/fonts/MaisonNeueWEB-Medium.woff') format('woff');
+	font-weight: $medium;
+	font-style: normal;
 }
 
-h3, %h3 {
-  font-size: 1.5rem;
+$sans: 'Maison Neue', 'Maison', 'SF UI Text', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$mono: 'Inconsolata', 'Source Code Pro', monospace;
+$serif: Georgia, serif;
+
+.mono {
+	font-family: $mono;
+	font-weight: $regular;
 }
 
-h4, %h4 {
-  font-size: 1rem;
+h1, %h1, .h1 {
+	font-size: 3.5*$base-font-size;
+	@media screen and (max-width: $phone-portrait-max) {
+		font-size: 2.25*$base-font-size;
+	}
+	letter-spacing: 0.5px;
+	font-family: $sans;
+	font-weight: $medium;
+	line-height: 1.5;
 }
 
-h5, %h5 {
-  font-size: 0.875rem;
+h2, %h2, .h2 {
+	font-size: 1.875*$base-font-size;
+	line-height: 1.5;
+	margin-bottom: 1rem;
+	font-family: $sans;
+	font-weight: $medium;
 }
 
-h6, %h6 {
-  font-size: 0.75rem;
+h3, %h3, .h3 {
+	font-size: 1.5*$base-font-size;
+	font-family: $sans;
+	font-weight: $medium;
+	line-height: 1.5;
+}
+
+h4, %h4, .h4 {
+	font-size: 1.125 * $base-font-size;
+	font-family: $sans;
+	font-weight: $medium;
+	line-height: 1.5;
+}
+
+h5, %h5, .h5 {
+	font-size: $base-font-size;
+	font-family: $mono;
+	font-weight: $regular;
+	line-height: 1.5;
+	color: $medium-gray;
 }
 
 p, .p {
-  font-size: 1rem;
+	font-size: 1.25 * $base-font-size;
+	font-family: $sans;
+	line-height: 2;
+	margin-bottom: 2*$base-font-size;
+	font-weight: $light;
 }
+
 
 strong {
-  font-weight: $bold;
+	font-weight: $medium;
 }
 
-code {
-  font-family: $monospace;
+a {
+	font-weight: $medium;
+}
+
+p code {
+	font-family: $mono;
+	padding: .5rem .5rem;
+	background: $lighter-gray;
+	margin: 0 .125rem;
+}
+
+sub, .sub {
+	color: $dark-gray;
+}
+
+.subsub {
+	color: $medium-gray;
 }

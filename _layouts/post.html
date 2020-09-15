@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<article class="post post-article post-{{ page.category }}">
+
+  <section class="article-header{% if page.hero == false and page.full != true %} article-header-tight{% endif %}">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <h5 class="article-metadata">{{ page.date | date: "%b %d, %Y" }}&ensp;·&ensp;{% if page.category == "work" %}<a href= "/work">{% else %}<a href="/{{ page.category }}s">{% endif %}#{{ page.category }}</a></h5>
+  </section>
+
+  {% unless page.hero == false %}
+  <section class="full-width article-image-hero">
+    <img src="/img/{{ page.url | slugify }}/{% if page.hero %}{{ page.hero }}{% else %}{{ page.thumb }}{% endif %}"">
+  </section>
+  {% endunless %}
+
+  <section class="article-body{% if page.full == true %} article-body-full{% endif %}">
+    {{ content }}
+  </section>
+
+</article>
+
+<section>
+  <hr class="section-divider">
+</section>
+
+<section class="related-posts">
+  <ul class="post-index">
+  {% if page.next.url %}
+  <a href="{% if page.next.external %}{{ page.next.external }}{% else %}{{ page.next.url | prepend: site.baseurl }}{% endif %}" class="post-item-wrapper post-item-category-{{ page.next.category }}">
+    <li class="post-item">
+      <div class="post-image">
+        <img src="/img/{{ page.next.url | slugify }}/{{ page.next.thumb }}">
+      </div>
+      <div class="post-info-wrapper">
+        <div class="post-info">
+          <h4 class="post-title">{{ page.next.title }}</h4>
+          <h5 class="post-metadata"><span class="metadata-label">Newer</span>&ensp;·&ensp;{{ page.next.date | date: "%Y" }}&ensp;·&ensp;#{{ page.next.category }}{% if page.next.external %}&ensp;·&ensp;◳{% endif %}</h5>
+        </div>
+      </div>
+    </li>
+  </a>
+  {% endif %}
+  {% if page.previous.url %}
+  <a href="{% if page.previous.external %}{{ page.previous.external }}{% else %}{{ page.previous.url | prepend: site.baseurl }}{% endif %}" class="post-item-wrapper post-item-category-{{ page.previous.category }}">
+    <li class="post-item">
+      <div class="post-image">
+        <img src="/img/{{ page.previous.url | slugify }}/{{ page.previous.thumb }}">
+      </div>
+      <div class="post-info-wrapper">
+        <div class="post-info">
+          <h4 class="post-title">{{ page.previous.title }}</h4>
+          <h5 class="post-metadata"><span class="metadata-label">Older</span>&ensp;·&ensp;{{ page.previous.date | date: "%Y" }}&ensp;·&ensp;#{{ page.previous.category }}{% if page.previous.external %}&ensp;·&ensp;◳{% endif %}</h5>
+        </div>
+      </div>
+    </li>
+  </a>
+  {% endif %}
+  </ul>
+</section>

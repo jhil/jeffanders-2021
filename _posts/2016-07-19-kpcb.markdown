@@ -1,0 +1,10 @@
+---
+layout: post
+category: project
+title: "KPCB"
+date: 2016-07-19
+thumb: kpcbceo-thumbnail.png
+color: "#48B582"
+link: http://www.kpcb.com/
+external: https://minimill.co/kpcb/
+---

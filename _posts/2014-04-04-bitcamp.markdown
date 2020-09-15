@@ -1,0 +1,24 @@
+---
+layout: post
+category: project
+title: "Bitcamp"
+date: 2014-04-04
+thumb: bitcamp_thumbnail.png
+hero: bitcamp_smiles.jpg
+link: bitca.mp
+color: "#D67948"
+---
+
+Bitcamp is an exploratory hackathon experience at the University of Maryland. I founded Bitcamp with some friends from Startup Shell and Terrapin Hackers. We wanted to create a hackathon experience that encouraged exploration into new technologies. From there, I led the design, brand, and marketing efforts. Bitcamp has impacted over 2,500 participants and raised over $350,000 in sponsorship in its two years of existence.
+
+{% include i.html src="bitcamp_logo.png" %}
+
+{% include i.html src="bitcamp_dave.jpg" %}
+
+{% include i.html src="bitcamp_colorwar.jpg" %}
+
+### Colorwar is a competition featuring knockout design challenges.
+
+{% include i.html src="bitcamp_colorwar-logo.png" %}
+
+{% include i.html src="bitcamp_colorwar-judges.gif" %}

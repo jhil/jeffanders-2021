@@ -1,0 +1,14 @@
+---
+layout: post
+category: project
+title: "ADI"
+date: 2014-08-28
+thumb: adi_thumbnail.png
+hero: adi_macbook.png
+color: "#7AABFD"
+link: adicu.com
+---
+
+The Application Development Initiative is a community for student developers at Columbia University.
+
+{% include i.html src="adi_logo.gif" %}

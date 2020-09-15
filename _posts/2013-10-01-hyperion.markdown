@@ -1,0 +1,10 @@
+---
+layout: post
+category: team
+title: "Hyperion Technologies"
+date: 2013-10-01
+thumb: hyperion.jpg
+color: "#3A4874"
+external: http://www.hyperiontechnologies.us/
+---
+

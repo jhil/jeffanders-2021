@@ -1,12 +1,29 @@
 ---
 layout: default
+title: Jeff Hilnbrand
 ---
-<div class="content">
-    <h1>Hello World!</h1>
 
-    <p>The following image is both progressive (loads with a placeholder) and responisve (loads the correcet image size depending on screen resolution). If all you dont' see an image below, make sure that you run <code>gulp responsive</code> to generate the different image versions. This must be done whenever you add new images (resizing images when you run <code>gulp serve</code> would be extremely slow).</p>
+<section class="intro">
+	<h2>
+		I like making cool things with cool people. Design Manager at <a class="intro-link intro-link-scale" href="https://scale.ai" target="_blank">Scale AI</a>. <sub>Previously at <a class="intro-link intro-link-facebook" href="https://facebook.design" target="_blank">Facebook</a>, <a class="intro-link intro-link-minimill" href="http://minimill.co" target="_blank">Minimill</a>, <a class="intro-link intro-link-autodesk" href="https://creativemarket.com" target="_blank">Autodesk</a>, and <a class="intro-link intro-link-venmo" href="https://venmo.com" target="_blank">Venmo</a>.</sub>
+	</h2>
+</section>
 
-    <div style="max-width: 500px">
-        {% include resimg.html src="example-image.jpg" class="with-viewer" %}
-    </div>
-</div>
+<!-- <section>
+	<div class="filter-wrapper">
+	<span>{{ site.posts | size }} things to explore...</span>
+		<ul class="filter-list">
+			<li class="filter-item">#projects</li>
+			<li class="filter-item">#notes</li>
+			<li class="filter-item">#talks</li>
+		</ul>
+	</div>
+</section>
+ -->
+<section>
+	<ul class="post-index">
+		{% for post in site.posts %}
+			{% include post-index-grid.html %}
+		{% endfor %}
+	</ul>
+</section>

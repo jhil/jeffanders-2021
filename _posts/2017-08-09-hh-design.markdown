@@ -1,0 +1,19 @@
+---
+layout: post
+category: project
+title: "HH Design"
+date: 2017-08-09
+thumb: hhd-cover.png
+color: "#45C859"
+link: https://www.facebook.com/groups/designxtech/
+---
+
+In 2014, I started a community for student designers called HH Design (fka Design x Tech) as part of a network of Facbeook groups called Hackathon Hackers (HH). Since then, the community has grown to over 17,000 members, serving as a home for providing feedback on projects, discussing design news, and helping hundreds of students get our first design jobs. Along the way, our admin team had some fun with branding and announcement graphics, some of which you can see here.
+
+{% include i.html src="hhd-full-01.png" %}
+{% include i.html src="hhd-logo-construction-dr.png" %}
+{% include i.html src="1000-01.png" %}
+{% include i.html src="30004.gif" %}
+{% include i.html src="hhd-5000-01.png" %}
+
+{% include button-link.html text="HH Design on Facebook" %}

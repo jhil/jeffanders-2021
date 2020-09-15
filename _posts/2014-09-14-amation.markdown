@@ -1,0 +1,26 @@
+---
+layout: post
+category: project
+title: "Amation"
+date: 2014-09-14
+thumb: amation_thumbnail.png
+hero: amation_macbook.png
+color: "#99F967"
+link: amation.co
+---
+
+Amation combines the extensive capabilities of SVG with the power of media tools and animation. Users animate vectors in a timeline-based editor suite (like After Effects) and can distribute them as native SVGs, in all their scalable glory.
+
+Amation is for the design community. UI design workflows include prototyping interactions to communicate with developers. With Amation, designers can maintain a full vector workflow, ultimately saving time, easing distribution, and improving performance.
+
+Scalable Vector Graphic, or SVG, is extremely powerful file format. SVG is often used for individual assets, but has media opportunities in motion graphics, animation, and video. While raster media (like GIFs and MP4s) are based on grids of pixels that lose quality when resized, SVGs are infinitely scalable and lite. Since they're XML-based, Amation uses JavaScript to manipulate the code and create packaged, native SVG media files that animate in the browser.
+
+{% include i.html src="amation_macbook.png" %}
+
+{% include embed.html url="www.youtube.com/embed/pmm7UmDyQyE?rel=0&amp;showinfo=0" %}
+
+{% include i.html src="amation_drag.png" %}
+
+{% include i.html src="amation_delete.png" %}
+
+{% include i.html src="amation_logo.png" %}

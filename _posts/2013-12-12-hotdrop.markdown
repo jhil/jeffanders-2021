@@ -1,0 +1,12 @@
+---
+layout: post
+category: project
+title: "Hotdrop"
+date: 2014-03-12
+thumb: hotdrop_thumbnail.png
+hero: hotdrop_app.png
+color: "#DE695D"
+link: gethotdrop.com
+---
+
+### Hotdrop is a location-based messaging app.

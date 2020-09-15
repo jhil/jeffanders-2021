@@ -1,0 +1,30 @@
+---
+layout: post
+category: project
+title: "Capstone: Design For All"
+date: 2016-05-12
+tag: design, architecture, tech
+thumb: capstone_nav.png
+color: "#F7F58B"
+link: https://github.com/jhil/capstone
+---
+
+For my Individual Studies major in Product Design & Engineering, I was required to create a capstone project. I called mine "Design For All." What follows is some of the writing and visuals I made to communicate my capstone research.
+
+### Learning product design principles from different backgrounds
+
+My major investigates how to create innovative products to solve human needs while also fostering the ability to build them. I am shifting from physical product design in my studies to digital design in my career. This project investigates how best to introduce universal product design concepts to people in tangential fields.
+
+I led a series of design workshops targeted at people of different communities and diverse backgrounds. Then, I interviewed participants to understand how they learned new design principles.
+
+- Thinking Like A Designer @ Pearl Hacks
+- Designing With Grids @ Terrapin Hackers
+- Preparing For Design Interviews @ Bitcamp
+- Architecture x Design @ School of Architecture
+- Mobile UI / UX Design @ AIGA UMD
+
+{% include i.html src="capstone_about.png" %}
+
+{% include i.html src="capstone_workshops.png" %}
+
+{% include i.html src="capstone_poster.png" class="shadow" %}

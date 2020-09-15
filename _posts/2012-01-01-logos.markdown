@@ -1,0 +1,35 @@
+---
+layout: post
+category: project
+title: "Logos"
+date: 2012-01-01
+thumb: logos_thumbnail.png
+hero: false
+color: "#CCCCCC"
+link: dribbble.com/jhil
+---
+
+{% include i.html src="logo_ampvita.jpg" %}
+{% include i.html src="logo_arcade-glass.jpg" %}
+{% include i.html src="logo_chum.jpg" %}
+{% include i.html src="logo_daemon-dash.jpg" %}
+{% include i.html src="logo_evlove.jpg" %}
+{% include i.html src="logo_highbrau.jpg" %}
+{% include i.html src="logo_hype.jpg" %}
+{% include i.html src="logo_kid-museum.jpg" %}
+{% include i.html src="logo_lead4life.jpg" %}
+{% include i.html src="logo_medprint.jpg" %}
+{% include i.html src="logo_nextor.jpg" %}
+{% include i.html src="logo_northstar.jpg" %}
+{% include i.html src="logo_parallel.jpg" %}
+{% include i.html src="logo_play.jpg" %}
+{% include i.html src="logo_polo-bobby.jpg" %}
+{% include i.html src="logo_rising-business-leaders.jpg" %}
+{% include i.html src="logo_route-one-apparel.jpg" %}
+{% include i.html src="logo_ses.jpg" %}
+{% include i.html src="logo_terpweather.jpg" %}
+{% include i.html src="logo_three-mountains.jpg" %}
+{% include i.html src="logo_union-series.jpg" %}
+{% include i.html src="logo_ventureboard.jpg" %}
+{% include i.html src="logo_wdiw.jpg" %}
+{% include i.html src="logo_whatwhy.jpg" %}

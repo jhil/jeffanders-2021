@@ -1,0 +1,13 @@
+---
+layout: post
+category: project
+title: "VotePlz"
+date: 2016-09-26
+thumb: voteplz-blue.png
+color: "#9347FB"
+---
+
+I was involved in the VotePlz team, an initiative encouraging young people to vote in the 2016 U.S. election. My contributions were around early design strategy and branding explorations. <a href="https://venturebeat.com/2016/09/26/y-combinator-chiefs-nonprofit-voteplz-launches-1-million-voter-registration-sweepstakes/">Read more</a>.
+
+{% include i.html src="voteplz-colorways-2.gif" %}
+{% include i.html src="voteplz-type.svg" %}

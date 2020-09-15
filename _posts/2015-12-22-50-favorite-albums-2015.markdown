@@ -1,0 +1,36 @@
+---
+layout: post
+category: post
+title: "50 Favorite Albums 2015"
+date: 2015-12-22
+thumb: Currents.jpeg
+hero: false
+full: true
+color: "#1ED760"
+---
+<!-- 
+I keep a tight playlist on Spotify called "[Albums To Listen To](https://open.spotify.com/user/1211985885/playlist/14xZS8LcVMQ59SRG8k2FQU)." I drop in new and new-found albums to… well… listen to. Here are my favorite picks from the list that were released in 2015. Scroll all the way to the bottom to see my top choices!
+
+A few quick and cursory observations:
+
+- Pop is hot. The radio is infectious. Dancing makes pop videos werk.
+- Metropolis / indie electronic is a really cool new sound that seems to be universally enjoyed. The genre is starting to get mature, so it will be interesting to see where it goes next year.
+- Based on the nature of these playlists, I listen to the first few tracks of an album way more than the last few tracks. But my favorites-of-favorites are all albums where I can groove with each and every song.
+- EPs, mixtapes, and unofficial releases make up much of my top picks. Maybe these outlets reduce the pressure on artists to meet studio expectations and ultimately increase creativity.
+
+<span class="sub">Note. This isn’t the People’s Choice Awards, just what I enjoyed the most :)</span>
+
+---
+ -->
+<ul class="list article-list list-grid list-grid-numbered list-shadow">
+  {% for 2015-album in site.data.2015-albums limit:50 %}
+  <li class="list-item">
+      <h5 class="list-rank"></h5>
+      <img src="/img/albums/{{ 2015-album.album }}.jpeg" class="list-image">
+      <h3>{{ 2015-album.album }}</h3>
+      <h5>{{ 2015-album.artist }}</h5>
+  </li>
+  {% endfor %}
+</ul>
+
+{% include button-link.html text="Spotify Playlist" %}
