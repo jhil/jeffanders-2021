@@ -34,7 +34,7 @@ var jekyll = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 var messages = {
   jekyllBuild: '<span style="color: grey">Running: </span> $ jekyll build'
 };
-var responsiveSizes = [20, 400, 800, 1600];
+// var responsiveSizes = [20, 400, 800, 1600];
 
 /************
  **  SCSS  **
