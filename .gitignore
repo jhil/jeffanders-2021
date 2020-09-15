@@ -12,6 +12,7 @@ _data/responsiveMetadata.json
 # These folders contain built files
 /js
 /css
+/img
 
 # macOS
 .DS_Store
