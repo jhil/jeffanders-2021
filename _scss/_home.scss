@@ -1,9 +1,8 @@
 // intro
 
 .intro {
-	padding: $space 0;
 	h1 {
-		font-size: calc(.5rem + 3vw);
+		font-size: calc(.125rem + 3.25vw);
 		line-height: 1.75;
 		font-weight: $regular;
 		margin-bottom: 0;
@@ -86,7 +85,7 @@
 }
 
 sub > a.intro-link {
-	opacity: 0.75;
+	opacity: 0.5;
 	&:hover {
 		opacity: 1;
 	}

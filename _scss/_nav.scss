@@ -28,8 +28,8 @@
 
 
 .nav-avatar {
-	height: 2rem;
-	width: 2rem;
+	height: 3rem;
+	width: 3rem;
 	display: block;
 	background-size: cover;
 	margin-right: 1rem;
@@ -40,12 +40,11 @@
 }
 
 .nav-title h1 {
-	@extend h4;
+	@extend h3;
 	margin-bottom: 0;
 	font-weight: $medium;
 	letter-spacing: 0;
 }
-
 
 .nav-social {
 	display: flex;
