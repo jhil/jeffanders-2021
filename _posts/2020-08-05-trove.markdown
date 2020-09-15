@@ -1,0 +1,9 @@
+---
+layout: post
+category: project
+title: "Trove"
+date: 2020-08-05
+thumb: trove.png
+external: "none"
+color: "#fbc02e"
+---

@@ -1,4 +1,4 @@
-  <a href="{% if post.external %}{{ post.external }}{% else %}{{ post.url }}{% endif %}" class="post-item-wrapper post-item-category-{{ post.category }}" {% if post.external %}target="_blank"{% endif %}>
+  {% unless post.external == "none" %}<a href="{% if post.external %}{{ post.external }}{% else %}{{ post.url }}{% endif %}" class="post-item-wrapper post-item-category-{{ post.category }}" {% if post.external %}target="_blank"{% endif %}>{% endunless %}
     <li class="post-item">
       <div class="post-image">
         <img src="/img/{{ post.url | slugify }}/{{ post.thumb }}" loading="lazy">
@@ -10,4 +10,4 @@
         </div>
       </div>
     </li>
-  </a>
+		{% unless post.external == "none" %}</a>{% endunless %}

@@ -2,8 +2,8 @@
 layout: post
 category: team
 title: "Scale AI"
-date: 2020-08-03
-thumb: scale-logo.jpg
+date: 2020-08-11
+thumb: scale.png
 external: https://scale.com
 color: "#9347FB"
 ---

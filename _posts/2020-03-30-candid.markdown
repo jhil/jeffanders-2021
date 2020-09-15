@@ -3,8 +3,8 @@ layout: post
 category: project
 title: "Candid Health"
 date: 2020-03-30
-thumb: jam-logo.png
-external: https://jam.dev
+thumb: candid.png
+external: "none"
 color: "#0096b3"
 ---
 

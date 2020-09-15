@@ -1,0 +1,9 @@
+---
+layout: post
+category: project
+title: "Fiasco"
+date: 2019-05-28
+thumb: fiasco.png
+external: https://playicon.co/
+color: "#5700ff"
+---
