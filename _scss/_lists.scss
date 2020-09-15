@@ -93,7 +93,7 @@ ul li.list-item {
 
 .list-grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
 	row-gap: 3rem;
 	column-gap: 3rem;
 	.list-item {
