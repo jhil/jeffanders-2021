@@ -2,16 +2,13 @@
 
 .intro {
 	padding: $space 0;
-	h2 {
-		line-height: 2;
+	h1 {
+		font-size: calc(.5rem + 3.25vw);
+		line-height: 1.75;
 		font-weight: $regular;
 		margin-bottom: 0;
-	@media screen and (max-width: $tablet-portrait-max) {
-		font-size: 1.5*$base-font-size;
 	}
 
-
-	}
 	a {
 		font-weight: $regular;
 		white-space: nowrap;
@@ -19,6 +16,10 @@
 			text-decoration: underline;
 		}
 	}
+}
+
+.intro-link {
+	white-space: nowrap;
 }
 
 .intro-link-ambrook {
@@ -29,9 +30,9 @@
 }
 
 .intro-link-scale {
-	color: #9347FB;
+	color: #9347fb;
 	&:hover {
-		color: #9347FB;
+		color: #9347fb;
 	}
 }
 
@@ -43,23 +44,23 @@
 }
 
 .intro-link-minimill {
-	color: #3399FF;
+	color: #3399ff;
 	&:hover {
-		color: #3399FF;
+		color: #3399ff;
 	}
 }
 
 .intro-link-autodesk {
-	color: #87BC40;
+	color: #87bc40;
 	&:hover {
-		color: #87BC40;
+		color: #87bc40;
 	}
 }
 
 .intro-link-venmo {
-	color: #3D95CE;
+	color: #3d95ce;
 	&:hover {
-		color: #3D95CE;
+		color: #3d95ce;
 	}
 }
 
@@ -71,27 +72,25 @@
 }
 
 .intro-link-startupshell {
-	color: #D74034;
+	color: #d74034;
 	&:hover {
-		color: #D74034;
+		color: #d74034;
 	}
 }
 
 .intro-link-bitcamp {
-	color: #FF7040;
+	color: #ff7040;
 	&:hover {
-		color: #FF7040;
+		color: #ff7040;
 	}
 }
 
 sub > a.intro-link {
-	opacity: .75;
+	opacity: 0.75;
 	&:hover {
 		opacity: 1;
 	}
 }
-
-
 
 // category headers
 
@@ -115,7 +114,6 @@ sub > a.intro-link {
 		color: $green-trans;
 	}
 }
-
 
 // posts grid
 
@@ -159,7 +157,6 @@ sub > a.intro-link {
 	@media screen and (max-width: $phone-portrait-max) {
 		width: 100%;
 	}
-
 }
 
 .metadata-label {
@@ -185,9 +182,9 @@ sub > a.intro-link {
 }
 
 .post-title {
-	padding-right: .25rem;
+	padding-right: 0.25rem;
 }
 
 .post-metadata {
-	margin-top: .5rem;
+	margin-top: 0.5rem;
 }
