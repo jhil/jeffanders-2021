@@ -6,7 +6,7 @@ layout: default
 
   <section class="article-header{% if page.hero == false and page.full != true %} article-header-tight{% endif %}">
     <h1 class="post-title">{{ page.title }}</h1>
-    <h5 class="article-metadata">{{ page.date | date: "%b %d, %Y" }}&ensp;·&ensp;{% if page.category == "work" %}<a href= "/work">{% else %}<a href="/{{ page.category }}s">{% endif %}#{{ page.category }}</a></h5>
+    <h5 class="article-metadata">{{ page.date | date: "%b %d, %Y" }}&ensp;·&ensp;{% if page.category == "work" %}<a href= "/work">{% else %}<a href="/{{ page.category }}s">{% endif %}{{ page.category }}</a></h5>
   </section>
 
   {% unless page.hero == false %}
@@ -36,7 +36,7 @@ layout: default
       <div class="post-info-wrapper">
         <div class="post-info">
           <h4 class="post-title">{{ page.next.title }}</h4>
-          <h5 class="post-metadata"><span class="metadata-label">Newer</span>&ensp;·&ensp;{{ page.next.date | date: "%Y" }}&ensp;·&ensp;#{{ page.next.category }}{% if page.next.external %}&ensp;·&ensp;◳{% endif %}</h5>
+          <h5 class="post-metadata"><span class="metadata-label">Newer</span>&ensp;·&ensp;{{ page.next.date | date: "%Y" }}&ensp;·&ensp;{{ page.next.category }}{% if page.next.external %}&ensp;·&ensp;◳{% endif %}</h5>
         </div>
       </div>
     </li>
@@ -51,7 +51,7 @@ layout: default
       <div class="post-info-wrapper">
         <div class="post-info">
           <h4 class="post-title">{{ page.previous.title }}</h4>
-          <h5 class="post-metadata"><span class="metadata-label">Older</span>&ensp;·&ensp;{{ page.previous.date | date: "%Y" }}&ensp;·&ensp;#{{ page.previous.category }}{% if page.previous.external %}&ensp;·&ensp;◳{% endif %}</h5>
+          <h5 class="post-metadata"><span class="metadata-label">Older</span>&ensp;·&ensp;{{ page.previous.date | date: "%Y" }}&ensp;·&ensp;{{ page.previous.category }}{% if page.previous.external %}&ensp;·&ensp;◳{% endif %}</h5>
         </div>
       </div>
     </li>

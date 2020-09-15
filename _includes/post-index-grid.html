@@ -6,7 +6,7 @@
 		<div class="post-info-wrapper">
 			<div class="post-info">
 				<h4 class="post-title">{{ post.title }}</h4>
-				<h5 class="post-metadata">{{ post.date | date: "%Y" }}&ensp;·&ensp;#{{ post.category }}{% if post.external %}&ensp;·&ensp;◳{% endif %}</h5>
+				<h5 class="post-metadata">{{ post.date | date: "%Y" }}&ensp;·&ensp;{{ post.category }}{% if post.external %}&ensp;·&ensp;◳{% endif %}</h5>
 			</div>
 		</div>
 	{% unless post.external == "none" %}</a>{% endunless %}
