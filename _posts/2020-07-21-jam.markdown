@@ -1,0 +1,9 @@
+---
+layout: post
+category: project
+title: "Jam.dev"
+date: 2020-07-21
+thumb: jam-logo.png
+external: https://jam.dev
+color: "#ff4170"
+---

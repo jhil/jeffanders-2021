@@ -1,0 +1,10 @@
+---
+layout: post
+category: post
+title: "Enough"
+date: 2014-10-20
+thumb: enough_thumbnail.jpg
+color: "#9B9B9A"
+---
+
+Publicly shunning Comic Sans is like going around declaring that the world isn’t flat. We know. We’re over it. Let’s talk about something more interesting, like how the world isn’t exactly spherical.

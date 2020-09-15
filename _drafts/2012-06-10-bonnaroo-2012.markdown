@@ -1,0 +1,29 @@
+---
+layout: post
+category: post
+title: "Bonnaroo 2012"
+date: 2012-06-10
+tag: music
+thumb: bonnaroo-2012_thumbnail.jpg
+color: "#7B7AB4"
+---
+
+{% assign groups = site.data.bonnaroo-2013-artists | group_by: "day" %}
+{% for group in groups %}
+  <h2>{{ group.name }}</h2>
+  <ul class="list article-list list-photo-circle">
+  {% for item in group.items %}
+  <li class="list-item">
+    <div class="list-row">
+      <a href="{{ item.link }}">
+        <img src="/img/{{ page.title | slugify }}/{{ item.artist | slugify }}.jpg" class="list-image">
+      </a>
+      <a href="{{ item.link }}">
+        <h3 class="list-title">{{ item.artist }}</h3>
+      </a>
+      <h5 class="list-detail"><em>{{ item.rating }}</em>&#8202;/&#8202;10</h5>
+    </div>
+  </li>
+  {% endfor %}
+  </ul>
+{% endfor %}

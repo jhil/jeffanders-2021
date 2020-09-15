@@ -1,0 +1,11 @@
+---
+layout: post
+category: project
+title: "Candid Health"
+date: 2020-03-30
+thumb: jam-logo.png
+external: https://jam.dev
+color: "#0096b3"
+---
+
+{% include i.html src="candid-hero.gif" %}
