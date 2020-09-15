@@ -114,121 +114,121 @@ gulp.task('js', gulp.series('js:lint', 'js:build'));
  ** Optimized Images **
  **********************/
 
-gulp.task('images', function() {
-  var dest = './img/';
-  return gulp.src('./_img/**/*')
-    .pipe(plumber())
-    .pipe(changed(dest))
-    .pipe(gulp.dest('./_site/img/'))
-    .pipe(reload({stream: true}))
-    .pipe(gulp.dest(dest));
-});
+// gulp.task('images', function() {
+//   var dest = './img/';
+//   return gulp.src('./_img/**/*')
+//     .pipe(plumber())
+//     .pipe(changed(dest))
+//     .pipe(gulp.dest('./_site/img/'))
+//     .pipe(reload({stream: true}))
+//     .pipe(gulp.dest(dest));
+// });
 
-gulp.task('images:optimized', function() {
-  return gulp.src('./_img/**/*')
-    .pipe(plumber())
-    .pipe(cache(imagemin({
-      interlaced: true,
-      pngquant: true,
-      progressive: true,
-      multipass: true,
-    })))
-    .pipe(gulp.dest('./_site/img/'))
-    .pipe(reload({stream: true}))
-    .pipe(gulp.dest('./img/'));
-});
+// gulp.task('images:optimized', function() {
+//   return gulp.src('./_img/**/*')
+//     .pipe(plumber())
+//     .pipe(cache(imagemin({
+//       interlaced: true,
+//       pngquant: true,
+//       progressive: true,
+//       multipass: true,
+//     })))
+//     .pipe(gulp.dest('./_site/img/'))
+//     .pipe(reload({stream: true}))
+//     .pipe(gulp.dest('./img/'));
+// });
 
-/***********************
- ** Responsive Images **
- ***********************/
-gulp.task('responsive:resize', function(done) {
-  var srcSuffix, destSuffix;
+// /***********************
+//  ** Responsive Images **
+//  ***********************/
+// gulp.task('responsive:resize', function(done) {
+//   var srcSuffix, destSuffix;
 
-  // Note: process.argv = ['node', 'path/to/gulpfile.js', 'responsive', '--dir', 'subPathIfProvided']
-  var idx = process.argv.indexOf('--dir');
-  if (idx > -1) {
-    // Only process subdirectory
-    var rawSrc = process.argv[idx + 1];
-    var srcPath = path.join('./_img/res/raw/', rawSrc);
-    if (fs.lstatSync(path.resolve(srcPath)).isDirectory()) {
-      srcSuffix = path.join(rawSrc, '/**/*');
-      destSuffix = rawSrc;
-    } else {
-      srcSuffix = rawSrc;
-      destSuffix = rawSrc.substring(0, rawSrc.lastIndexOf("/"));
-    }
-  } else {
-    srcSuffix = '**/*';
-    destSuffix = '';
-  }
+//   // Note: process.argv = ['node', 'path/to/gulpfile.js', 'responsive', '--dir', 'subPathIfProvided']
+//   var idx = process.argv.indexOf('--dir');
+//   if (idx > -1) {
+//     // Only process subdirectory
+//     var rawSrc = process.argv[idx + 1];
+//     var srcPath = path.join('./_img/res/raw/', rawSrc);
+//     if (fs.lstatSync(path.resolve(srcPath)).isDirectory()) {
+//       srcSuffix = path.join(rawSrc, '/**/*');
+//       destSuffix = rawSrc;
+//     } else {
+//       srcSuffix = rawSrc;
+//       destSuffix = rawSrc.substring(0, rawSrc.lastIndexOf("/"));
+//     }
+//   } else {
+//     srcSuffix = '**/*';
+//     destSuffix = '';
+//   }
 
-  es.merge(responsiveSizes.map(function(size) {
-    var dest = './_img/res/' + size + '/' + destSuffix;
-    return gulp.src('./_img/res/raw/' + srcSuffix)
-      .pipe(plumber())
-      .pipe(changed(dest))
-      .pipe(parallel(
-        gm(function(gmfile) {
-          if (gmfile.source.toLowerCase().endsWith("gif")) {
-            return gmfile; // Don't resize GIFs because...GraphicsMagick. :(
-          } else {
-            return gmfile.resize(null, size); // set height, variable width;
-          }
-        }),
-        os.cpus().length
-      ))
-      .pipe(print(function(filepath) {
-        return "Created: " + filepath.replace('/raw/', '/' + size + '/');
-      }))
-      .pipe(gulp.dest(dest));
-  }));
+//   es.merge(responsiveSizes.map(function(size) {
+//     var dest = './_img/res/' + size + '/' + destSuffix;
+//     return gulp.src('./_img/res/raw/' + srcSuffix)
+//       .pipe(plumber())
+//       .pipe(changed(dest))
+//       .pipe(parallel(
+//         gm(function(gmfile) {
+//           if (gmfile.source.toLowerCase().endsWith("gif")) {
+//             return gmfile; // Don't resize GIFs because...GraphicsMagick. :(
+//           } else {
+//             return gmfile.resize(null, size); // set height, variable width;
+//           }
+//         }),
+//         os.cpus().length
+//       ))
+//       .pipe(print(function(filepath) {
+//         return "Created: " + filepath.replace('/raw/', '/' + size + '/');
+//       }))
+//       .pipe(gulp.dest(dest));
+//   }));
 
-  done();
-});
+//   done();
+// });
 
-gulp.task('responsive:metadata', function() {
-  // We always process all images.
-  var metadata = {
-    _NOTE: "This file is generated in gulpfile.js, in the responsive:metadata task.",
-    aspectRatios: {},
-    sizes: responsiveSizes,
-  };
-  return gulp.src('./_img/res/raw/**/*.{jpg,JPG,png,PNG,jpeg,JPEG,gif,GIF}')
-    .pipe(flatmap(function(stream, file) {
-      fs.readFile(file.path, function(err, buf) {
-        if (err) {
-          process.stdout.write(err);
-          return;
-        }
-        var key = file.path.replace(/.*\/_img\/res\/raw\//, '');
-        var dimensions = sizeOf(buf);
-        metadata.aspectRatios[key] = Number((dimensions.width / dimensions.height).toFixed(3));
-      });
-      return stream;
-    }))
-    .on('finish', function() {
-      fs.writeFileSync('./_data/responsiveMetadata.json', JSON.stringify(metadata, null, 2));
-    });
-});
+// gulp.task('responsive:metadata', function() {
+//   // We always process all images.
+//   var metadata = {
+//     _NOTE: "This file is generated in gulpfile.js, in the responsive:metadata task.",
+//     aspectRatios: {},
+//     sizes: responsiveSizes,
+//   };
+//   return gulp.src('./_img/res/raw/**/*.{jpg,JPG,png,PNG,jpeg,JPEG,gif,GIF}')
+//     .pipe(flatmap(function(stream, file) {
+//       fs.readFile(file.path, function(err, buf) {
+//         if (err) {
+//           process.stdout.write(err);
+//           return;
+//         }
+//         var key = file.path.replace(/.*\/_img\/res\/raw\//, '');
+//         var dimensions = sizeOf(buf);
+//         metadata.aspectRatios[key] = Number((dimensions.width / dimensions.height).toFixed(3));
+//       });
+//       return stream;
+//     }))
+//     .on('finish', function() {
+//       fs.writeFileSync('./_data/responsiveMetadata.json', JSON.stringify(metadata, null, 2));
+//     });
+// });
 
-gulp.task('responsive:clean', function(done) {
-  // Note: process.argv = ['node', 'path/to/gulpfile.js', 'responsive', '--dir', 'subPathIfProvided']
-  var idx = process.argv.indexOf('--dir');
-  var folders = (idx > -1) ? (
-    responsiveSizes.map(function(size) {
-      return '_img/res/' + size + '/' + process.argv[idx + 1];
-    })
-  ) : (['_img/res/*', '!_img/res/raw/', '!_img/res/raw/**']);
+// gulp.task('responsive:clean', function(done) {
+//   // Note: process.argv = ['node', 'path/to/gulpfile.js', 'responsive', '--dir', 'subPathIfProvided']
+//   var idx = process.argv.indexOf('--dir');
+//   var folders = (idx > -1) ? (
+//     responsiveSizes.map(function(size) {
+//       return '_img/res/' + size + '/' + process.argv[idx + 1];
+//     })
+//   ) : (['_img/res/*', '!_img/res/raw/', '!_img/res/raw/**']);
 
-  return del(folders, done);
-});
+//   return del(folders, done);
+// });
 
-gulp.task('responsive',
-  gulp.series(
-    'responsive:clean',
-    gulp.parallel('responsive:resize', 'responsive:metadata')
-  )
-);
+// gulp.task('responsive',
+//   gulp.series(
+//     'responsive:clean',
+//     gulp.parallel('responsive:resize', 'responsive:metadata')
+//   )
+// );
 
 /************
  ** Jekyll **
@@ -251,7 +251,7 @@ gulp.task('jekyll', gulp.series('jekyll:build'));
  ******************/
 
 gulp.task('clean', function() {
-  return del(['./_site/', './css/', './js/', './img/']);
+  return del(['./_site/', './css/', './js/']);
 });
 
 gulp.task('watch', function() {
@@ -270,7 +270,7 @@ gulp.task('watch', function() {
 
 gulp.task('build', gulp.series('clean', gulp.parallel('scss', 'js'), 'jekyll'));
 
-gulp.task('build:optimized', gulp.series('clean', gulp.parallel('scss:optimized', 'images', 'js'), 'jekyll'));
+gulp.task('build:optimized', gulp.series('clean', gulp.parallel('scss:optimized', 'js'), 'jekyll'));
 
 gulp.task('deploy:rsync', function(done) {
   cp.exec('chmod -R 775 _site && rsync -avuzh _site/* dan:/srv/schlosser.io/public_html/', function() {
@@ -296,9 +296,6 @@ gulp.task('serve', gulp.series('build', function(done) {
     },
     server: {
       baseDir: '_site',
-      routes: {
-        "/img": "_img",
-      }
     },
   });
 
