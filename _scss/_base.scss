@@ -1,6 +1,6 @@
 $content-width: 69rem;
 
-$t: color .5s ease, background .5s ease, transform .25s ease;
+$t: color .5s ease, background .5s ease, box-shadow .5s ease, transform .25s ease;
 $t-slow: $t;
 
 $space: 3rem;
@@ -140,11 +140,19 @@ section {
 }
 
 .shadow {
-	box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.075);
+	box-shadow: 0 0.25rem .5rem rgba(0, 0, 0, 0.075);
+}
+
+.shadow-big {
+	box-shadow: 0 0.375rem .75rem rgba(0, 0, 0, 0.1);
 }
 
 .nowrap {
 	white-space: nowrap;
+}
+
+.soft {
+	border-radius: .5rem;
 }
 
 ::selection {

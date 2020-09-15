@@ -95,6 +95,7 @@ ul.article-list {
 p img {
 	margin: 4rem 0;
 	width: 100%;
+	@extend .soft;
 }
 
 .embed {

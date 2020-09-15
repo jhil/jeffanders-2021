@@ -118,10 +118,9 @@ sub > a.intro-link {
 // posts grid
 
 .post-index {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	align-content: left;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: $space;
 }
 
 .post-item-wrapper {
@@ -131,24 +130,13 @@ sub > a.intro-link {
 		}
 		.post-metadata {
 			color: $dark-gray;
+			transition: $t;
 		}
 		.post-image {
 			transform: scale(1.025);
 			transition: $t;
+			@extend .shadow;
 		}
-	}
-	width: calc(25% - 2rem);
-	margin-bottom: $space;
-	text-align: center;
-
-	@media screen and (max-width: $laptop-max) {
-		width: calc(33% - 2rem);
-	}
-	@media screen and (max-width: $tablet-portrait-max) {
-		width: calc(50% - 2rem);
-	}
-	@media screen and (max-width: $phone-portrait-max) {
-		width: 100%;
 	}
 }
 
@@ -169,6 +157,7 @@ sub > a.intro-link {
 	@extend .ratio;
 	@extend .image-fill;
 	@extend .ratio-8_5;
+	@extend .soft;
 	width: 100%;
 	transition: $t;
 }
@@ -187,4 +176,5 @@ sub > a.intro-link {
 
 .post-metadata {
 	margin-top: 0.5rem;
+	transition: $t;
 }

@@ -59,7 +59,7 @@ h3, %h3, .h3 {
 }
 
 h4, %h4, .h4 {
-	font-size: 1.125 * $base-font-size;
+	font-size: 1.25 * $base-font-size;
 	font-family: $sans;
 	font-weight: $medium;
 	line-height: 1.5;
@@ -74,7 +74,7 @@ h5, %h5, .h5 {
 }
 
 p, .p {
-	font-size: 1.25 * $base-font-size;
+	font-size: 1.375 * $base-font-size;
 	font-family: $sans;
 	line-height: 2;
 	margin-bottom: 2*$base-font-size;

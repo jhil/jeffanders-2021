@@ -126,6 +126,7 @@ ul li.list-item {
 			height: 12rem;
 			margin: 0 auto;
 			margin-bottom: 2rem;
+			@extend .soft;
 			@media screen and (max-width: $phone-portrait-max) {
 				width: 100%;
 				height: auto;
@@ -197,6 +198,3 @@ ul li.list-item {
 	border-color: $green-trans;
 	transition: $t;
 }
-
-
-
