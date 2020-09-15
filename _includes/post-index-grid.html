@@ -1,7 +1,7 @@
   <a href="{% if post.external %}{{ post.external }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}" class="post-item-wrapper post-item-category-{{ post.category }}" {% if post.external %}target="_blank"{% endif %}>
     <li class="post-item">
       <div class="post-image">
-        <img src="/img/{{ post.url | slugify }}/{{ post.thumb }}">
+        <img src="/img/{{ post.url | slugify }}/{{ post.thumb }}" loading="lazy">
       </div>
       <div class="post-info-wrapper">
         <div class="post-info">
