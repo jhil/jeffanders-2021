@@ -1,0 +1,34 @@
+meta:
+  title: "Jeff Hilnbrand"
+  description: "I like making cool things with cool people. Founder of Ambrook. Previously at Scale AI, Facebook, Minimill, Autodesk, Venmo. Alum of Maryland."
+  facebook_image: "/img/jhilnbrand.jpg"  # /img/facebook.png
+  twitter_image: "/img/jhilnbrand.jpg"  # /img/twitter.png
+  image: "/img/jhilnbrand.jpg"  # /img/share.png
+  twitter_handle: "@jhilmd"  # @minimill_co
+  domain: "jhil.co"  # minimill.co
+  url: "https://jhil.co"  # https://minimill.co
+  google_analytics_id: "" # UA-66637918-1
+  theme_color: "#222222" 
+
+name: ""
+markdown: kramdown
+highlighter: pygments
+permalink: "/:title/"
+
+# Build info
+incremental: true
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - node_modules
+  - Gulpfile.js
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - README.md
+  - LICENSE.md
+  - yarn.lock
