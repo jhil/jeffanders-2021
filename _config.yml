@@ -8,7 +8,7 @@ meta:
   domain: "jhil.co"  # minimill.co
   url: "https://jhil.co"  # https://minimill.co
   google_analytics_id: "UA-46817894-1"
-  theme_color: "#222222" 
+  theme_color: "#222222"
 
 name: ""
 markdown: kramdown
