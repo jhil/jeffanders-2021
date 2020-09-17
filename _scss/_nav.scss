@@ -1,6 +1,6 @@
 // nav
 
-.nav {
+nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -33,7 +33,6 @@
 	}
 }
 
-
 .nav-avatar {
 	height: 3rem;
 	width: 3rem;
@@ -41,12 +40,10 @@
 	background-size: cover;
 	margin-right: 1rem;
 	transition: $t;
-	img {
-		border-radius: 50%;
-	}
+	border-radius: 50%;
 }
 
-.nav-title h1 {
+.nav-title {
 	@extend h3;
 	@media screen and (max-width: $phone-portrait-max) {
 		font-size: 1.25rem;

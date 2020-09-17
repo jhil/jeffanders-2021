@@ -5,7 +5,8 @@
 	@media screen and (max-width: $phone-portrait-max) {
 		margin: 2rem 0;
 	}
-	h1 {
+	h2 {
+		letter-spacing: 0.5px;
 		font-size: calc(.125rem + 3.25vw);
 		@media screen and (max-width: $tablet-portrait-min) {
 			font-size: 4.5vw;
@@ -132,17 +133,14 @@ sub > a.intro-link {
   grid-gap: $space;
 }
 
-.post-item-wrapper {
+.post-item {
 	&:hover {
-		h3 {
-			text-decoration: underline;
-		}
 		.post-metadata {
-			color: $dark-gray;
+			color: $black;
 			transition: $t;
 		}
 		.post-image {
-			transform: scale(1.025);
+			transform: translateY(-0.25rem);
 			transition: $t;
 			@extend .shadow;
 		}
@@ -167,7 +165,6 @@ sub > a.intro-link {
 	@extend .image-fill;
 	@extend .ratio-8_5;
 	@extend .soft;
-	width: 100%;
 	transition: $t;
 }
 
@@ -181,9 +178,12 @@ sub > a.intro-link {
 
 .post-title {
 	padding-right: 0.25rem;
+	@extend h4;
 }
 
 .post-metadata {
 	margin-top: 0.5rem;
 	transition: $t;
+	color: $dark-gray;
+	@extend h5;
 }

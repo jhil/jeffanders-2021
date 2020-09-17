@@ -59,7 +59,7 @@ hr.section-divider {
 	}
 }
 
-section {
+section, .section {
 	margin: $space auto 0;
 	@media screen and (max-width: $laptop-max) {
 		padding: 0;
