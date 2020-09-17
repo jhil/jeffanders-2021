@@ -9,7 +9,7 @@
     <meta name="robots" content="NOODP, index, follow" />
     <meta itemprop="name" content="{{ site.meta.title }}">
     <meta itemprop="description" content="{{ site.meta.description }}">
-    <meta itemprop="image" content="{{ site.meta.image }}">
+    <meta itemprop="image" content="{{ site.meta.root }}{{ site.meta.image }}">
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary_large_image">
@@ -18,14 +18,14 @@
     <meta name="twitter:title" content="{{ site.meta.title }}">
     <meta name="twitter:description" content="{{ site.meta.description }}">
     <meta name="twitter:creator" content="{{ site.meta.twitter_handle }}">
-    <meta name="twitter:image:src" content="{{ site.meta.twitter_image }}">
+    <meta name="twitter:image:src" content="{{ site.meta.root }}{{ site.meta.twitter_image }}">
     <meta name="twitter:domain" content="{{ site.meta.domain }}">
 
     <!-- Open Graph data (Facebook) -->
     <meta property="og:title" content="{{ site.meta.title }}" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ site.meta.url }}/" />
-    <meta property="og:image" content="{{ site.meta.facebook_image }}" />
+    <meta property="og:url" content="{{ site.meta.root }}" />
+    <meta property="og:image" content="{{ site.meta.root }}{{ site.meta.facebook_image }}" />
     <meta property="og:image:alt" content="Photo of Jeff Hilnbrand" />
     <meta property="og:description" content="{{ site.meta.description }}" />
     
