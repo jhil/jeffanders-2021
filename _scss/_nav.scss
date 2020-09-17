@@ -62,13 +62,17 @@ nav {
 	height: 1.25rem;
 	padding: .75rem;
 	margin-left: 1rem;
+	transition: $t;
+	border-radius: 50%;
 	svg {
 		display: block;
 		path {
+			transition: $t;
 			fill: $dark-gray;
 		}
 	}
 	&:hover {
+		background: $lighter-gray;
 		svg path {
 			fill: $black;
 		}

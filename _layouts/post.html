@@ -6,7 +6,7 @@ layout: default
 
   <section class="article-header{% if page.hero == false and page.full != true %} article-header-tight{% endif %}">
     <h1 class="post-title">{{ page.title }}</h1>
-    <h5 class="article-metadata">{{ page.date | date: "%b %d, %Y" }}&ensp;·&ensp;{{ page.category }}</h5>
+    <h2 class="article-metadata">{{ page.date | date: "%b %d, %Y" }}&ensp;·&ensp;{{ page.category }}</h2>
   </section>
 
   {% unless page.hero == false %}

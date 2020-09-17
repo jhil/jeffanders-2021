@@ -5,7 +5,7 @@ title: "Basis Set Ventures"
 date: 2017-07-19
 thumb: bsvicon-dr@2x.png
 color: "#9910FF"
-link: https://medium.com/@bsv/announcing-basis-set-ventures-524efc85e7b9
+link: https://www.basisset.ventures/
 ---
 
 In May 2017, I began talking with [Lan](https://www.linkedin.com/in/xuezhao-lan-50aa1a1/) from [Basis Set Ventures](https://basisset.ventures/) about branding for her new $136M AI-focused venture capital fund.
@@ -42,4 +42,4 @@ Once everything was locked, I productionized the assets by polishing up dimensio
 
 I love how this project turned out, and it was a pleasure working with Lan and Kurt. Best of luck to the fund and portfolio companies in the future!
 
-{% include button-link.html text="More on BSV" %}
+{% include button-link.html text="basisset.ventures" %}

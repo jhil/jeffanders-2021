@@ -14,9 +14,11 @@
 
 .article-title {
 	font-weight: $medium;
+	@extend h1;
 }
 
 .article-metadata {
+	@extend h5;
 	margin: $space/2 0 $space;
 	color: $dark-gray;
 	a:hover {
@@ -118,29 +120,19 @@ p img {
 }
 
 .button-link {
-	@extend .h5;
-	color: $white;
-	border-radius: 3px;
-	display: block;
-	width: 50%;
-	max-width: 100% !important;
-	padding: 1rem 0;
-	transition: $t;
-	text-align: center;
+	padding: 1rem 2rem;
+	background: $lighter-gray;
+	margin-top: 2rem;
+	display: inline-block;
+	border-radius: 1rem;
+	font-weight: $medium;
 	text-decoration: none !important;
-	margin: 6rem auto;
-	&:after {
-		content: "→";
-		margin-left: 1rem;
-	}
-	&:hover {
-		color: $white !important;
-	}
-}
+	transition: $t;
 
-.button-link-dark {
-	color: $black;
 	&:hover {
+		background: $light-gray;
 		color: $black !important;
+		transform: translateY(-4px);
+		box-shadow: 0 4px 0 $light-gray;
 	}
 }
