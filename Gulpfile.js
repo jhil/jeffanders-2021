@@ -8,7 +8,6 @@ var cache = require('gulp-cache');
 var changed = require('gulp-changed');
 var del = require('del');
 var es = require('event-stream');
-var eslint = require('gulp-eslint');
 var flatmap = require('gulp-flatmap');
 var fs = require('fs');
 var gm = require('gulp-gm');
@@ -25,7 +24,6 @@ var reload = browserSync.reload;
 var rename = require('gulp-rename');
 var replace = require('gulp-replace');
 var sass = require('gulp-sass');
-var scsslint = require('gulp-scss-lint');
 var sizeOf = require('image-size');
 var sourcemaps = require('gulp-sourcemaps');
 var uglify = require('gulp-uglify');
@@ -39,12 +37,6 @@ var messages = {
 /************
  **  SCSS  **
  ************/
-gulp.task('scss:lint', function() {
-  return gulp.src(['./_scss/**/*.scss', '!./_scss/lib/**/*.scss'])
-    .pipe(plumber())
-    .pipe(scsslint());
-});
-
 gulp.task('scss:build', function() {
   var plugins = [
     autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }),
@@ -66,7 +58,7 @@ gulp.task('scss:build', function() {
     .pipe(gulp.dest('./css/'));
 });
 
-gulp.task('scss', gulp.series('scss:lint', 'scss:build'));
+gulp.task('scss', gulp.series('scss:build'));
 
 gulp.task('scss:optimized', function() {
   var plugins = [
@@ -100,15 +92,7 @@ gulp.task('js:build', function() {
     .pipe(gulp.dest('./js/'));
 });
 
-gulp.task('js:lint', function() {
-  return gulp.src(['./_js/**/*.js', '!./_js/lib/**/*.js', 'Gulpfile.js'])
-    .pipe(plumber())
-      .pipe(eslint())
-    .pipe(jshint())
-    .pipe(jshint.reporter('default'));
-});
-
-gulp.task('js', gulp.series('js:lint', 'js:build'));
+gulp.task('js', gulp.series('js:build'));
 
 /**********************
  ** Optimized Images **
