@@ -20,7 +20,7 @@ For example, I embraced this notion to spin our contact page on a restaurant pro
 
 ## Humans as people
 
-This portion was inspired by an article I read on LinkedIn: “[10 Things MBAs Don’t Learn About Startups](http://www.linkedin.com/today/post/article/20130624172310-658789-10-things-mbas-don-t-learn-about-startups).” Dharmesh Shah writes…
+This portion was inspired by an article I read on LinkedIn: “[10 Things MBAs Don’t Learn About Startups](https://www.linkedin.com/today/post/article/20130624172310-658789-10-things-mbas-don-t-learn-about-startups).” Dharmesh Shah writes…
 
 >It helps not to call people “human resources”. They’re people. And, as it turns out, people like to be treated like people. Go figure.
 

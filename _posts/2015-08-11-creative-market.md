@@ -7,7 +7,7 @@ link: creativemarket.com
 thumb: creative-market_thumbnail.jpg
 ---
 
-<a target="_blank" rel="noopener" href="https://creativemarket.com/">Creative Market</a> is a platform for handcrafted, mousemade design content from independent creatives. I interned here in the summer of 2015, following their acquisition to <a target="_blank" rel="noopener" href="http://www.autodesk.com/">Autodesk</a>.
+<a target="_blank" rel="noopener" href="https://creativemarket.com/">Creative Market</a> is a platform for handcrafted, mousemade design content from independent creatives. I interned here in the summer of 2015, following their acquisition to <a target="_blank" rel="noopener" href="https://www.autodesk.com/">Autodesk</a>.
 
 I was studying Mechanical Engineering and wanted to combine my physical design education with the digital design hobby I was practicing outside the classroom. So I joined the product team with a special focus on emerging 3D projects, working alongside my mentor and fellow Maryland alum <a target="_blank" rel="noopener" href="https://twitter.com/aaron_epstein">Aaron Epstein</a>.
 

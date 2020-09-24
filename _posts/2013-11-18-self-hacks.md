@@ -7,7 +7,7 @@ thumb: self-hacks_thumbnail.jpg
 color: "#B85443"
 ---
 
-Here at the Startup Shell, we are big fans of hacking. We had a blast traveling across the country with the [Terrapin Hackers](http://www.terrapinhackers.com/) to PennApps, MHacks, HackMIT, and so on. It was super swell to contribute towards the winning of the Major League Hacking’s [Hacker Cup](http://mlh.io/blog/umd-wins-the-fall-2013-hackathon-season-10-15-2013/), an auspicious validation of Maryland’s hacker community.
+Here at the Startup Shell, we are big fans of hacking. We had a blast traveling across the country with the [Terrapin Hackers](https://www.terrapinhackers.com/) to PennApps, MHacks, HackMIT, and so on. It was super swell to contribute towards the winning of the Major League Hacking’s [Hacker Cup](https://mlh.io/blog/umd-wins-the-fall-2013-hackathon-season-10-15-2013/), an auspicious validation of Maryland’s hacker community.
 
 Shell members learned a lot from these experiences, and we applied such collective knowledge to a new arena. To us, hacking goes beyond said 1000+ attendee events, and far beyond desperately coding for prizes. Hacking is a mindset that says “make useful stuff, and do it with focus”.
 
@@ -32,6 +32,6 @@ And it worked! We struck off item after item from our collective to-do list, mos
 
 {% include i.html src="self-hacks-shell.jpg" %}
 
-We figured this model can be adopted outside of our walls. Internal hackathons are nothing new, [as many companies like Facebook, LinkedIn, and Google have events to encourage employees to explore project ideas](http://www.wired.com/2012/06/hackathons-arent-just-for-hacking/). But at Self-Hack, we focus on building our organization instead of products.
+We figured this model can be adopted outside of our walls. Internal hackathons are nothing new, [as many companies like Facebook, LinkedIn, and Google have events to encourage employees to explore project ideas](https://www.wired.com/2012/06/hackathons-arent-just-for-hacking/). But at Self-Hack, we focus on building our organization instead of products.
 
 Clubs, student groups, startups, organizations, corporations: try it out! Stop having meetings. Start getting s*** done! These extended work sessions can help you attack [perpetually-tabled] issues in a productive, collaborative, and fun environment. Hack on.

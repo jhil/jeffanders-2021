@@ -65,7 +65,7 @@ We secured facetoaster.com, and while we disappointingly did not win Namecheap�
 After picking the name, we went backwards to justify our branding. Facetoaster. Well. Face = interface. Ok good start. Toaster: when you put something in, it comes out more well done. Cheesy? Check. Justifiable? Check… ish. Makes everyone smile when they hear it? Check plus.
 From here, I worked on the logo. As a designer, this is often the most fun part of any project: pulling together all the different components (technical, semantic, etc.) into a concise visual style. Introducing, Facetoaster.
 
-http://dribbble.com/shots/1383357-Facetoaster
+https://dribbble.com/shots/1383357-Facetoaster
 
 I drew back to my interactions with reddit founder Alexis Ohanian when he visited Maryland. He talked about how much fun it is to sketch mascots to represent web products. I went all in. After sending him a .png to look at on Twitter, I received an approval of silliness.
 
@@ -74,7 +74,7 @@ I drew back to my interactions with reddit founder Alexis Ohanian when he visite
 
 ## Development
 
-We were certainly learning as we went along, and would like to thank Waj, Jacko, and Zach for helping in bits along the way. We employed a few awesome libraries and APIs, including impress.js for our keyboard sliding effect and dropzone.js for our drag-n-drop upload page. Luis was really close to implementing a pixel diff overlay feature using resemble.js, but we had to table that for post-hackathon improvements. A few more details, especially on Jaren’s back-end, can be found on our ChallengePost submission page: http://mhackswinter2014.challengepost.com/submissions/20088-facetoaster.
+We were certainly learning as we went along, and would like to thank Waj, Jacko, and Zach for helping in bits along the way. We employed a few awesome libraries and APIs, including impress.js for our keyboard sliding effect and dropzone.js for our drag-n-drop upload page. Luis was really close to implementing a pixel diff overlay feature using resemble.js, but we had to table that for post-hackathon improvements. A few more details, especially on Jaren’s back-end, can be found on our ChallengePost submission page: https://mhackswinter2014.challengepost.com/submissions/20088-facetoaster.
 It’s important to remember that at a hackathon, you’re working on building a proof of concept. Our back-end was not fully built out and would not be ready for demonstration. So we focused on getting the front-end polished in a way that we could convey the purpose of Facetoaster without distractions from holes in the code. This is huge: if you can’t communicate what your project does, the demo is off, regardless of how close-to-complete your code is. We are continuing development back here in College Park to get Facetoaster out in the wild and ready for public use.
 
 ## Beauty
@@ -94,9 +94,9 @@ In the end, MHacks was a great experience (even as my third large-scale student 
 facetoaster.com is live
 We have a demo online with screenshots from Hotdrop, but the fully functioning site should be ready to use soon!
 More from my team and MHacks compadres:
-Luis Santos: http://luissantos.co
-Jaren Glover: http://www.jarenglover.com
-Wajahat Siddiqui: http://www.agentwaj.com
-Jackson Geller: http://jgell.co
-Zach Fogg: http://zachfogg.com
+Luis Santos: https://luissantos.co
+Jaren Glover: https://www.jarenglover.com
+Wajahat Siddiqui: https://www.agentwaj.com
+Jackson Geller: https://jgell.co
+Zach Fogg: https://zachfogg.com
 Facetoaster on GitHub: https://github.com/jacksongeller/facetoaster

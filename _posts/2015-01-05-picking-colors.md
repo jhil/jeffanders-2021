@@ -48,7 +48,7 @@ And now a few quick tips.
 
 ![](/img/{{ page.title | slugify }}/screenshot-4.png)
 
-- Use palettes and libraries. This will help keep your colors consistent between documents. More on that here: [10 Essential Tips for Working With Color Swatches in Illustrator](http://creativepro.com/10-essential-tips-for-working-with-color-swatches-illustrator/)
+- Use palettes and libraries. This will help keep your colors consistent between documents. More on that here: [10 Essential Tips for Working With Color Swatches in Illustrator](https://creativepro.com/10-essential-tips-for-working-with-color-swatches-illustrator/)
 
 - Keep some rectangle swatches on the side of the artboard for quick reference. I use these in tandem with the eyedropper tool all the time. You can throw these boxes in a separate, locked layer for unobtrusive access.
 
@@ -58,5 +58,5 @@ And now a few quick tips.
 
 ## Resources
 
-- [COLOURlovers](http://www.colourlovers.com): COLOURlovers is a creative community where people from around the world create and share colors, palettes and patterns…
-- [Adobe Color](http://color.adobe.com): Create color schemes with the color wheel or browse thousands of color combinations from the Color community.
+- [COLOURlovers](https://www.colourlovers.com): COLOURlovers is a creative community where people from around the world create and share colors, palettes and patterns…
+- [Adobe Color](https://color.adobe.com): Create color schemes with the color wheel or browse thousands of color combinations from the Color community.

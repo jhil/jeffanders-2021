@@ -5,6 +5,6 @@ title: "UpChannel"
 date: 2015-12-07
 thumb: upchannel-thumbnail.jpg
 color: "#4747FF"
-link: http://upchannel.com/
+link: https://upchannel.com/
 external: https://minimill.co/upchannel/
 ---

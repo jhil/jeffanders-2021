@@ -29,7 +29,7 @@ Hipsters I’ve hacked with: [Brent Bovenzi](https://twitter.com/bbovenzi), [Dun
 
 ## The Learner
 
-These are your newcomers, often enthusiastically participating in their first hackathon. With wide eyes, a Learner will spend much of their time on [Codecademy](http://www.codecademy.com/tracks/web) or absorbing best practices from peers. But do not count this one out, learners are often the dark horses of hackathons. They provide an invaluable, unique perspective on ideas and issues that leave other team members stumped. In other words, Learners use their naiveté to a team’s advantage (h/t [Michael Gubbels](https://twitter.com/mokogobo) for that point). And remember, you always gotta get started somewhere—check back in a few months, and they’ll be tearing up the scene!
+These are your newcomers, often enthusiastically participating in their first hackathon. With wide eyes, a Learner will spend much of their time on [Codecademy](https://www.codecademy.com/tracks/web) or absorbing best practices from peers. But do not count this one out, learners are often the dark horses of hackathons. They provide an invaluable, unique perspective on ideas and issues that leave other team members stumped. In other words, Learners use their naiveté to a team’s advantage (h/t [Michael Gubbels](https://twitter.com/mokogobo) for that point). And remember, you always gotta get started somewhere—check back in a few months, and they’ll be tearing up the scene!
 
 Learners I’ve hacked with: [Ryan Chow](https://twitter.com/CHA_RULE)
 
@@ -41,10 +41,10 @@ Experts I've hacked with: [Dan Gillespie](https://twitter.com/jollyswagman12), [
 
 ## The Visionary
 
-A visionary inspires team members to drive towards a common goal. While they may not touch as much code (or any at all), they make significant contributions through their leadership and marketing prowess. Visionaries keep morale in check and often prepare the final presentation. We often see the entrepreneurial, collaborative type in this category, [keeping the team effective](http://b.vimeocdn.com/ts/435/660/435660973_640.jpg).
+A visionary inspires team members to drive towards a common goal. While they may not touch as much code (or any at all), they make significant contributions through their leadership and marketing prowess. Visionaries keep morale in check and often prepare the final presentation. We often see the entrepreneurial, collaborative type in this category, [keeping the team effective](https://b.vimeocdn.com/ts/435/660/435660973_640.jpg).
 
-Visionaries I've hacked with: [Alex George](http://alexmodo.com/), [Arushi Bhalla](https://twitter.com/kangarushi), [Daniel Noskin](https://twitter.com/dnosk)
+Visionaries I've hacked with: [Alex George](https://alexmodo.com/), [Arushi Bhalla](https://twitter.com/kangarushi), [Daniel Noskin](https://twitter.com/dnosk)
 
 ---
 
-No matter how you identify, YOU are valuable to a team. At [Bitcamp](http://bitca.mp/), our team is working hard to boost hacker diversity through a few initiatives coming soon. I’m super excited to see who I meet at MHacks, on the [Major League Hacking circuit](http://mlh.io/blog/announcing-the-2014-spring-season-lineup-part-1-12-13-2013/), and beyond.
+No matter how you identify, YOU are valuable to a team. At [Bitcamp](https://bitca.mp/), our team is working hard to boost hacker diversity through a few initiatives coming soon. I’m super excited to see who I meet at MHacks, on the [Major League Hacking circuit](https://mlh.io/blog/announcing-the-2014-spring-season-lineup-part-1-12-13-2013/), and beyond.

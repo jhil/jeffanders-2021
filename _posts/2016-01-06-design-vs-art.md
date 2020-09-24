@@ -13,7 +13,7 @@ This is how I differentiate design and art within the time old discussion.
 
 Design exists to serve a purpose, while art reflects the imagination.
 
-![http://artiseverywhere.serraglia.com/design-vs-art](/img/design-vs-art/chair.jpg)
+![https://artiseverywhere.serraglia.com/design-vs-art](/img/design-vs-art/chair.jpg)
 
 ## Design is communicative. Art is personal.
 

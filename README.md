@@ -138,18 +138,18 @@ Runs `gulp watch` in the background, and serves the `dist` directory at `localho
 ```
 
 [autoprefixer]: https://css-tricks.com/autoprefixer/
-[browsersync]: http://www.browsersync.io/
-[cssnano]: http://cssnano.co/
-[gulp]: http://gulpjs.com/
-[handlebars]: http://handlebarsjs.com/
+[browsersync]: https://www.browsersync.io/
+[cssnano]: https://cssnano.co/
+[gulp]: https://gulpjs.com/
+[handlebars]: https://handlebarsjs.com/
 [htmlmin]: https://github.com/kangax/html-minifier
 [imagemin]: https://github.com/imagemin/imagemin
-[jscs]: http://jscs.info/
-[jshint]: http://jshint.com/
+[jscs]: https://jscs.info/
+[jshint]: https://jshint.com/
 [linting]: https://en.wikipedia.org/wiki/Lint_%28software%29
 [npm-install]: https://nodejs.org/en/download/
 [uglifyjs]: https://github.com/mishoo/UglifyJS
-[scss]: http://sass-lang.com/
+[scss]: https://sass-lang.com/
 [scss-lint]: https://github.com/brigade/scss-lint
 [jekyll]: https://jekyllrb.com/
-[imagemagick]: http://www.imagemagick.org/script/index.php
+[imagemagick]: https://www.imagemagick.org/script/index.php
