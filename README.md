@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/68ae56f0-82a5-4171-94a9-a37579a66a92/deploy-status)](https://app.netlify.com/sites/jhilco-2021/deploys)
+
 ## Setup
 
 Install [yarn][yarn-install]. Then, install gulp:
