@@ -13,6 +13,7 @@ name: "Jeff Hilnbrand"
 markdown: kramdown
 highlighter: pygments
 permalink: "/:title/"
+url: "https://jhil.co" # the base hostname & protocol for your site
 
 # Build info
 incremental: true
