@@ -3,7 +3,7 @@ layout: post
 category: project
 title: "Structure"
 date: 2018-09-09
-thumb: structure-hex-icon.png
+thumb: structure.svg
 hero: structure-full-white-blue.png
 color: "#6584F0"
 ---

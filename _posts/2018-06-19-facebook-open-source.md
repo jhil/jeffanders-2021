@@ -3,7 +3,7 @@ layout: post
 category: team
 title: "Facebook Open Source"
 date: 2018-01-01
-thumb: OSS-1.jpg
+thumb: facebook-open-source.png
 color: "#23CEFC"
 ---
 

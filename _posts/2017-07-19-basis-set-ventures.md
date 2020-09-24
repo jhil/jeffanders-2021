@@ -3,7 +3,7 @@ layout: post
 category: project
 title: "Basis Set Ventures"
 date: 2017-07-19
-thumb: bsvicon-dr@2x.png
+thumb: basis-set-ventures.svg
 color: "#9910FF"
 link: https://www.basisset.ventures/
 ---

@@ -3,7 +3,7 @@ layout: post
 category: team
 title: "Facebook Payments"
 date: 2018-01-31
-thumb: swag-3.png
+thumb: facebook-payments.svg
 color: "#4469B0"
 ---
 

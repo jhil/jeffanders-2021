@@ -3,7 +3,7 @@ layout: post
 category: project
 title: "Facetoaster"
 date: 2014-01-20
-thumb: facetoaster_thumbnail.png
+thumb: facetoaster.svg
 color: "#3C414C"
 link: facetoaster.com
 external: https://medium.com/hh-design/facetoasted-reflections-from-mhacks-5a718169b6b#.jhagxr9by
