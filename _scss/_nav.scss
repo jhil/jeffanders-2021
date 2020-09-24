@@ -64,17 +64,14 @@ nav {
 	margin-left: 1rem;
 	transition: $t;
 	border-radius: 50%;
-	svg {
-		display: block;
-		path {
-			transition: $t;
-			fill: $dark-gray;
-		}
+	svg path {
+		transition: $t;
+		fill: $medium-gray;
 	}
 	&:hover {
 		background: $lighter-gray;
 		svg path {
-			fill: $black;
+			fill: $dark-gray;
 		}
 	}
 }
