@@ -9,7 +9,7 @@ GEM
       csspool-st (= 3.1.2)
       json
     csspool-st (3.1.2)
-    em-websocket (0.5.1)
+    em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     eventmachine (1.2.7)
