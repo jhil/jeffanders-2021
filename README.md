@@ -1,3 +1,6 @@
+![](https://jhil.co/img/jhilnbrand-background.jpg)
+
+
 Built with the Minimill Project Template for Jekyll: https://github.com/minimill/project-template/tree/jekyll
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/68ae56f0-82a5-4171-94a9-a37579a66a92/deploy-status)](https://app.netlify.com/sites/jhilco-2021/deploys)
