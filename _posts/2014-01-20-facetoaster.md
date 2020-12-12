@@ -69,7 +69,7 @@ https://dribbble.com/shots/1383357-Facetoaster
 
 I drew back to my interactions with reddit founder Alexis Ohanian when he visited Maryland. He talked about how much fun it is to sketch mascots to represent web products. I went all in. After sending him a .png to look at on Twitter, I received an approval of silliness.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/jhilmd">@jhilmd</a> <a href="https://twitter.com/mhacks">@mhacks</a> LOL. Nice. It makes almost no sense and I love it for that.</p>&mdash; Alexis Ohanian (@alexisohanian) <a href="https://twitter.com/alexisohanian/status/424802034533941248">January 19, 2014</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/jeffand_">@jeffand_</a> <a href="https://twitter.com/mhacks">@mhacks</a> LOL. Nice. It makes almost no sense and I love it for that.</p>&mdash; Alexis Ohanian (@alexisohanian) <a href="https://twitter.com/alexisohanian/status/424802034533941248">January 19, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Development
