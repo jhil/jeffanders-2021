@@ -1,5 +1,5 @@
 meta:
-  title: "Jeff Hilnbrand"
+  title: "Jeff Anders (Hilnbrand)"
   description: "I like making cool things with cool people. Building new things! Previously design at Scale AI, Facebook, Minimill, Autodesk, and Venmo. Alum of Maryland."
   facebook_image: "/img/jhilnbrand-background.jpg"  # /img/facebook.png
   twitter_image: "/img/jhilnbrand-background.jpg"  # /img/twitter.png
@@ -9,7 +9,7 @@ meta:
   root: "https://jhil.co"  # https://minimill.co
   google_analytics_id: "UA-46817894-1"
 
-name: "Jeff Hilnbrand"
+name: "Jeff Anders (Hilnbrand)"
 markdown: kramdown
 highlighter: pygments
 permalink: "/:title/"
