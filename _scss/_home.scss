@@ -7,7 +7,7 @@
 	}
 	h2 {
 		letter-spacing: 0.5px;
-		font-size: calc(.125rem + 3.25vw);
+		font-size: min(3.25vw,8rem);
 		@media screen and (max-width: $tablet-portrait-min) {
 			font-size: 4.5vw;
 		}
