@@ -47,4 +47,4 @@ Visionaries I've hacked with: [Alex George](https://alexmodo.com/), [Arushi Bhal
 
 ---
 
-No matter how you identify, YOU are valuable to a team. At [Bitcamp](https://bitca.mp/), our team is working hard to boost hacker diversity through a few initiatives coming soon. I’m super excited to see who I meet at MHacks, on the [Major League Hacking circuit](https://mlh.io/blog/announcing-the-2014-spring-season-lineup-part-1-12-13-2013/), and beyond.
+No matter how you identify, YOU are valuable to a team. At [Bitcamp](https://bit.camp/), our team is working hard to boost hacker diversity through a few initiatives coming soon. I’m super excited to see who I meet at MHacks, on the [Major League Hacking circuit](https://mlh.io/blog/announcing-the-2014-spring-season-lineup-part-1-12-13-2013/), and beyond.

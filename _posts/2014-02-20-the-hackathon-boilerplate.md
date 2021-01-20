@@ -31,7 +31,7 @@ This inspired us to be more conscious, to take a step back and ask why.
 
 ---
 
-We think about this every day [while planning Bitcamp](https://bitca.mp/). Our hackathon is positioned somewhere between an experiment and a statement. We don't want to just be another hackathon clone at the University of Maryland. We want to create a new hackathon experience.
+We think about this every day [while planning Bitcamp](https://bit.camp/). Our hackathon is positioned somewhere between an experiment and a statement. We don't want to just be another hackathon clone at the University of Maryland. We want to create a new hackathon experience.
 
 For example, to enforce our [YOU+TECH theme](https://twitter.com/search?q=%23plustech), we will be abandoning traditional judging system to encourage students to create projects that are inspired by their own passions and interests, instead of inspired solely by competition. Our expo event will be more similar to Maker Faire or CES, events whose culture incites community, creativity, and innovation. We’re going all out with this concept, building up our expo to be the climactic and most exciting segment of Bitcamp.
 
