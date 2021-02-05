@@ -1,12 +1,12 @@
 meta:
   title: "Jeff Anders (Hilnbrand)"
   description: "Co-Founder of Ambrook. Previously design at Scale AI, Facebook, Minimill, Autodesk, and Venmo. Alum of Maryland. I like making cool things with cool people."
-  facebook_image: "/img/jhilnbrand-background.jpg"  # /img/facebook.png
-  twitter_image: "/img/jhilnbrand-background.jpg"  # /img/twitter.png
-  image: "/img/jhilnbrand-background.jpg"  # /img/share.png
-  twitter_handle: "@jeffand_"  # @minimill_co
-  domain: "jhil.co"  # minimill.co
-  root: "https://jhil.co"  # https://minimill.co
+  facebook_image: "/img/jhilnbrand-background.jpg"
+  twitter_image: "/img/jhilnbrand-background.jpg"
+  image: "/img/jhilnbrand-background.jpg"
+  twitter_handle: "@jeffand_"
+  domain: "jhil.co"
+  root: "https://jhil.co"
   google_analytics_id: "UA-46817894-1"
 
 name: "Jeff Anders (Hilnbrand)"
