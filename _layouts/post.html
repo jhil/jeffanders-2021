@@ -27,35 +27,35 @@ layout: default
 
 <section class="related-posts">
   <ul class="post-index">
-  {% if page.next.url %}
-  <a href="{% if page.next.external %}{{ page.next.external }}{% else %}{{ page.next.url }}{% endif %}" class="post-item-wrapper post-item-category-{{ page.next.category }}">
-    <li class="post-item">
-      <div class="post-image">
-        <img src="/img/{{ page.next.url | slugify }}/{{ page.next.thumb }}" loading="lazy">
-      </div>
-      <div class="post-info-wrapper">
-        <div class="post-info">
-          <h4 class="post-title">{{ page.next.title }}</h4>
-          <h5 class="post-metadata"><span class="metadata-label">Newer</span>&ensp;·&ensp;{{ page.next.date | date: "%Y" }}&ensp;·&ensp;{{ page.next.category }}{% if page.next.external %}&ensp;·&ensp;↗️{% endif %}</h5>
-        </div>
-      </div>
-    </li>
-  </a>
-  {% endif %}
-  {% if page.previous.url %}
-  <a href="{% if page.previous.external %}{{ page.previous.external }}{% else %}{{ page.previous.url }}{% endif %}" class="post-item-wrapper post-item-category-{{ page.previous.category }}">
-    <li class="post-item">
-      <div class="post-image">
-        <img src="/img/{{ page.previous.url | slugify }}/{{ page.previous.thumb }}" loading="lazy">
-      </div>
-      <div class="post-info-wrapper">
-        <div class="post-info">
-          <h4 class="post-title">{{ page.previous.title }}</h4>
-          <h5 class="post-metadata"><span class="metadata-label">Older</span>&ensp;·&ensp;{{ page.previous.date | date: "%Y" }}&ensp;·&ensp;{{ page.previous.category }}{% if page.previous.external %}&ensp;·&ensp;↗️{% endif %}</h5>
-        </div>
-      </div>
-    </li>
-  </a>
-  {% endif %}
+		{% if page.next.url %}
+		<a href="{% if page.next.external %}{{ page.next.external }}{% else %}{{ page.next.url }}{% endif %}" class="post-item-wrapper post-item-category-{{ page.next.category }}">
+			<li class="post-item">
+				<div class="post-image">
+					<img src="/img/{{ page.next.url | slugify }}/{{ page.next.thumb }}" loading="lazy">
+				</div>
+				<div class="post-info-wrapper">
+					<div class="post-info">
+						<h4 class="post-title">{{ page.next.title }}</h4>
+						<h5 class="post-metadata"><span class="metadata-label">Newer</span>&ensp;·&ensp;{{ page.next.date | date: "%Y" }}&ensp;·&ensp;{{ page.next.category }}{% if page.next.external %}&ensp;·&ensp;↗️{% endif %}</h5>
+					</div>
+				</div>
+			</li>
+		</a>
+		{% endif %}
+		{% if page.previous.url %}
+		<a href="{% if page.previous.external %}{{ page.previous.external }}{% else %}{{ page.previous.url }}{% endif %}" class="post-item-wrapper post-item-category-{{ page.previous.category }}">
+			<li class="post-item">
+				<div class="post-image">
+					<img src="/img/{{ page.previous.url | slugify }}/{{ page.previous.thumb }}" loading="lazy">
+				</div>
+				<div class="post-info-wrapper">
+					<div class="post-info">
+						<h4 class="post-title">{{ page.previous.title }}</h4>
+						<h5 class="post-metadata"><span class="metadata-label">Older</span>&ensp;·&ensp;{{ page.previous.date | date: "%Y" }}&ensp;·&ensp;{{ page.previous.category }}{% if page.previous.external %}&ensp;·&ensp;↗️{% endif %}</h5>
+					</div>
+				</div>
+			</li>
+		</a>
+		{% endif %}
   </ul>
 </section>
