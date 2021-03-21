@@ -103,29 +103,6 @@ sub > a.intro-link {
 	}
 }
 
-// category headers
-
-.category-header {
-	margin-bottom: $space;
-	display: flex;
-	justify-content: space-between;
-	align-items: baseline;
-}
-
-.category-title {
-}
-
-.category-link {
-	@extend .h5;
-	font-weight: $bold;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	color: $green;
-	&:hover {
-		color: $green-trans;
-	}
-}
-
 // posts grid
 
 .post-index {

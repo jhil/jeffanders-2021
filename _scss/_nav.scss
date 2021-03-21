@@ -72,39 +72,3 @@ nav {
 		}
 	}
 }
-
-// filter
-
-.filter-wrapper {
-  display: flex;
-  justify-content: space-between;
-  border: $light-gray 1px solid;
-  border-radius: 2px;
-  padding: 1rem 1rem 1rem 1.5rem;
-  span {
-    @extend .mono;
-    color: $dark-gray;
-  }
-  @extend .hide-mobile;
-  @extend .hide-tablet;
-}
-
-.filter-list {
-  display: flex;
-}
-
-.filter-item {
-  color: $dark-gray;
-  margin-left: 1rem;
-  list-style: none;
-  padding: 0 .5rem;
-  @extend .mono;
-  &:hover {
-    color: $black;
-    cursor: pointer;
-  }
-}
-
-.post-filter-hidden {
-  display: none;
-}
