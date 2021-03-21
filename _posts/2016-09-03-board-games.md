@@ -3,7 +3,7 @@ layout: post
 category: post
 title: "Board Games"
 date: 2016-09-03
-link: www.boardgamegeek.com/user/jhilmd
+link: https://boardgamegeek.com/user/jhilmd
 color: "#1d265c"
 thumb: board-games.jpg
 hero: false

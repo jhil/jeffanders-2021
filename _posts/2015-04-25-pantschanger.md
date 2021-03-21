@@ -15,5 +15,3 @@ Pantschanger Prints is a small batch shirt co.
 {% include i.html src="pantschanger-prints_logo.png" %}
 
 {% include i.html src="pantschanger-prints_ixn.gif" %}
-
-{% include button-link.html %}
