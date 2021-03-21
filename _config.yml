@@ -5,15 +5,15 @@ meta:
   twitter_image: "/img/jhilnbrand-background.jpg"
   image: "/img/jhilnbrand-background.jpg"
   twitter_handle: "@jeffand_"
-  domain: "jhil.co"
-  root: "https://jhil.co"
+  domain: "jeffanders.co"
+  root: "https://jeffanders.co"
   google_analytics_id: "UA-46817894-1"
 
 name: "Jeff Anders (Hilnbrand)"
 markdown: kramdown
 highlighter: pygments
 permalink: "/:title/"
-url: "https://jhil.co" # the base hostname & protocol for your site
+url: "https://jeffanders.co" # the base hostname & protocol for your site
 
 # Build info
 incremental: true

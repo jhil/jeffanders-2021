@@ -49,4 +49,4 @@ It’s important to note that my time doing freelance was a great stepping stone
 
 ---
 
-A bunch of my freelance work can be found at [jhilmediadesign.com](https://jhilmediadesign.com/). My new site is [jhil.co](https://jhil.co/). Transitioning from a place for their stuff to “a place for my stuff.”
+A bunch of my freelance work can be found at [jhilmediadesign.com](https://jhilmediadesign.com/). My new site is [jeffanders.co](https://jeffanders.co/). Transitioning from a place for their stuff to “a place for my stuff.”
