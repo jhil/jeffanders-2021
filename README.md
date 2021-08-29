@@ -1,4 +1,4 @@
-![](https://jeffanders.co/img/jhilnbrand-background.jpg)
+![](https://jeffanders.co/img/jeffanders-background.jpg)
 
 
 Built with the Minimill Project Template for Jekyll: https://github.com/minimill/project-template/tree/jekyll
