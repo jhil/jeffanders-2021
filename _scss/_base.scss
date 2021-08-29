@@ -55,7 +55,7 @@ hr.section-divider {
 	position: relative;
 	padding: 0 $space;
 	@media screen and (max-width: $phone-portrait-max) {
-		padding: $space/2;
+		padding: 2rem;
 	}
 }
 
