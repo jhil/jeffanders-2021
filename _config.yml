@@ -19,7 +19,6 @@ url: "https://jeffanders.co" # the base hostname & protocol for your site
 incremental: true
 plugins:
   - jekyll-redirect-from
-  - jekyll-sitemap
 
 include:
   - _redirects
