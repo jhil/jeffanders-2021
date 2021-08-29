@@ -21,6 +21,9 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
 
+include:
+  - _redirects
+
 exclude:
   - node_modules
   - Gulpfile.js

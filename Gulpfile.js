@@ -35,16 +35,6 @@ var messages = {
 // var responsiveSizes = [20, 400, 800, 1600];
 
 /************
- **  Special Rules  **
- ************/
-
-gulp.task('others', function() {
-  return gulp.src('./_redirects')
-    .pipe(plumber())
-    .pipe(gulp.dest('./_site/'));
-});
-
-/************
  **  SCSS  **
  ************/
 
@@ -263,7 +253,7 @@ gulp.task('watch', function() {
   gulp.watch(['./_js/**/*.js', 'Gulpfile.js'], gulp.series('js'));
 });
 
-gulp.task('build', gulp.series('clean', gulp.parallel('scss', 'js', 'others'), 'jekyll'));
+gulp.task('build', gulp.series('clean', gulp.parallel('scss', 'js'), 'jekyll'));
 
 gulp.task('build:optimized', gulp.series('clean', gulp.parallel('scss:optimized', 'js'), 'jekyll'));
 
