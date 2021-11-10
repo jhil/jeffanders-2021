@@ -63,23 +63,22 @@ h2, %h2, .h2 {
 }
 
 h3, %h3, .h3 {
-	font-size: 1rem;
-	font-family: $sans;
+	@extend p;
 }
 
 h4, %h4, .h4 {
-	font-size: 1rem;
-	font-family: $sans;
+	@extend p;
 }
 
 h5, %h5, .h5 {
-	font-size: 1rem;
-	font-family: $sans;
+	@extend p;
 }
 
 p, .p {
 	font-size: 1rem;
 	font-family: $sans;
+	font-weight: $regular;
+	line-height: 1.5;
 }
 
 strong {

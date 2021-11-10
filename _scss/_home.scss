@@ -8,7 +8,7 @@
 
 .post-item {
 	&:hover {
-		.post-metadata {
+		.post-brief {
 			color: $black;
 			transition: $t;
 		}
@@ -33,24 +33,13 @@
 		transition: $t;
 	}
 
-	.post-info {
-		text-align: left;
-	}
-
-	.post-info-wrapper {
-		display: flex;
-	}
-
 	.post-title {
 		padding-right: 0.25rem;
-		@extend h4;
 	}
 
-	.post-metadata {
-		margin-top: 0.5rem;
+	.post-brief {
 		transition: $t;
-		color: $dark-gray;
-		@extend h5;
+		color: $medium-gray;
 	}
 
 }
