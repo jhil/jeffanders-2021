@@ -9,7 +9,7 @@ meta:
   root: "https://jeffanders.co"
   google_analytics_id: "UA-46817894-1"
 
-name: "Jeff Anders (Hilnbrand)"
+name: "Jeff Anders"
 markdown: kramdown
 highlighter: pygments
 permalink: "/:title/"
