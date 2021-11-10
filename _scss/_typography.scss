@@ -10,23 +10,39 @@ $light: 300;
 $base-font-size: 1rem;
 
 @font-face {
-	font-family: 'Maison Neue';
-	src: url('/fonts/MaisonNeueWEB-Book.woff') format('woff');
+	font-family: 'Basis Grotesque';
+	src: url('/fonts/BasisGrotesque-Regular.otf') format('otf');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Maison Neue';
-	src: url('/fonts/MaisonNeueWEB-Medium.woff') format('woff');
-	font-weight: $medium;
+	font-family: 'Basis Grotesque';
+	src: url('/fonts/BasisGrotesque-Medium.otf') format('otf');
+	font-weight: 500;
 	font-style: normal;
 	font-display: swap;
 }
 
-$sans: 'Maison Neue', Maison, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-$mono: Inconsolata, 'Source Code Pro', monospace;
+@font-face {
+	font-family: 'Basis Grotesque';
+	src: url('/fonts/BasisGrotesque-Bold.otf') format('otf');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Basis Grotesque Mono';
+	src: url('/fonts/BasisGrotesque-Mono.otf') format('otf');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+$sans: 'Basis Grotesque', Maison, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+$mono: 'Basis Grotesque Mono', Inconsolata, 'Source Code Pro', monospace;
 $serif: Georgia, serif;
 
 .mono {
@@ -35,54 +51,39 @@ $serif: Georgia, serif;
 }
 
 h1, %h1, .h1 {
-	font-size: 3.5*$base-font-size;
-	@media screen and (max-width: $phone-portrait-max) {
-		font-size: 2.25*$base-font-size;
-	}
-	letter-spacing: 0.5px;
+	font-size: 2.5rem;
+	letter-spacing: 0.25px;
 	font-family: $sans;
-	font-weight: $medium;
-	line-height: 1.5;
+	font-weight: $bold;
+	line-height: 1.6;
 }
 
 h2, %h2, .h2 {
-	font-size: 1.875*$base-font-size;
-	line-height: 1.5;
-	margin-bottom: 1rem;
+	font-size: 1.5rem;
+	line-height: 1.667;
 	font-family: $sans;
 	font-weight: $medium;
 }
 
 h3, %h3, .h3 {
-	font-size: 1.5*$base-font-size;
+	font-size: 1rem;
 	font-family: $sans;
-	font-weight: $medium;
-	line-height: 1.5;
 }
 
 h4, %h4, .h4 {
-	font-size: 1.25 * $base-font-size;
+	font-size: 1rem;
 	font-family: $sans;
-	font-weight: $medium;
-	line-height: 1.5;
 }
 
 h5, %h5, .h5 {
-	font-size: $base-font-size;
-	font-family: $mono;
-	font-weight: $regular;
-	line-height: 1.5;
-	color: $medium-gray;
+	font-size: 1rem;
+	font-family: $sans;
 }
 
 p, .p {
-	font-size: 1.375 * $base-font-size;
+	font-size: 1rem;
 	font-family: $sans;
-	line-height: 2;
-	margin-bottom: 2*$base-font-size;
-	font-weight: $light;
 }
-
 
 strong {
 	font-weight: $medium;
@@ -100,9 +101,5 @@ p code {
 }
 
 sub, .sub {
-	color: $medium-gray;
-}
-
-.subsub {
 	color: $medium-gray;
 }
