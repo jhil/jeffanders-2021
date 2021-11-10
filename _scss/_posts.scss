@@ -1,6 +1,6 @@
 .article-header {
 	max-width: 100%;
-	margin-top: $space;
+	margin-top: 4rem;
 }
 
 .article-header-tight {
@@ -19,7 +19,7 @@
 
 .article-metadata {
 	@extend h5;
-	margin: 2rem 0 $space;
+	margin: 2rem 0 4rem;
 	color: $dark-gray;
 	a:hover {
 		color: $black;
@@ -28,7 +28,7 @@
 }
 
 .article-image-hero {
-	margin-bottom: 2 * $space;
+	margin-bottom: 2 * 4rem;
 	@extend .image-fill;
 	@extend .soft;
 }

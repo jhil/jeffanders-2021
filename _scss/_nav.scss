@@ -1,15 +1,9 @@
 // nav
 
 nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	a {
-		font-weight: $regular;
-	}
-	& > * {
-		display: flex;
-	}
+	background: $lightest-gray;
+	max-width: 24rem;
+	border-right: solid $lighter-gray 1px;
 }
 
 .nav-left {

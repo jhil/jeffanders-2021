@@ -108,7 +108,7 @@ sub > a.intro-link {
 .post-index {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  grid-gap: $space;
+  grid-gap: 4rem;
 }
 
 .post-item {
