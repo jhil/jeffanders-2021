@@ -7,8 +7,6 @@ $medium: 500;
 $regular: 400;
 $light: 300;
 
-$base-font-size: 1rem;
-
 @font-face {
 	font-family: 'Basis Grotesque';
 	src: url('/fonts/BasisGrotesque-Regular.otf') format('otf');
@@ -42,7 +40,7 @@ $base-font-size: 1rem;
 }
 
 $sans: 'Basis Grotesque', Maison, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-$mono: 'Basis Grotesque Mono', Inconsolata, 'Source Code Pro', monospace;
+$mono: Inconsolata, 'Source Code Pro', monospace;
 $serif: Georgia, serif;
 
 .mono {
@@ -52,7 +50,6 @@ $serif: Georgia, serif;
 
 h1, %h1, .h1 {
 	font-size: 2.5rem;
-	letter-spacing: 0.25px;
 	font-family: $sans;
 	font-weight: $bold;
 	line-height: 1.6;
@@ -60,9 +57,9 @@ h1, %h1, .h1 {
 
 h2, %h2, .h2 {
 	font-size: 1.5rem;
-	line-height: 1.667;
 	font-family: $sans;
 	font-weight: $medium;
+	line-height: 1.667;
 }
 
 h3, %h3, .h3 {
