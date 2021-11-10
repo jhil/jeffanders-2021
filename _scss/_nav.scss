@@ -1,7 +1,9 @@
 // nav
 
 nav {
-	position: relative;
+	position: sticky;
+	top: 0;
+	bottom: 0;
 	display: grid;
 	grid-row-gap: 3rem;
 	background: $lightest-gray;

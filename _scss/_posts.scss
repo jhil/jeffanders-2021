@@ -1,26 +1,16 @@
-.article-header {
-	max-width: 100%;
-	margin-top: 4rem;
+article {
+	display: grid;
+	grid-gap: 3rem;
 }
 
-.article-header-tight {
-	width: 61rem;
+.tight {
+	max-width: 39rem;
 	margin-left: auto;
 	margin-right: auto;
-	.article-metadata {
-		margin-bottom: 0;
-	}
-}
-
-.article-title {
-	font-weight: $medium;
-	@extend h1;
 }
 
 .article-metadata {
-	@extend h5;
-	margin: 2rem 0 4rem;
-	color: $dark-gray;
+	color: $medium-gray;
 	a:hover {
 		color: $black;
 		text-decoration: underline;
@@ -34,11 +24,11 @@
 }
 
 .article-body {
-	width: $content-width * .75;
-	max-width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0;
+	p {
+		// 	max-width: 39rem;
+		margin: 1rem 0;
+	}
+	
 	p a {
 		text-decoration: underline;
 		&:hover {
@@ -46,16 +36,21 @@
 		}
 	}
 	h1 {
-		margin: 4rem 0;
+		max-width: 39rem;
+		margin: 3rem 0;
 	}
 	h2 {
-		margin: 4rem 0 2rem;
+		max-width: 39rem;
+		margin: 2rem 0;
 	}
 	h3 {
-		margin: 3rem 0 2rem 0;
+		max-width: 39rem;
+		margin: 1rem 0;
 	}
 	img {
 		display: block;
+		width: 100%;
+		margin: 3rem 0;
 	}
 	blockquote p {
 		padding: .25rem 0 .25rem 2rem;
@@ -77,10 +72,6 @@
 			padding-left: 1rem;
 		}
 	}
-}
-
-.article-body-full {
-	width: 100%;
 }
 
 .post-talk .article-body {

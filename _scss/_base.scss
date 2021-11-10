@@ -41,7 +41,7 @@ img {
 }
 
 hr {
-	margin: 4rem 0;
+	margin: 3rem 0;
 	border: 0;
 	border-bottom: 1px $medium-gray solid;
 }
@@ -161,4 +161,6 @@ section,
 }
 
 ::selection {
+	background: $black;
+	color: $light-gray;
 }
