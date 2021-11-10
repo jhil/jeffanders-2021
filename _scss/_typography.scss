@@ -48,6 +48,13 @@ $serif: Georgia, serif;
 	font-weight: $regular;
 }
 
+p, .p {
+	font-size: 1rem;
+	font-family: $sans;
+	font-weight: $regular;
+	line-height: 1.5;
+}
+
 h1, %h1, .h1 {
 	font-size: 2.5rem;
 	font-family: $sans;
@@ -64,6 +71,7 @@ h2, %h2, .h2 {
 
 h3, %h3, .h3 {
 	@extend p;
+	font-weight: $medium;
 }
 
 h4, %h4, .h4 {
@@ -74,12 +82,6 @@ h5, %h5, .h5 {
 	@extend p;
 }
 
-p, .p {
-	font-size: 1rem;
-	font-family: $sans;
-	font-weight: $regular;
-	line-height: 1.5;
-}
 
 strong {
 	font-weight: $medium;

@@ -1,7 +1,7 @@
 $content-width: 81rem;
 
 $t: color 0.5s ease, fill 0.5s ease, background-color 0.5s ease,
-	box-shadow 0.5s ease, transform 0.5s ease;
+	box-shadow 0.5s ease, opacity 0.5s ease, transform 0.5s ease;
 
 html {
 	padding: 0;
@@ -157,7 +157,7 @@ section,
 }
 
 .soft {
-	border-radius: 0.5rem;
+	border-radius: 0.25rem;
 }
 
 ::selection {

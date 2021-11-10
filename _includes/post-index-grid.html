@@ -3,10 +3,8 @@
 		<div class="post-image">
 			<img src="/img/{{ post.url | slugify }}/{{ post.thumb }}" alt="{{ post.title }} logo" loading="lazy">
 		</div>
-		<div class="post-info-wrapper">
-			<div class="post-info">
-				<h3 class="post-title">{{ post.title }}<span class="post-brief">&ensp;–&ensp;{{ post.brief }}</span>{% if post.external %}&ensp;↗{% endif %}</h3>
-			</div>
-		</div>
+		<h3 class="post-info">
+			<span class="post-title">{{ post.title }}</span><span class="post-brief">&ensp;–&ensp;{{ post.brief }}</span>{% if post.external %}<span class="post-external">&ensp;↗</span>{% endif %}
+		</h3>
 	{% unless post.still == true %}</a>{% endunless %}
 </li>

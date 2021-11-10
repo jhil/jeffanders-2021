@@ -2,44 +2,51 @@
 
 .post-index {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   grid-gap: 3rem;
 }
 
 .post-item {
-	&:hover {
-		.post-brief {
-			color: $black;
-			transition: $t;
-		}
-		.post-image {
-			transform: translateY(-0.25rem);
-			transition: $t;
-			@extend .shadow;
-		}
-	}
-
-	.metadata-label {
-		color: $green;
-		text-transform: uppercase;
-	}
 
 	.post-image {
-		margin-bottom: 1rem;
-		@extend .ratio;
+		margin-bottom: 1.5rem;
 		@extend .image-fill;
+		@extend .ratio;
 		@extend .ratio-8_5;
 		@extend .soft;
 		transition: $t;
 	}
 
-	.post-title {
+	.post-info {
 		padding-right: 0.25rem;
 	}
 
 	.post-brief {
+		@extend p;
 		transition: $t;
 		color: $medium-gray;
+	}
+
+	.post-external {
+		@extend p;
+		color: $medium-gray;
+		opacity: 0;
+		transition: $t;
+	}
+
+	&:hover {
+		.post-image {
+			transform: translateY(-0.25rem);
+			transition: $t;
+			@extend .shadow;
+		}
+		.post-brief {
+			color: $black;
+			transition: $t;
+		}
+		.post-external {
+			opacity: 1;
+		}
 	}
 
 }
