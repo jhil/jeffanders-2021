@@ -3,10 +3,8 @@ layout: default
 title: Jeff Anders
 ---
 
-<section>
-	<ul class="post-index">
-		{% for post in site.posts %}
-			{% include post-index-grid.html %}
-		{% endfor %}
-	</ul>
-</section>
+<ul class="post-index">
+	{% for post in site.posts %}
+		{% include post-index-grid.html %}
+	{% endfor %}
+</ul>

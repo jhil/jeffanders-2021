@@ -55,8 +55,7 @@ hr.section-divider {
 }
 
 .content {
-	@include clearfix;
-	position: relative;
+	width: 100%;
 }
 
 section,
