@@ -5,6 +5,7 @@ title: "Design vs. Art"
 date: 2016-01-06
 thumb: design-vs-art.jpg
 color: "#486587"
+width: tight
 ---
 
 This is how I differentiate design and art within the time old discussion.

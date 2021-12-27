@@ -40,7 +40,7 @@ $light: 300;
 }
 
 $sans: 'Basis Grotesque', Maison, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-$mono: Inconsolata, 'Source Code Pro', monospace;
+$mono: 'Basis Grotesque Mono', Inconsolata, 'Source Code Pro', monospace;
 $serif: Georgia, serif;
 
 .mono {
@@ -59,7 +59,7 @@ h1, %h1, .h1 {
 	font-size: 3.5rem;
 	font-family: $sans;
 	font-weight: $medium;
-	line-height: 1.5;
+	line-height: 1.25;
 }
 
 h2, %h2, .h2 {

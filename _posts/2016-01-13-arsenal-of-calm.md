@@ -5,6 +5,7 @@ title: "Arsenal of Calm"
 date: 2016-01-13
 thumb: arsenal-of-calm.jpg
 color: "#E5C3B8"
+width: tight
 ---
 
 It’s healthy to take time to yourself to calm down. I keep a list of a few topics that get me in that zone, helping me quickly switch from the intense work grind to relaxing or getting ready for sleep.

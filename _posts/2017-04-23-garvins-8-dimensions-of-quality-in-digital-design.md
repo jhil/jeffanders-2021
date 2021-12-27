@@ -5,6 +5,7 @@ title: "Garvin's 8 Dimensions of Quality in Digital Design"
 date: 2017-04-23
 thumb: garvins.png
 color: "#F73744"
+width: tight
 ---
 
 In college, I was in an [academic program](https://www.smith.umd.edu/programs/undergraduate-programs/academics/fellows-special-programs/quest) that prepared business and engineering students for consulting careers. Our coursework focused on applying different quality tools to real-world scenarios. One of these tools, [Garvin's 8 Dimensions of Quality](https://hbr.org/1987/11/competing-on-the-eight-dimensions-of-quality), is designed to provide an objective criteria to assess a product's quality.

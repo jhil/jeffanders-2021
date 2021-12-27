@@ -5,6 +5,7 @@ title: "The Hackathon Boilerplate"
 date: 2014-02-20
 thumb: the-hackathon-boilerplate_thumbnail.jpg
 color: "#A55F4F"
+width: tight
 ---
 
 No idea has swept the nation’s tech scene quicker than hackathons. It’s sexy: the notion that you can make amazing products by pushing code, pushing pixels, and pushing your teammates to complete a project in 36 hours. Movements move fast. And sometimes it’s hard enough just to keep up.

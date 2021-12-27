@@ -5,6 +5,7 @@ title: "For those who don't know me"
 date: 2013-08-04
 thumb: for-those-who-dont-know-me_thumbnail.jpg
 color: "#304365"
+width: tight
 ---
 
 It really grinds my gears when people intro speeches with “For those who don’t know me, my name is …”. While seemingly casual or comforting, this phrase is merely noise to the real meat of what you’re saying: who you are. It is distracting, and hints at a lack of confidence.

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="post post-article post-{{ page.category }}{% if page.full == true %} full-width{% endif %}">
+<article class="post post-article post-{{ page.category }}{% if page.width contains "full" %} full-width{% elsif page.width contains "tight" %} tight{% endif %}">
 	<h1 class="post-title">{{ page.title }}</h1>
 	<p class="article-metadata">{{ page.date | date: "%b %d, %Y" }}</p>
 	<div class="article-body">{{ content }}</div>

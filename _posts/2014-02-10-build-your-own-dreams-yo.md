@@ -1,9 +1,10 @@
 ---
 layout: post
 category: article
-title: "Build your own dreams, yo"
+title: "Build your own dreams"
 date: 2014-02-10
 thumb: build-your-own-dreams-yo_thumbnail.jpg
+width: tight
 ---
 
 ## Why I am done with the freelance game
