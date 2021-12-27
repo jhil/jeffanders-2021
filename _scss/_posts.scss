@@ -20,7 +20,7 @@ article {
 .article-image-hero {
 	margin-bottom: 2 * 4rem;
 	@extend .image-fill;
-	@extend .soft;
+	border-radius: $corner-radius;
 }
 
 .article-body {
@@ -89,7 +89,7 @@ ul.article-list {
 p img {
 	margin: 4rem 0;
 	width: 100%;
-	@extend .soft;
+	border-radius: $corner-radius;
 }
 
 .embed {

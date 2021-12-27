@@ -3,6 +3,8 @@ $content-width: 81rem;
 $t: color 0.5s ease, fill 0.5s ease, background-color 0.5s ease,
 	box-shadow 0.5s ease, opacity 0.5s ease, transform 0.5s ease;
 
+$corner-radius: .25rem;
+
 html {
 	padding: 0;
 	margin: 0;
@@ -159,7 +161,7 @@ section,
 	white-space: nowrap;
 }
 
-.soft {
+.corner-round {
 	border-radius: 0.25rem;
 }
 

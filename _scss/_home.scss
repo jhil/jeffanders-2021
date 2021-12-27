@@ -17,7 +17,7 @@
 		@extend .image-fill;
 		@extend .ratio;
 		@extend .ratio-8_5;
-		@extend .soft;
+		border-radius: $corner-radius;
 		transition: $t;
 	}
 
@@ -63,7 +63,7 @@
 .team-card {
 	display: flex;
 	background: $lightest-gray;
-	border-radius: 4px;
+	border-radius: $corner-radius;
 	padding: 1rem;
 	align-items: center;
 	transition: $t;
@@ -80,6 +80,6 @@
 		margin-right: 1rem;
 		width: 2rem;
 		height: 2rem;
-		border-radius: .25rem;	
+		border-radius: $corner-radius;
 	}
 }

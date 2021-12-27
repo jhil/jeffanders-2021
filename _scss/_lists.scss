@@ -112,7 +112,7 @@ ul li.list-item {
 			width: 100%;
 			height: auto;
 			margin-bottom: 1rem;
-			@extend .soft;
+			border-radius: $corner-radius;
 		}
 		&:hover {
 			.list-image {
