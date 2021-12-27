@@ -1,6 +1,6 @@
 ---
 layout: post
-category: team
+category: project
 title: "Autodesk & Creative Market"
 date: 2015-08-11
 link: creativemarket.com

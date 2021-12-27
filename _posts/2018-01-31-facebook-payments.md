@@ -1,6 +1,6 @@
 ---
 layout: post
-category: team
+category: project
 title: "Facebook Payments"
 date: 2018-01-31
 thumb: facebook-payments.svg
