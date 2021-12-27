@@ -4,19 +4,16 @@ title: Jeff Anders
 ---
 
 <section>
-	<a class="scroll-link" id="teams"><h2>Teams</h2></a>
-	<ul class="post-index">
-		<li>Ambrook</li>
-		<li>Scale</li>
-		<li>Facebook</li>
-		<li>Minimill</li>
-		<li>Autodesk</li>
-		<li>Venmo</li>
+	<a id="teams"><h2 class="section-title">Teams</h2></a>
+	<ul class="post-index team-grid">
+  		{% for team in site.data.teams %}
+    	<a href="{{ team.link }}"><li class="team-card"><img class="team-icon" src="{{ team.image }}" alt="{{ team.company }} logo"><h3 style="color:{{ team.color }};">{{ team.company }}</h3><p>{{ team.role }}</p></li></a>
+		{% endfor %}
 	</ul>
 </section>
 
 <section>
-	<a class="scroll-link" id="projects"><h2>Projects</h2></a>
+	<a id="projects"><h2 class="section-title">Projects</h2></a>
 	<ul class="post-index">
 		{% for post in site.posts %}
 			{% if post.categories contains "project" %}
@@ -27,7 +24,7 @@ title: Jeff Anders
 </section>
 
 <section>
-	<a class="scroll-link" id="speaking"><h2>Speaking</h2></a>
+	<a id="speaking"><h2 class="section-title">Speaking</h2></a>
 	<ul class="post-index">
 		{% for post in site.posts %}
 			{% if post.categories contains "talk" or post.categories contains "podcast" %}
@@ -38,7 +35,7 @@ title: Jeff Anders
 </section>
 
 <section>
-	<a class="scroll-link" id="writing"><h2>Writing</h2></a>
+	<a id="writing"><h2 class="section-title">Writing</h2></a>
 	<ul class="post-index">
 		{% for post in site.posts %}
 			{% if post.categories contains "article" %}

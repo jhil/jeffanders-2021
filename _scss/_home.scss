@@ -1,3 +1,7 @@
+.section-title {
+	margin-bottom: 3rem;
+}
+
 // posts grid
 
 .post-index {
@@ -36,9 +40,7 @@
 
 	&:hover {
 		.post-image {
-			transform: translateY(-0.25rem);
-			transition: $t;
-			@extend .shadow;
+			@extend .hover-shadow;
 		}
 		.post-brief {
 			color: $black;
@@ -51,9 +53,33 @@
 
 }
 
-.related-posts .post-item-wrapper {
-	width: calc(50% - 2rem);
-	@media screen and (max-width: $phone-portrait-max) {
-		width: 100%;
+// teams
+
+.team-grid {
+	grid-gap: 1.5rem;
+	grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+}
+
+.team-card {
+	display: flex;
+	background: $lightest-gray;
+	border-radius: 4px;
+	padding: 1rem;
+	align-items: center;
+	transition: $t;
+	&:hover {
+		@extend .hover-shadow;
+	}
+	h3 {
+		flex-grow: 1;
+	}
+	p {
+		color: $medium-gray;
+	}
+	img {
+		margin-right: 1rem;
+		width: 2rem;
+		height: 2rem;
+		border-radius: .25rem;	
 	}
 }
