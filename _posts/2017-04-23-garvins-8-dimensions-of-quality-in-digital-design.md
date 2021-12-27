@@ -1,6 +1,6 @@
 ---
 layout: post
-category: post
+category: article
 title: "Garvin's 8 Dimensions of Quality in Digital Design"
 date: 2017-04-23
 thumb: garvins.png

@@ -1,6 +1,6 @@
 ---
 layout: post
-category: post
+category: article
 title: "The Thrills"
 date: 2014-02-28
 thumb: the-thrills_thumbnail.jpg

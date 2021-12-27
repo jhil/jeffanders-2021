@@ -1,6 +1,6 @@
 ---
 layout: post
-category: post
+category: article
 title: "Inside Minimill: Running a design agency in college"
 date: 2017-09-23
 thumb: minimill-grid.png

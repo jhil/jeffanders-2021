@@ -1,6 +1,6 @@
 ---
 layout: post
-category: post
+category: article
 title: "Arsenal of Calm"
 date: 2016-01-13
 thumb: arsenal-of-calm.jpg

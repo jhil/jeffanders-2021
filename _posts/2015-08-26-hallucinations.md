@@ -1,6 +1,6 @@
 ---
 layout: post
-category: post
+category: article
 title: "Hallucinations"
 date: 2015-08-26
 thumb: hallucinations_thumbnail.jpg

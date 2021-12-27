@@ -1,6 +1,6 @@
 ---
 layout: post
-category: post
+category: article
 title: "One-Up The Human Experience"
 date: 2013-06-26
 thumb: one-up-the-human-experience_thumbnail.jpg

@@ -3,8 +3,47 @@ layout: default
 title: Jeff Anders
 ---
 
-<ul class="post-index">
-	{% for post in site.posts %}
-		{% include post-index-grid.html %}
-	{% endfor %}
-</ul>
+<section>
+	<a class="scroll-link" id="teams"><h2>Teams</h2></a>
+	<ul class="post-index">
+		<li>Ambrook</li>
+		<li>Scale</li>
+		<li>Facebook</li>
+		<li>Minimill</li>
+		<li>Autodesk</li>
+		<li>Venmo</li>
+	</ul>
+</section>
+
+<section>
+	<a class="scroll-link" id="projects"><h2>Projects</h2></a>
+	<ul class="post-index">
+		{% for post in site.posts %}
+			{% if post.categories contains "project" %}
+				{% include post-index-grid.html %}
+			{% endif %}
+		{% endfor %}
+	</ul>
+</section>
+
+<section>
+	<a class="scroll-link" id="speaking"><h2>Speaking</h2></a>
+	<ul class="post-index">
+		{% for post in site.posts %}
+			{% if post.categories contains "talk" or post.categories contains "podcast" %}
+				{% include post-index-grid.html %}
+			{% endif %}
+		{% endfor %}
+	</ul>
+</section>
+
+<section>
+	<a class="scroll-link" id="writing"><h2>Writing</h2></a>
+	<ul class="post-index">
+		{% for post in site.posts %}
+			{% if post.categories contains "article" %}
+				{% include post-index-grid.html %}
+			{% endif %}
+		{% endfor %}
+	</ul>
+</section>

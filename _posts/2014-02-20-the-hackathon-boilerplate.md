@@ -1,6 +1,6 @@
 ---
 layout: post
-category: post
+category: article
 title: "The Hackathon Boilerplate"
 date: 2014-02-20
 thumb: the-hackathon-boilerplate_thumbnail.jpg

@@ -1,6 +1,6 @@
 ---
 layout: post
-category: post
+category: article
 title: "Your company needs a tools guide"
 date: 2016-01-04
 thumb: your-company-needs-a-tools-guide.jpg

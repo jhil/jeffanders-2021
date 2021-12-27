@@ -1,18 +1,16 @@
 // nav
 
-nav {
+.sidebar {
 	position: sticky;
 	top: 0;
-	bottom: 0;
 	display: grid;
 	grid-row-gap: 3rem;
 	background: $lightest-gray;
 	width: 24rem;
-	border-right: solid $lighter-gray 1px;
 	height: 100%;
 }
 
-.nav-title {
+.sidebar-title {
 	display: flex;
 	align-items: center;
 	&:hover {
@@ -20,7 +18,7 @@ nav {
 	}
 }
 
-.nav-avatar {
+.sidebar-avatar {
 	height: 2.5rem;
 	width: 2.5rem;
 	display: block;
@@ -34,17 +32,17 @@ nav {
 	}
 }
 
-.nav-name {
+.sidebar-name {
 	@extend .h2;
 	font-variant-ligatures: no-common-ligatures;
 }
 
-.nav-social {
+.sidebar-social {
 	display: flex;
 	justify-content: space-between;
 }
 
-.nav-social-item {
+.sidebar-social-item {
 	width: 1.25rem;
 	height: 1.25rem;
 	padding: 0.75rem;
@@ -61,11 +59,34 @@ nav {
 		}
 	}
 }
-// intro
 
 .intro {
 	display: grid;
 	grid-row-gap: 0.5rem;
+	.intro-2 {
+		color: $medium-dark-gray;
+	}
+	.intro-3 {
+		color: $medium-gray;
+	}
+}
+
+nav {
+	ul {
+		margin: 0 -3rem;
+	}
+	li {
+		padding: 1rem 3rem;
+		color: $medium-gray;
+		&:active {
+			background: white;
+			color: $black;
+			&:after {
+				content: "•";
+				// TODO: move to right side
+			}
+		}
+	}
 }
 
 // .intro-link {

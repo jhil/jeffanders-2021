@@ -1,6 +1,6 @@
 ---
 layout: post
-category: post
+category: article
 title: "More than an idea"
 date: 2014-04-28
 thumb: more-than-an-idea_thumbnail.jpg

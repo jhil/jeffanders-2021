@@ -1,6 +1,6 @@
 ---
 layout: post
-category: post
+category: article
 title: "Build your own dreams, yo"
 date: 2014-02-10
 thumb: build-your-own-dreams-yo_thumbnail.jpg
