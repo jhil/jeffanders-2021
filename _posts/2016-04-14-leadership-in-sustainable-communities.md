@@ -2,6 +2,7 @@
 layout: post
 category: talk
 title: "Leadership in Sustainable Communities"
+brief: "Shell Talk"
 date: 2016-04-14
 thumb: jb.jpg
 hero: false

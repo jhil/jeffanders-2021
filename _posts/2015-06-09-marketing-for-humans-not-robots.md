@@ -2,6 +2,7 @@
 layout: post
 category: talk
 title: "Marketing For Humans, Not Robots"
+brief: "MLH Hackcon 2"
 date: 2015-06-09
 hero: false
 thumb: marketing-for-humans-not-robots.png

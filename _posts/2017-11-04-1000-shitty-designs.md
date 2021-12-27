@@ -2,6 +2,7 @@
 layout: post
 category: talk
 title: "1,000 Shitty Designs"
+brief: "Technica 2017"
 date: 2017-11-04
 thumb: 1000shitty-thumb.png
 hero: false

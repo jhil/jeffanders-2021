@@ -2,6 +2,7 @@
 layout: post
 category: talk
 title: "Communication"
+brief: "Shell Talk 037"
 thumb: communication.png
 hero: false
 external: https://youtu.be/VKZlBAcNINU?t=3m49s

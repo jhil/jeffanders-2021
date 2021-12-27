@@ -2,6 +2,7 @@
 layout: post
 category: talk
 title: "A Framework For Simple"
+brief: "UCB Innovative Design: RGB"
 date: 2017-03-25
 thumb: rgb-dr.png
 hero: false

@@ -5,7 +5,7 @@ title: Jeff Anders
 
 <section>
 	<a id="teams"><h2 class="section-title">Teams</h2></a>
-	<ul class="post-index team-grid">
+	<ul class="post-grid team-grid">
   		{% for team in site.data.teams %}
     	<a href="{{ team.link }}"><li class="team-card"><img class="team-icon" src="{{ team.image }}" alt="{{ team.company }} logo"><h3 style="color:{{ team.color }};">{{ team.company }}</h3><p>{{ team.role }}</p></li></a>
 		{% endfor %}
@@ -14,33 +14,37 @@ title: Jeff Anders
 
 <section>
 	<a id="projects"><h2 class="section-title">Projects</h2></a>
-	<ul class="post-index">
+	<ul class="post-grid">
 		{% for post in site.posts %}
 			{% if post.categories contains "project" %}
-				{% include post-index-grid.html %}
+				{% include post-item.html %}
 			{% endif %}
 		{% endfor %}
 	</ul>
 </section>
 
-<section>
-	<a id="speaking"><h2 class="section-title">Speaking</h2></a>
-	<ul class="post-index post-list speaking-posts">
-		{% for post in site.posts %}
-			{% if post.categories contains "talk" or post.categories contains "podcast" %}
-				{% include post-index-grid.html %}
-			{% endif %}
-		{% endfor %}
-	</ul>
-</section>
+<section class="section-group">
+ 
+	<div>
+		<a id="speaking"><h2 class="section-title">Speaking</h2></a>
+		<ul class="post-list">
+			{% for post in site.posts %}
+				{% if post.categories contains "talk" or post.categories contains "podcast" %}
+					{% include post-item.html %}
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
 
-<section>
-	<a id="writing"><h2 class="section-title">Writing</h2></a>
-	<ul class="post-index">
-		{% for post in site.posts %}
-			{% if post.categories contains "article" %}
-				{% include post-index-grid.html %}
-			{% endif %}
-		{% endfor %}
-	</ul>
+	<div>
+		<a id="writing"><h2 class="section-title">Writing</h2></a>
+		<ul class="post-list">
+			{% for post in site.posts %}
+				{% if post.categories contains "article" %}
+					{% include post-item.html %}
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
+
 </section>

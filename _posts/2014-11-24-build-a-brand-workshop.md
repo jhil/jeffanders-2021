@@ -2,6 +2,7 @@
 layout: post
 category: talk
 title: "Build-A-Brand Workshop"
+brief: "Shell Studio 004"
 date: 2014-11-24
 thumb: eboy.png
 hero: false

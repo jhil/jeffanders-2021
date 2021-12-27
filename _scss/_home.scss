@@ -4,40 +4,33 @@
 
 // posts grid
 
-.post-index {
+.post-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   grid-gap: 3rem;
 }
 
-.post-item {
+.post-list {
+	display: grid;
+	grid-gap: 1.5rem;
+}
 
+.post-item {
 	.post-image {
-		margin-bottom: 1.5rem;
-		@extend .image-fill;
-		@extend .ratio;
-		@extend .ratio-8_5;
 		border-radius: $corner-radius;
 		transition: $t;
 	}
-
-	.post-info {
-		padding-right: 0.25rem;
-	}
-
 	.post-brief {
 		@extend p;
 		transition: $t;
 		color: $medium-gray;
 	}
-
 	.post-external {
 		@extend p;
 		color: $medium-gray;
 		opacity: 0;
 		transition: $t;
 	}
-
 	&:hover {
 		.post-image {
 			@extend .hover-shadow;
@@ -50,14 +43,37 @@
 			opacity: 1;
 		}
 	}
-
 }
 
-// speaking
+.post-item-category-project {
 
-.post-list {
-	ul {
+	.post-image {
+		margin-bottom: 1.5rem;
+		@extend .image-fill;
+		@extend .ratio;
+		@extend .ratio-8_5;
+	}
 
+	.post-info {
+		padding-right: 0.25rem;
+	}
+}
+
+.post-item-category-talk a {
+	display: flex;
+	align-items: center;
+	&:hover .post-image {
+		transform: none;
+	}
+	.post-image {
+		@extend .image-fill;
+		width: 4.5rem;
+		height: 4.5rem;
+		margin-right: 1.5rem;
+	}
+	h3:first-of-type {
+		margin-bottom: 0.5rem;
+		@extend .p;
 	}
 }
 

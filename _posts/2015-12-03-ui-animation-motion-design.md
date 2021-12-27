@@ -2,6 +2,7 @@
 layout: post
 category: talk
 title: "UI Animation + Motion Design"
+brief: "Terrapin Hackers Hacktorial"
 date: 2015-12-03
 thumb: ui-animation-motion-design.jpg
 hero: false

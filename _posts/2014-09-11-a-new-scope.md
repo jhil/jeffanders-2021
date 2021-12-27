@@ -2,6 +2,7 @@
 layout: post
 category: talk
 title: "A New Scope"
+brief: "General Assembly: Stories from College Entrepreneurs"
 date: 2014-09-11
 thumb: a-new-scope.png
 hero: false

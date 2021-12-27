@@ -2,6 +2,7 @@
 layout: post
 category: talk
 title: "How to Diff"
+brief: "MLH Hackcon 3"
 date: 2015-07-19
 thumb: how-to-diff.png
 hero: false

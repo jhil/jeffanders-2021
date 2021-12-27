@@ -8,6 +8,7 @@ $corner-radius: .25rem;
 html {
 	padding: 0;
 	margin: 0;
+	scroll-padding-top: 3rem;
 }
 
 body {
@@ -66,6 +67,12 @@ hr.section-divider {
 section,
 .section {
 	margin-bottom: 4.5rem;
+}
+
+.section-group {
+	display: grid;
+	grid-gap: 3rem;
+	grid-template-columns: 1fr 1fr;
 }
 
 .full-width {
