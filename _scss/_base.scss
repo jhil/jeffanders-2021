@@ -60,13 +60,7 @@ hr.section-divider {
 
 section,
 .section {
-	margin: 4rem auto 0;
-	@media screen and (max-width: $laptop-max) {
-		padding: 0;
-	}
-	@media screen and (max-width: $phone-portrait-max) {
-		margin: 1rem auto;
-	}
+	margin-bottom: 3rem;
 }
 
 .full-width {
