@@ -5,6 +5,9 @@
 }
 
 @media screen and (max-width: $xl-desktop-max) {
+	html, body {
+		font-size: 18px;
+	}
 }
 
 @media screen and (max-width: $desktop-max) {

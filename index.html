@@ -25,7 +25,7 @@ title: Jeff Anders
 
 <section>
 	<a id="speaking"><h2 class="section-title">Speaking</h2></a>
-	<ul class="post-index">
+	<ul class="post-index post-list speaking-posts">
 		{% for post in site.posts %}
 			{% if post.categories contains "talk" or post.categories contains "podcast" %}
 				{% include post-index-grid.html %}

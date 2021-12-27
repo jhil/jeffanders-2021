@@ -1,5 +1,5 @@
 <ul class="post-index">
   {% for post in site.posts limit:include.limit offset:include.offset %}
-    {% include post-index-grid.html %}
+    {% include post-item.html %}
   {% endfor %}
 </ul>
