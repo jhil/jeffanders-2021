@@ -15,36 +15,26 @@ title: Jeff Anders
 <section>
 	<a id="projects"><h2 class="section-title">Projects</h2></a>
 	<ul class="post-grid">
-		{% for post in site.posts %}
-			{% if post.categories contains "project" %}
-				{% include post-item.html %}
-			{% endif %}
+		{% for post in site.categories.project limit:24 %}
+			{% include post-item.html %}
 		{% endfor %}
 	</ul>
 </section>
 
-<section class="section-group">
- 
-	<div>
-		<a id="speaking"><h2 class="section-title">Speaking</h2></a>
-		<ul class="post-list">
-			{% for post in site.posts %}
-				{% if post.categories contains "talk" or post.categories contains "podcast" %}
-					{% include post-item.html %}
-				{% endif %}
-			{% endfor %}
-		</ul>
-	</div>
+<section>
+	<a id="speaking"><h2 class="section-title">Speaking</h2></a>
+	<ul class="two-column">
+		{% for post in site.categories.talk limit:8 %}
+			{% include post-item.html %}
+		{% endfor %}
+	</ul>
+</section>
 
-	<div>
-		<a id="writing"><h2 class="section-title">Writing</h2></a>
-		<ul class="post-list">
-			{% for post in site.posts %}
-				{% if post.categories contains "article" %}
-					{% include post-item.html %}
-				{% endif %}
-			{% endfor %}
-		</ul>
-	</div>
-
+<section>
+	<a id="writing"><h2 class="section-title">Writing</h2></a>
+	<ul class="two-column">
+		{% for post in site.categories.article limit:8 %}
+			{% include post-item.html %}
+		{% endfor %}
+	</ul>
 </section>

@@ -69,12 +69,6 @@ section,
 	margin-bottom: 4.5rem;
 }
 
-.section-group {
-	display: grid;
-	grid-gap: 3rem;
-	grid-template-columns: 1fr 1fr;
-}
-
 .full-width {
 	padding: 0;
 }
@@ -175,4 +169,16 @@ section,
 ::selection {
 	background: $black;
 	color: $light-gray;
+}
+
+.two-column {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 3rem;
+}
+
+.three-column {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 3rem;
 }

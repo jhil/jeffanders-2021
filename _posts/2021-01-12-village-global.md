@@ -1,7 +1,7 @@
 ---
 layout: post
 category: talk
-title: "How To Supercharge Your Career in Design"
+title: "How To Supercharge Your Design Career"
 brief: "Village Global's Venture Stories"
 date: 2021-01-12
 thumb: village-global.jpeg
