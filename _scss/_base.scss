@@ -49,11 +49,7 @@ img {
 hr {
 	margin: 3rem 0;
 	border: 0;
-	border-bottom: 1px $medium-gray solid;
-}
-
-hr.section-divider {
-	margin: 2 * 4rem 0;
+	border-bottom: 1px $light-gray solid;
 }
 
 .wrapper {
@@ -66,7 +62,7 @@ hr.section-divider {
 
 section,
 .section {
-	margin-bottom: 4.5rem;
+	margin-bottom: 3rem;
 }
 
 .full-width {
