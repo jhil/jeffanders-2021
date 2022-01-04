@@ -86,7 +86,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 4.0)
+  jekyll (~> 4.2.1)
   jekyll-press
   jekyll-redirect-from
 
