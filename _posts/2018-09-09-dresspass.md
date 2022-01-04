@@ -2,6 +2,7 @@
 layout: post
 category: project
 title: "Dresspass"
+brief: "logo for fashion service"
 date: 2018-04-19
 thumbnail: dresspass.svg
 color: "#BD3971"

@@ -2,6 +2,7 @@
 layout: post
 category: project
 title: "Architecture"
+brief: "concepts built with CAD and generative design"
 date: 2014-12-16
 thumbnail: architecture_thumbnail.jpg
 color: "#4E71AA"

@@ -2,6 +2,7 @@
 layout: post
 category: project
 title: "Pantschanger Prints"
+brief: "small batch print co"
 date: 2015-04-25
 thumbnail: pantschanger-prints_thumbnail.jpg
 color: "#905BCB"

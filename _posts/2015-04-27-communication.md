@@ -1,7 +1,7 @@
 ---
 layout: post
 category: talk
-title: "Communication"
+title: "On Communication"
 brief: "Shell Talk 037"
 thumbnail: communication.png
 external: https://youtu.be/VKZlBAcNINU?t=3m49s

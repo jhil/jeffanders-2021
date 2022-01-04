@@ -54,7 +54,7 @@
 	}
 }
 
-.post-item-category-talk a {
+.post-item-category-talk, .post-item-category-talk a {
 	display: flex;
 	align-items: center;
 	&:hover .post-image {

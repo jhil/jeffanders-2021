@@ -2,6 +2,7 @@
 layout: post
 category: project
 title: "Autodesk & Creative Market"
+brief: "3D platform for technical industries"
 date: 2015-08-11
 link: creativemarket.com
 thumbnail: creative-market_thumbnail.jpg

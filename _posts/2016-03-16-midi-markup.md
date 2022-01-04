@@ -2,6 +2,7 @@
 layout: post
 category: project
 title: "MIDI Markup"
+brief: "music production language for non-sighted"
 date: 2016-03-16
 tag: design, tech, music
 thumbnail: midi-markup.png

@@ -2,6 +2,7 @@
 layout: post
 category: project
 title: "Structure"
+brief: "brand for cloud deployment startup"
 date: 2018-09-09
 thumbnail: structure.svg
 color: "#6584F0"

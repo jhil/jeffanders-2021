@@ -2,6 +2,7 @@
 layout: post
 category: project
 title: "Splitsies"
+brief: "visual bill splitting app"
 date: 2014-04-16
 thumbnail: splitsies_logo.png
 color: "#7BC773"

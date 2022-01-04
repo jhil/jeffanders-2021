@@ -2,6 +2,7 @@
 layout: post
 category: project
 title: "Open Ipsum"
+brief: "platform for lorem ipsum generators"
 date: 2016-01-06
 thumbnail: open-ipsum.svg
 color: "#FCEE21"

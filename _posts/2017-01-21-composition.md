@@ -2,6 +2,7 @@
 layout: post
 category: project
 title: "Composition Zine"
+brief: "photography comps with Austin Hou"
 date: 2017-01-21
 thumbnail: zine-composition-cover-01-dr.png
 color: "#CE1D7D"

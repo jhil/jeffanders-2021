@@ -2,6 +2,7 @@
 layout: post
 category: project
 title: "Basis Set Ventures"
+brief: "brand for VC backing \"future of work\" companies"
 date: 2017-07-19
 thumbnail: basis-set-ventures.svg
 color: "#9910FF"

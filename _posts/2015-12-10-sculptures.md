@@ -2,6 +2,7 @@
 layout: post
 category: project
 title: "3D Sculptures"
+brief: "creations from art course"
 date: 2015-12-10
 thumbnail: sculptures_serial-shadow.jpg
 color: "#7D3665"

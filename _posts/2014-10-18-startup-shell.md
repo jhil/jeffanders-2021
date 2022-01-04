@@ -2,6 +2,7 @@
 layout: post
 category: project
 title: "Startup Shell"
+brief: "incubator and coworking space at UMD"
 date: 2014-10-18
 thumbnail: startup-shell_thumbnail.png
 link: startupshell.org

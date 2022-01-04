@@ -2,6 +2,7 @@
 layout: post
 category: project
 title: "Facetoaster"
+brief: "design iteration app with visual diffing (MHacks)"
 date: 2014-01-20
 thumbnail: facetoaster.svg
 color: "#3C414C"

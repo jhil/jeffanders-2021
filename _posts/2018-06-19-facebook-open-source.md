@@ -2,7 +2,8 @@
 layout: post
 category: project
 title: "Facebook Open Source"
-date: 2018-01-01
+brief: "Draft.js, Docusaurus, and more contributions"
+date: 2018-06-19
 thumbnail: facebook-open-source.png
 color: "#23CEFC"
 ---

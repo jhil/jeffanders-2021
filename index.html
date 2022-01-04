@@ -17,7 +17,7 @@ title: Jeff Anders
 <section>
 	<a id="projects"><h2 class="section-title">Projects</h2></a>
 	<ul class="post-grid">
-		{% for post in site.categories.project limit:24 %}
+		{% for post in site.categories.project %}
 			{% include post-item.html %}
 		{% endfor %}
 	</ul>
@@ -28,7 +28,7 @@ title: Jeff Anders
 <section>
 	<a id="speaking"><h2 class="section-title">Speaking</h2></a>
 	<ul class="two-column">
-		{% for post in site.categories.talk limit:8 %}
+		{% for post in site.categories.talk %}
 			{% include post-item.html %}
 		{% endfor %}
 	</ul>
@@ -39,7 +39,7 @@ title: Jeff Anders
 <section>
 	<a id="writing"><h2 class="section-title">Writing</h2></a>
 	<ul class="two-column">
-		{% for post in site.categories.article limit:8 %}
+		{% for post in site.categories.article %}
 			{% include post-item.html %}
 		{% endfor %}
 	</ul>

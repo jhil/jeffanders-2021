@@ -1,9 +1,10 @@
 ---
 layout: post
 category: project
-title: "Facebook Payments"
+title: "Meta Payments"
+brief: "accessible payments on a global scale"
 date: 2018-01-31
-thumbnail: facebook-payments.svg
+thumbnail: meta-payments.svg
 color: "#4469B0"
 ---
 

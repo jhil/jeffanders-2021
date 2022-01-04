@@ -1,4 +1,4 @@
-article {
+article, .article-body {
 	display: grid;
 	grid-gap: 3rem;
 }
@@ -17,16 +17,9 @@ article {
 	}
 }
 
-.article-image-hero {
-	margin-bottom: 2 * 4rem;
-	@extend .image-fill;
-	border-radius: $corner-radius;
-}
-
 .article-body {
 	p {
-		// 	max-width: 39rem;
-		margin: 1rem 0;
+		margin-bottom: 1rem;
 	}
 	
 	p a {
@@ -35,6 +28,16 @@ article {
 			color: $dark-gray;
 		}
 	}
+
+	img {
+		width: 100%;
+		border-radius: $corner-radius;
+	}
+
+	.two-column > img, .three-column > img {
+		margin: 0;
+	}
+	
 	h1 {
 		max-width: 39rem;
 		margin: 3rem 0;
@@ -84,12 +87,6 @@ ul.article-list {
 	h3 {
 		margin: 0;
 	}
-}
-
-p img {
-	margin: 4rem 0;
-	width: 100%;
-	border-radius: $corner-radius;
 }
 
 .embed {
