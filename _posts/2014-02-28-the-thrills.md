@@ -3,7 +3,7 @@ layout: post
 category: article
 title: "The Thrills"
 date: 2014-02-28
-thumb: the-thrills_thumbnail.jpg
+thumbnail: the-thrills_thumbnail.jpg
 color: "#804738"
 width: tight
 ---

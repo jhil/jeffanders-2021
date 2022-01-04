@@ -3,7 +3,7 @@ layout: post
 category: project
 title: "Splitsies"
 date: 2014-04-16
-thumb: splitsies_logo.png
+thumbnail: splitsies_logo.png
 color: "#7BC773"
 ---
 

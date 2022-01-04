@@ -3,8 +3,7 @@ layout: post
 category: project
 title: "Open Ipsum"
 date: 2016-01-06
-thumb: open-ipsum.svg
-hero: open-ipsum_macbook.png
+thumbnail: open-ipsum.svg
 color: "#FCEE21"
 ---
 

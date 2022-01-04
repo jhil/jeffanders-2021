@@ -3,7 +3,7 @@ layout: post
 category: article
 title: "The 6 Types of People on Hackathon Teams"
 date: 2014-01-17
-thumb: the-6-types-of-people-on-hackathon-teams_thumbnail.jpg
+thumbnail: the-6-types-of-people-on-hackathon-teams_thumbnail.jpg
 color: "#56220F"
 width: tight
 ---

@@ -3,7 +3,7 @@ layout: post
 category: article
 title: "The Hackathon Boilerplate"
 date: 2014-02-20
-thumb: the-hackathon-boilerplate_thumbnail.jpg
+thumbnail: the-hackathon-boilerplate_thumbnail.jpg
 color: "#A55F4F"
 width: tight
 ---

@@ -3,7 +3,7 @@ layout: post
 category: article
 title: "Arsenal of Calm"
 date: 2016-01-13
-thumb: arsenal-of-calm.jpg
+thumbnail: arsenal-of-calm.jpg
 color: "#E5C3B8"
 width: tight
 ---

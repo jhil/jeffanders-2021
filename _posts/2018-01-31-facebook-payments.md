@@ -3,7 +3,7 @@ layout: post
 category: project
 title: "Facebook Payments"
 date: 2018-01-31
-thumb: facebook-payments.svg
+thumbnail: facebook-payments.svg
 color: "#4469B0"
 ---
 

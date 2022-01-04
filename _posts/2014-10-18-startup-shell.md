@@ -3,8 +3,7 @@ layout: post
 category: project
 title: "Startup Shell"
 date: 2014-10-18
-thumb: startup-shell_thumbnail.png
-hero: startup-shell_timelapse.jpg
+thumbnail: startup-shell_thumbnail.png
 link: startupshell.org
 color: "#D74035"
 ---

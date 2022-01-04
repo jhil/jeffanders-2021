@@ -3,10 +3,8 @@ layout: post
 category: article
 title: "Hallucinations"
 date: 2015-08-26
-thumb: hallucinations_thumbnail.jpg
-hero: false
+thumbnail: hallucinations_thumbnail.jpg
 color: "#DE6A60"
-width: tight
 ---
 
 {% include i.html src="hallucinations-scale.gif" %}

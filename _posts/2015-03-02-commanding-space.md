@@ -4,8 +4,7 @@ category: talk
 title: "Commanding Space"
 brief: "Shell Talk 030"
 date: 2015-03-02
-thumb: commanding-space.png
-hero: false
+thumbnail: commanding-space.png
 color: "#E79E1C"
 external: https://youtu.be/SEbY-_9ZTHQ
 ---

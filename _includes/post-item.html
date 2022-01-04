@@ -2,7 +2,7 @@
   {% unless post.still == true %}<a href="{% if post.external %}{{ post.external }}{% else %}{{ post.url }}{% endif %}" {% if post.external %}target="_blank" rel="noopener"{% endif %}>{% endunless %}
 		{% unless post.category contains "article" %}
 			<div class="post-image">
-				<img src="/img/{{ post.url | slugify }}/{{ post.thumb }}" alt="{{ post.title }} logo" loading="lazy">
+				<img src="/img/{{ post.url | slugify }}/{{ post.thumbnail }}" alt="{{ post.title }} logo" loading="lazy">
 			</div>
 		{% endunless %}
 		<div class="post-info">

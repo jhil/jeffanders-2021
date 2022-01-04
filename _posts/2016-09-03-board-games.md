@@ -5,8 +5,7 @@ title: "Board Games"
 date: 2016-09-03
 link: https://boardgamegeek.com/user/jhilmd
 color: "#1d265c"
-thumb: board-games.jpg
-hero: false
+thumbnail: board-games.jpg
 ---
 
 I love collecting board games and sharing fun times with friends and family. These are the games in my personal collection right now. Check out my [BoardGameGeek profile](https://www.boardgamegeek.com/user/jhilmd) for more games and ratings.

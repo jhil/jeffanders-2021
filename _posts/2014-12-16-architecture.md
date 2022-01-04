@@ -3,7 +3,7 @@ layout: post
 category: project
 title: "Architecture"
 date: 2014-12-16
-thumb: architecture_thumbnail.jpg
+thumbnail: architecture_thumbnail.jpg
 color: "#4E71AA"
 ---
 

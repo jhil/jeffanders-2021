@@ -3,8 +3,7 @@ layout: post
 category: article
 title: "Your company needs a tools guide"
 date: 2016-01-04
-thumb: your-company-needs-a-tools-guide.jpg
-hero: tools-header.png
+thumbnail: your-company-needs-a-tools-guide.jpg
 color: "#6199FD"
 width: tight
 ---

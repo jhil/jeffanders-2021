@@ -4,7 +4,7 @@ category: talk
 title: "Contrast as the Foundation of Design"
 brief: "Shell Talk 006"
 date: 2013-04-24
-thumb: makeitpop-thumb.png
+thumbnail: makeitpop-thumb.png
 external: https://docs.google.com/presentation/d/1bDmPs5cuEkvm2Xc0LmgozLl_YWLFJEvDCGQHQCgXQ-4/embed?start=false&loop=false&delayms=3000&slide=id.p4
 ---
 

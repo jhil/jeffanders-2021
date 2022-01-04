@@ -3,7 +3,7 @@ layout: post
 category: article
 title: "Self Hacks"
 date: 2013-11-18
-thumb: self-hacks_thumbnail.jpg
+thumbnail: self-hacks_thumbnail.jpg
 color: "#B85443"
 width: tight
 ---

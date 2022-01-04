@@ -3,7 +3,7 @@ layout: post
 category: article
 title: "Picking Colors"
 date: 2015-01-05
-thumb: picking-colors_thumbnail.jpg
+thumbnail: picking-colors_thumbnail.jpg
 color: "#99F83E"
 width: tight
 ---

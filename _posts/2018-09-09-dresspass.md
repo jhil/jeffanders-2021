@@ -3,7 +3,7 @@ layout: post
 category: project
 title: "Dresspass"
 date: 2018-04-19
-thumb: dresspass.svg
+thumbnail: dresspass.svg
 color: "#BD3971"
 ---
 

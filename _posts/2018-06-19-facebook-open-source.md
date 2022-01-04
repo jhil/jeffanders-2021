@@ -3,7 +3,7 @@ layout: post
 category: project
 title: "Facebook Open Source"
 date: 2018-01-01
-thumb: facebook-open-source.png
+thumbnail: facebook-open-source.png
 color: "#23CEFC"
 ---
 

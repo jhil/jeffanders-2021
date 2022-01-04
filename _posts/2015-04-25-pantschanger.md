@@ -3,8 +3,7 @@ layout: post
 category: project
 title: "Pantschanger Prints"
 date: 2015-04-25
-thumb: pantschanger-prints_thumbnail.jpg
-hero: pantschanger-prints_jackson.jpg
+thumbnail: pantschanger-prints_thumbnail.jpg
 color: "#905BCB"
 link: pantschanger.com
 ---

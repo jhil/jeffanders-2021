@@ -4,9 +4,7 @@ category: talk
 title: "Design For Devs"
 brief: "Terrapin Hackers Hacktorial"
 date: 2014-10-01
-hero: false
-thumb: design-for-devs.png
-hero: false
+thumbnail: design-for-devs.png
 external: https://youtu.be/gaUzufrkEqM
 
 ---

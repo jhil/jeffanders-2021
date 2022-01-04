@@ -3,7 +3,7 @@ layout: post
 category: article
 title: "Inside Minimill: Running a design agency in college"
 date: 2017-09-23
-thumb: minimill-grid.png
+thumbnail: minimill-grid.png
 color: "#CCCCCC"
 ---
 

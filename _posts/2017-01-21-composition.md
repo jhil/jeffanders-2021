@@ -3,8 +3,7 @@ layout: post
 category: project
 title: "Composition Zine"
 date: 2017-01-21
-thumb: zine-composition-cover-01-dr.png
-hero: zine-composition_Page_01.jpg
+thumbnail: zine-composition-cover-01-dr.png
 color: "#CE1D7D"
 ---
 

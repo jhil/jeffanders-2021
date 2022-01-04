@@ -3,7 +3,7 @@ layout: post
 category: project
 title: "Redspread"
 date: 2016-10-16
-thumb: redspread.svg
+thumbnail: redspread.svg
 color: "#FF351A"
 link: redspread.com
 external: https://minimill.co/redspread/

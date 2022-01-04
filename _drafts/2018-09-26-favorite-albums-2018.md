@@ -3,8 +3,7 @@ layout: post
 category: article
 title: "Favorite Albums 2018 (So Far)"
 date: 2018-09-26
-thumb: Glitter.jpeg
-hero: false
+thumbnail: Glitter.jpeg
 full: true
 color: "#180E27"
 ---

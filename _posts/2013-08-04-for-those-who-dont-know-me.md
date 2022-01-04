@@ -3,7 +3,7 @@ layout: post
 category: article
 title: "For those who don't know me"
 date: 2013-08-04
-thumb: for-those-who-dont-know-me_thumbnail.jpg
+thumbnail: for-those-who-dont-know-me_thumbnail.jpg
 color: "#304365"
 width: tight
 ---

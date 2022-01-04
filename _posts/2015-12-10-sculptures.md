@@ -3,8 +3,7 @@ layout: post
 category: project
 title: "3D Sculptures"
 date: 2015-12-10
-thumb: sculptures_serial-shadow.jpg
-hero: sculptures_serial-black.JPG
+thumbnail: sculptures_serial-shadow.jpg
 color: "#7D3665"
 ---
 

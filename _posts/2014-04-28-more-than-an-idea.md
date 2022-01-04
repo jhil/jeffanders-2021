@@ -3,8 +3,7 @@ layout: post
 category: article
 title: "More than an idea"
 date: 2014-04-28
-thumb: more-than-an-idea_thumbnail.jpg
-hero: false
+thumbnail: more-than-an-idea_thumbnail.jpg
 color: "#C1C7DF"
 width: tight
 ---

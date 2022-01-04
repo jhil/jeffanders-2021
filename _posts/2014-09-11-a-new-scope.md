@@ -4,8 +4,7 @@ category: talk
 title: "A New Scope"
 brief: "General Assembly: Stories from College Entrepreneurs"
 date: 2014-09-11
-thumb: a-new-scope.png
-hero: false
+thumbnail: a-new-scope.png
 external: https://docs.google.com/presentation/d/18fQXSgzkXCSwCwNv2NSAOqOqyV6nzRsUPcm2W93qReI/pub?start=false&loop=false&delayms=3000
 ---
 
