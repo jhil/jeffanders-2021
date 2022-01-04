@@ -1,4 +1,4 @@
-article, .article-body {
+article {
 	display: grid;
 	grid-gap: 3rem;
 }
@@ -38,13 +38,9 @@ article, .article-body {
 		margin: 0;
 	}
 	
-	h1 {
-		max-width: 39rem;
-		margin: 3rem 0;
-	}
 	h2 {
 		max-width: 39rem;
-		margin: 2rem 0;
+		margin: 4.5rem 0 3rem;
 	}
 	h3 {
 		max-width: 39rem;
