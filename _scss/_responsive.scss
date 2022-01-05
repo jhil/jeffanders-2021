@@ -1,6 +1,12 @@
-@media screen and (min-width: $xxl-desktop-min) {
+@media screen and (min-width: $xxxl-desktop-min) {
 	html, body {
-		font-size: 18px;
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: $xxl-desktop-max) {
+	html, body {
+		font-size: 20px;
 	}
 }
 

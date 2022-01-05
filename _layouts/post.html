@@ -3,7 +3,20 @@ layout: default
 ---
 
 <article class="post post-article post-{{ page.category }}{% if page.width contains "full" %} full-width{% elsif page.width contains "tight" %} tight{% endif %}">
+	
 	<h1 class="post-title">{{ page.title }}</h1>
-    {% contentblock intro %}
+    
+	<div class="article-intro {% ifhascontent intro %}article-intro-bottom{% endifhascontent %}">
+		<div class="article-metadata">
+			<p class="">{{ page.date | date: "%b %d, %Y" }}</p>
+			{% contentblock intro %}
+		</div>
+
+		{% if page.link %}
+			{% include button-link.html link="{{ page.link }}" text={% if page.button-label %}{{ page.button-label }}{% else %}"Link"{% endif %}
+		{% endif %}
+
+	</div>
+
 	<div class="article-body">{{ content }}</div>
 </article>

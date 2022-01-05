@@ -178,3 +178,17 @@ section,
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 3rem;
 }
+
+.button-link {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.75rem 1.5rem;
+	background: $lighter-gray;
+	border-radius: $corner-radius;
+	transition: $t;
+	&:hover {
+		background: $light-gray;
+		transform: translateY(-4px);
+		box-shadow: 0 4px 0 $light-gray;
+	}
+}
