@@ -18,6 +18,10 @@
 	align-items: center;
 	&:hover {
 		text-decoration: underline;
+		img {
+			@extend .hover-shadow;
+			transform: translateY(0);
+		}
 	}
 }
 
@@ -101,77 +105,3 @@ nav {
 		}
 	}
 }
-
-// .intro-link {
-// 	white-space: nowrap;
-// }
-
-// .intro-link-ambrook {
-// 	color: #2BA781;
-// 	&:hover {
-// 		color: #2BA781;
-// 	}
-// }
-
-// .intro-link-scale {
-// 	color: #9347fb;
-// 	&:hover {
-// 		color: #9347fb;
-// 	}
-// }
-
-// .intro-link-facebook {
-// 	color: #3b5998;
-// 	&:hover {
-// 		color: #3b5998;
-// 	}
-// }
-
-// .intro-link-minimill {
-// 	color: #3399ff;
-// 	&:hover {
-// 		color: #3399ff;
-// 	}
-// }
-
-// .intro-link-autodesk {
-// 	color: #87bc40;
-// 	&:hover {
-// 		color: #87bc40;
-// 	}
-// }
-
-// .intro-link-venmo {
-// 	color: #3d95ce;
-// 	&:hover {
-// 		color: #3d95ce;
-// 	}
-// }
-
-// .intro-link-maryland {
-// 	color: #e31733;
-// 	&:hover {
-// 		color: #e31733;
-// 	}
-// }
-
-// .intro-link-startupshell {
-// 	color: #d74034;
-// 	&:hover {
-// 		color: #d74034;
-// 	}
-// }
-
-// .intro-link-bitcamp {
-// 	color: #ff7040;
-// 	&:hover {
-// 		color: #ff7040;
-// 	}
-// }
-
-// sub > a.intro-link {
-// 	opacity: 0.7;
-// 	&:hover {
-// 		opacity: 1;
-// 	}
-// }
