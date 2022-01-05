@@ -5,6 +5,12 @@ $t: color 0.5s ease, fill 0.5s ease, background-color 0.5s ease,
 
 $corner-radius: .25rem;
 
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	gap: 3rem;
+}
+
 html {
 	padding: 0;
 	margin: 0;
@@ -170,13 +176,13 @@ section,
 .two-column {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 3rem;
+	gap: 3rem;
 }
 
 .three-column {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 3rem;
+	gap: 3rem;
 }
 
 .button-link {

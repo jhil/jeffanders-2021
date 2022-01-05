@@ -12,9 +12,7 @@ layout: default
 			{% contentblock intro %}
 		</div>
 
-		{% if page.link %}
-			{% include button-link.html link="{{ page.link }}" text={% if page.button-label %}{{ page.button-label }}{% else %}"Link"{% endif %}
-		{% endif %}
+		<a target="_blank" rel="noopener" class="button-link" href="{{ page.link }}"><span>Link</span><span>↗</span></a>
 
 	</div>
 

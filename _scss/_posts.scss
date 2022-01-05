@@ -1,6 +1,6 @@
 article {
 	display: grid;
-	grid-gap: 3rem;
+	gap: 3rem;
 }
 
 .tight {
@@ -10,23 +10,26 @@ article {
 }
 
 .article-intro {
-	display: flex;
+	@extend .grid-container;
 	justify-content: space-between;
 	align-items: center;
 	color: $dark-gray;
 	.button-link {
-		width: 15rem;
+		grid-column: 5 / 7;
 	}
 }
 
 .article-intro-bottom {
-	align-items: flex-end;
+	align-items: end;
 }
 
 .article-metadata {
-	width: 28.5rem;
-	display: grid;
-	grid-gap: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	grid-column: 1 / 4;
+	gap: 1.5rem;
+	max-width: 39rem;
 	transition: $t;
 	&:hover {
 		color: $black;
@@ -36,13 +39,6 @@ article {
 		color: $black;
 		text-decoration: underline;
 	}
-}
-
-.empty-fill {
-	display:block;
-    overflow:hidden;
-    width:400px;
-    height:100%;
 }
 
 .article-body {
