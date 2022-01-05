@@ -5,13 +5,9 @@ $t: color 0.5s ease, fill 0.5s ease, background-color 0.5s ease,
 
 $corner-radius: .25rem;
 
-.grid-container {
-	display: grid;
-	grid-template-columns: repeat(6, 1fr);
-	gap: 3rem;
-}
 
 html {
+	height: 100%;
 	padding: 0;
 	margin: 0;
 	scroll-padding-top: 3rem;
@@ -64,6 +60,9 @@ hr {
 
 .content {
 	width: 100%;
+	@media screen and (min-width: $tablet-portrait-min) {
+		margin-left: 24rem;
+	}
 }
 
 section,
@@ -73,24 +72,6 @@ section,
 
 .full-width {
 	padding: 0;
-}
-
-.rich-before {
-	&:before {
-		display: inline-block;
-		width: 3rem;
-		text-align: center;
-		margin-right: 3rem;
-	}
-}
-
-.rich-after {
-	&:after {
-		display: inline-block;
-		width: 3rem;
-		text-align: center;
-		margin-left: 3rem;
-	}
 }
 
 .image-fill {
@@ -175,6 +156,7 @@ section,
 
 .button-link {
 	display: flex;
+	max-width: 15rem;
 	justify-content: space-between;
 	padding: 0.75rem 1.5rem;
 	background: $lighter-gray;
@@ -185,4 +167,10 @@ section,
 		transform: translateY(-4px);
 		box-shadow: 0 4px 0 $light-gray;
 	}
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	gap: 3rem;
 }

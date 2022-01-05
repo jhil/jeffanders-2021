@@ -1,13 +1,16 @@
 // nav
 
 .sidebar {
-	display: grid;
-	grid-row-gap: 1rem;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
 	background: $lightest-gray;
 	@media screen and (min-width: $tablet-portrait-min) {
-		position: sticky;
-		top: 0;	
-		grid-row-gap: 3rem;
+		position: fixed;
+		top: 0;
+		left: 0;	
+		gap: 3rem;
 		width: 24rem;
 		height: 100%;
 	}
@@ -47,12 +50,13 @@
 .sidebar-social {
 	display: flex;
 	justify-content: space-between;
+	margin: auto -0.75rem -0.75rem;
 	// TODO: fix mobile horizontal overflow
 }
 
 .sidebar-social-item {
-	width: 1.25rem;
-	height: 1.25rem;
+	width: 1.5rem;
+	height: 1.5rem;
 	padding: 0.75rem;
 	transition: $t;
 	border-radius: 50%;
@@ -90,7 +94,8 @@ nav {
 	}
 	li {
 		padding: 1rem 3rem;
-		color: $medium-gray;
+		color: $dark-gray;
+		transition: $t;
 		&:active {
 			background: white;
 			color: $black;
@@ -98,6 +103,11 @@ nav {
 				content: "•";
 				// TODO: move to right side
 			}
+		}
+		&:hover {
+			color: $black;
+			background: $lighter-gray;
+			transition: $t;
 		}
 		@media screen and (max-width: $phone-landscape-max) {
 			padding: 0;

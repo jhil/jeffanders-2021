@@ -31,13 +31,18 @@ article {
 	gap: 1.5rem;
 	max-width: 39rem;
 	transition: $t;
+	a {
+		font-weight: 400;
+		text-decoration: underline;
+		transition: $t;
+		&:hover {
+			color: $medium-gray;
+			transition: $t;
+		}
+	}
 	&:hover {
 		color: $black;
 		transition: $t;
-	}
-	a:hover {
-		color: $black;
-		text-decoration: underline;
 	}
 }
 
