@@ -129,6 +129,25 @@ ul.article-list {
 }
 
 .article-columns {
+	display: grid;
+	gap: 3rem;
+	margin: 3rem 0;
+	& > img {
+		margin: 0;
+	}
+}
+
+.two-column {
+	@extend .article-columns;
+	grid-template-columns: 1fr 1fr;
+}
+
+.three-column {
+	@extend .article-columns;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.article-columns-masonry {
 	gap: 3rem;
 	margin: 3rem 0;
 	> *, > img {
@@ -136,12 +155,12 @@ ul.article-list {
 	}
 }
 
-.two-column {
-	@extend .article-columns;
+.two-column-masonry {
+	@extend .article-columns-masonry;
 	columns: 2;
 }
 
-.three-column {
-	@extend .article-columns;
+.three-column-masonry {
+	@extend .article-columns-masonry;
 	columns: 3;
 }
