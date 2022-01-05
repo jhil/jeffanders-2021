@@ -173,18 +173,6 @@ section,
 	color: $light-gray;
 }
 
-.two-column {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 3rem;
-}
-
-.three-column {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	gap: 3rem;
-}
-
 .button-link {
 	display: flex;
 	justify-content: space-between;
