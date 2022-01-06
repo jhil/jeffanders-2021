@@ -8,7 +8,10 @@ thumbnail: structure.svg
 color: "#6584F0"
 ---
 
+{% contentfor intro %}
 Structure is a startup providing instant cloud deployments. We set out to create a brand identity that evokes ideas of building a structure that is stable yet flexible.
+{% endcontentfor %}
+
 
 {% include i.html src="structure-dr.png" %}
 

@@ -5,35 +5,33 @@ title: "Facebook Open Source"
 brief: "Draft.js, Docusaurus, and more contributions"
 date: 2018-06-19
 thumbnail: facebook-open-source.png
+link: https://opensource.fb.com/
 color: "#23CEFC"
 ---
 
-Over the course of two years, I worked with the <a href="https://opensource.facebook.com/">Facebook Open Source</a> team on logos for several projects.
+
+{% contentfor intro %}
+Over the course of two years, I worked with the <a href="https://opensource.facebook.com/">Facebook Open Source</a> team on various project logos.
+{% endcontentfor %}
 
 ## Draft.js
 
-{% include i.html src="draftjs-logo-no-background-black.svg" class="shadow" %}
+{% include i.html src="draftjs-logo-no-background-black.svg" %}
 {% include i.html src="draftjs-logo-1-01.png" %}
 
 View <a href="https://github.com/facebook/draft-js">GitHub</a> (15,500+ stars)
 
-<hr>
-
 ## Docusaurus
 
-{% include i.html src="docusaurus-jh-square.png" class="shadow" %}
+{% include i.html src="docusaurus-jh-square.png" %}
 
 View <a href="https://docusaurus.io/">Website</a> or <a href="https://github.com/facebook/docusaurus">GitHub</a> (11,500+ stars)
-
-<hr>
 
 ## Prepack
 
 {% include i.html src="prepack-logo-1.png" %}
 
 View <a href="https://github.com/facebook/prepack">GitHub</a> (13,500+ stars)
-
-<hr>
 
 ## Instant Articles Builder
 
