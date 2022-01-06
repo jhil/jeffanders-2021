@@ -74,12 +74,12 @@
 
 // teams
 
-.team-grid {
+.compact-grid {
 	gap: 1.5rem;
 	grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
 }
 
-.team-card {
+.compact-card {
 	display: flex;
 	background: $lightest-gray;
 	border-radius: $corner-radius;
@@ -95,10 +95,23 @@
 	p {
 		color: $medium-gray;
 	}
-	img {
+	img, svg {
 		margin-right: 1rem;
 		width: 2rem;
 		height: 2rem;
 		border-radius: $corner-radius;
+	}
+}
+
+.section-contact {
+	.compact-grid {
+		grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+	}	
+	.compact-card {
+		svg {
+			width: 1.5rem;
+			height: 1.5rem;
+			border-radius: 0;
+		}
 	}
 }

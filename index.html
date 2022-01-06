@@ -5,9 +5,9 @@ title: Jeff Anders
 
 <section>
 	<a id="teams"><h2 class="section-title">Teams</h2></a>
-	<ul class="post-grid team-grid">
+	<ul class="post-grid compact-grid">
   		{% for team in site.data.teams %}
-			<a href="{{ team.link }}"><li class="team-card"><img class="team-icon" src="{{ team.image }}" alt="{{ team.company }} logo"><h3 style="color:{{ team.color }};">{{ team.company }}</h3><p>{{ team.role }}</p></li></a>
+			<a href="{{ team.link }}"><li class="compact-card"><img src="{{ team.image }}" alt="{{ team.company }} logo"><h3 style="color:{{ team.color }};">{{ team.company }}</h3><p>{{ team.role }}</p></li></a>
 		{% endfor %}
 	</ul>
 </section>
@@ -41,6 +41,17 @@ title: Jeff Anders
 	<ul class="two-column">
 		{% for post in site.categories.article %}
 			{% include post-item.html %}
+		{% endfor %}
+	</ul>
+</section>
+
+<hr>
+
+<section class="section-contact">
+	<a id="contact"><h2 class="section-title">Contact</h2></a>
+	<ul class="post-grid compact-grid contact-grid">
+  		{% for contact in site.data.contacts %}
+			<a href="{{ contact.link }}"><li class="compact-card">{% include {{ contact.icon }}.html %}<h3 style="color:{{ contact.color }};">{{ contact.name }}</h3></li></a>
 		{% endfor %}
 	</ul>
 </section>

@@ -1,4 +1,7 @@
-name,link,icon,featured
-Email,mailto:jahilnbrand@gmail.com,email,true
-Twitter,https://twitter.com/intent/user?region=follow&screen_name=jeffand_,twitter,true
-LinkedIn,https://www.linkedin.com/in/jeff-anders,linkedin,true
+name,icon,link,color,featured
+Email,email,mailto:jahilnbrand@gmail.com,#666666,true
+Twitter,twitter,https://twitter.com/intent/user?region=follow&screen_name=jeffand_,#1DA1F2,true
+LinkedIn,linkedin,https://www.linkedin.com/in/jeff-anders,#0A66C2,true
+GitHub,github,https://github.com/jhil,#181717
+Goodreads,goodreads,https://goodreads.com/jeffanders,#372213
+Dribbble,dribbble,https://dribbble.com/jeffand,#EA4C89
