@@ -75,8 +75,8 @@
 // teams
 
 .compact-grid {
-	gap: 1.5rem;
-	grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+	row-gap: 1.5rem;
+	// grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
 }
 
 .compact-card {
