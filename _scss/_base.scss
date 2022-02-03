@@ -154,7 +154,11 @@ section,
 	color: $light-gray;
 }
 
-.button-link {
+button, .button-link {
+	@extend .p;
+	cursor: pointer;
+	outline: none;
+	border: none;
 	display: flex;
 	max-width: 15rem;
 	justify-content: space-between;
@@ -173,4 +177,8 @@ section,
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	gap: 3rem;
+}
+
+.hidden {
+	display: none;
 }
