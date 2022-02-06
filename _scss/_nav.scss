@@ -9,7 +9,7 @@
 	@media screen and (min-width: $tablet-portrait-min) {
 		position: fixed;
 		top: 0;
-		left: 0;	
+		left: 0;
 		gap: 3rem;
 		width: $sidebar-width;
 		height: 100%;
@@ -54,14 +54,16 @@
 }
 
 .sidebar-social-item {
-	width: 1.5rem;
-	height: 1.5rem;
 	padding: 0.75rem;
 	transition: $t;
 	border-radius: 50%;
-	svg path {
-		transition: $t;
-		fill: $medium-gray;
+	svg {
+		width: 1.5rem;
+		height: 1.5rem;
+		path {
+			transition: $t;
+			fill: $medium-gray;
+		}
 	}
 	&:hover {
 		background: $lighter-gray;
@@ -93,6 +95,7 @@ nav {
 	}
 	li {
 		display: flex;
+		align-items: center;
 		justify-content: space-between;
 		padding: 1rem 3rem;
 		color: $dark-gray;
@@ -111,12 +114,21 @@ nav {
 
 .active-dot {
 	opacity: 0;
-	transition: $t-fast;
+	transition: $t;
+	height: 0.5rem;
+	width: 0.5rem;
+	background-color: $medium-gray;
+	border-radius: 50%;
+	display: inline-block;
 }
 
-
-.in-section-team .nav-team, .in-section-project .nav-project, .in-section-talk .nav-talk, .in-section-article .nav-article, .in-section-list .nav-list, .in-section-contact .nav-contact {
-	li{
+.in-section-team .nav-team,
+.in-section-project .nav-project,
+.in-section-talk .nav-talk,
+.in-section-article .nav-article,
+.in-section-list .nav-list,
+.in-section-contact .nav-contact {
+	li {
 		background: $white;
 		color: $black;
 		.active-dot {

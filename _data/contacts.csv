@@ -1,5 +1,5 @@
 name,icon,link,handle,color,featured
-Email,email,mailto:jahilnbrand@gmail.com,Gmail,#666666,true
+Email,email,mailto:jahilnbrand@gmail.com,,#666666,true
 Twitter,twitter,https://twitter.com/intent/user?region=follow&screen_name=jeffand_,@jeffand_,#1DA1F2,true
 LinkedIn,linkedin,https://www.linkedin.com/in/jeff-anders,jeff-anders,#0A66C2,true
 GitHub,github,https://github.com/jhil,jhil,#181717
@@ -7,3 +7,5 @@ Dribbble,dribbble,https://dribbble.com/jeffand,jeffand,#EA4C89
 Goodreads,goodreads,https://goodreads.com/jeffanders,jeffanders,#372213
 Strava,strava,https://www.strava.com/athletes/jeffanders,jeffanders,#FC4C02
 ENS,ens,https://rainbow.me/jeffanders.eth,jeffanders.eth,#5284ff
+Venmo,venmo,https://venmo.com/jeff,jeff,#008CFF
+Letterboxd,letterboxd,https://letterboxd.com/jeffand,jeffand,#00E054
