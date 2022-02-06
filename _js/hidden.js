@@ -4,10 +4,14 @@ document.addEventListener("DOMContentLoaded", function () {
 		const button = buttons[b];
 		const group = button.dataset.group;
 		button.addEventListener("click", function () {
-			const initiallyHidden = document.querySelectorAll(".initially-hidden-"+group);
-			console.log(group);
+			const initiallyHidden = document.querySelectorAll(
+				".initially-hidden-" + group
+			);
 			for (i = 0; i < initiallyHidden.length; ++i) {
 				initiallyHidden[i].classList.toggle("hidden");
+			}
+			if (window.sections) {
+				window.sections.onResize();
 			}
 		});
 	}

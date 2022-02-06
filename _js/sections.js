@@ -188,6 +188,7 @@
 		} else {
 			this._disableScrolling();
 		}
+		return this;
 	};
 
 	Sections.prototype.disable = function () {
@@ -195,6 +196,10 @@
 		window.removeEventListener("orientationchange", this.onResize);
 		window.removeEventListener("resize", this.onResize);
 		window.removeEventListener("load", this.onResize);
+	};
+
+	Sections.prototype.onResize = function () {
+		this.onResize();
 	};
 
 	if (typeof define === "function" && define.amd) {

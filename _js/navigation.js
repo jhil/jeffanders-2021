@@ -1,3 +1,3 @@
-var sections = new Sections({
+window.sections = new Sections({
 	mobileWidth: 1024,
 }).enable();
