@@ -67,7 +67,7 @@ title: Jeff Anders
 	<a id="contact"><h2 class="section-title">Contact</h2></a>
 	<ul class="post-grid compact-grid contact-grid">
   		{% for contact in site.data.contacts %}
-			<a href="{{ contact.link }}"><li class="compact-card">{% include icons/{{ contact.icon }}.html %}<h3>{{ contact.name }}</h3><p class="card-secondary">{{ contact.handle }}</p></li></a>
+			<a href="{{ contact.link }}" target="_blank" rel="noopener"><li class="compact-card">{% include icons/{{ contact.icon }}.html %}<h3>{{ contact.name }}</h3><p class="card-secondary">{{ contact.handle }}</p></li></a>
 		{% endfor %}
 	</ul>
 </section>
