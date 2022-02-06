@@ -1,3 +1,15 @@
 presets:
   default:
     formats: [webp, original]
+    quality: 100
+    widths: [400, 640, 1280, 1600, 1920]
+    format_quality:
+      webp: 100
+      avif: 100
+      jp2: 100
+    keep: center
+    markup: data_auto
+    noscript: true # add a fallback image inside a <noscript> tag.
+    attributes:
+      parent: class="lazy"
+

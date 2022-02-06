@@ -20,7 +20,7 @@ Here is the content from our quick tools guide so you can see how one can be org
 
 # Minimill Tools Guide
 
-{% include i.html src="minimill-logo.png" %}
+{% picture "{{ page.url }}minimill-logo.png" %}
 
 ## Organizational Tools
 

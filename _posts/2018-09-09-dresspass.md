@@ -12,5 +12,5 @@ color: "#BD3971"
 Dresspass is a service that helps travelers connect with local stylists to receive suitcases full of beautiful outfits. I designed this logo with Robin in a one-hour sprint.
 {% endcontentfor %}
 
-{% include i.html src="dresspass-logotype.png" %}
-{% include i.html src="dresspass-icon.png" %}
+{% picture "{{ page.url }}dresspass-logotype.png" %}
+{% picture "{{ page.url }}dresspass-icon.png" %}

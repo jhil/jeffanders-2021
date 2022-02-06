@@ -18,6 +18,7 @@ url: "https://jeffanders.co" # the base hostname & protocol for your site
 # Jekyll Picture Tag
 picture:
   source: img/
+  fast_build: true
 
 # Build info
 incremental: true
