@@ -37,21 +37,27 @@
 
 		[].forEach.call(
 			this.sectionElements,
-			function (sectionElement) {
-				var begin = Math.max(sectionElement.offsetTop - this.lastWindowHeight / 2, 0);
-				var naturalEnd =
-				  sectionElement.offsetTop -
-				  this.lastWindowHeight / 2 +
-				  sectionElement.clientHeight;
-				sectionMap.push({
-				  element: sectionElement,
-				  begin: begin,
-				  end: Math.max(naturalEnd, begin + this.lastWindowHeight /2 + 1),
-				  sectionId: sectionElement.dataset.sectionId,
-				});
-					}.bind(this)
-		);
-
+			function (sectionElement, sectionIndex) {
+			  var begin = Math.max(
+				sectionElement.offsetTop - this.lastWindowHeight / 2,
+				0
+			  );
+			  var naturalEnd =
+				sectionElement.offsetTop -
+				this.lastWindowHeight / 2 +
+				sectionElement.clientHeight;
+			  var limitedEnd = Math.max(naturalEnd, begin + this.lastWindowHeight / 2 + 1);
+			  var wouldCrushFinalSection = sectionIndex < this.sectionElements.length - 1 && limitedEnd > document.documentElement.scrollHeight;
+			  var end = wouldCrushFinalSection ? document.documentElement.scrollHeight - 10 : limitedEnd;
+			  sectionMap.push({
+				element: sectionElement,
+				begin: begin,
+				end: end,
+				sectionId: sectionElement.dataset.sectionId,
+			  });
+			}.bind(this)
+		  );
+		  
 		return sectionMap;
 	};
 

@@ -105,12 +105,6 @@
 	border-radius: $corner-radius;
 }
 
-.section-contact {
-	.compact-grid {
-		grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-	}	
-}
-
 .team-role {
 	color: $medium-gray;
 }
