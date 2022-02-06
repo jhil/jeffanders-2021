@@ -8,7 +8,9 @@ color: "#1d265c"
 thumbnail: dice-5
 ---
 
+{% contentfor intro %}
 I love collecting board games and sharing fun times with friends and family. These are the games in my personal collection right now. Check out my [BoardGameGeek profile](https://www.boardgamegeek.com/user/jhilmd) for more games and ratings.
+{% endcontentfor %}
 
 ---
 
@@ -23,5 +25,3 @@ I love collecting board games and sharing fun times with friends and family. The
   </li>
   {% endfor %}
 </ul>
-
-{% include button-link.html text="See more games on BoardGameGeek" %}

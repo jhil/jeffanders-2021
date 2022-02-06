@@ -5,9 +5,9 @@ title: Jeff Anders
 
 <section data-section-id="team" class="animated-section section-teams">
 	<a id="teams"><h2 class="section-title">Teams</h2></a>
-	<ul class="card-grid card-grid-compact">
+	<ul class="card-grid card-grid-compact card-grid-compact-medium">
   		{% for team in site.data.teams %}
-			<a href="{{ team.link }}"><li class="compact-card"><img src="{{ team.image }}" alt="{{ team.company }} logo"><h3>{{ team.company }}</h3><p class="card-secondary">{{ team.role }}</p></li></a>
+			<a href="{{ team.link }}"><li class="compact-card compact-card-medium"><img src="{{ team.image }}" alt="{{ team.company }} logo"><h3>{{ team.company }}</h3><p class="card-secondary">{{ team.role }}</p></li></a>
 		{% endfor %}
 	</ul>
 </section>
@@ -21,7 +21,7 @@ title: Jeff Anders
 			{% include card-item.html group="projects" postlimit=24 %}
 		{% endfor %}
 	</ul>
-	<button data-group="projects" class="button-more button-link initially-hidden-projects">View More</button>
+	<button data-group="projects" class="button-more button-link initially-hidden-projects">See More</button>
 </section>
 
 <hr>
@@ -33,7 +33,7 @@ title: Jeff Anders
 			{% include card-item.html group="talks" postlimit=8 %}
 		{% endfor %}
 	</ul>
-	<button data-group="talks" class="button-more button-link initially-hidden-talks">View More</button>
+	<button data-group="talks" class="button-more button-link initially-hidden-talks">See More</button>
 </section>
 
 <hr>

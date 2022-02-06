@@ -166,13 +166,13 @@ button,
 	cursor: pointer;
 	outline: none;
 	border: none;
-	display: flex;
-	max-width: 15rem;
-	justify-content: space-between;
 	padding: 0.75rem 1.5rem;
 	background: $lighter-gray;
 	border-radius: $corner-radius;
 	transition: $t;
+	span:last-of-type {
+		margin-left: 1.5rem;
+	}
 	&:hover {
 		background: $light-gray;
 		transform: translateY(-4px);
