@@ -1,0 +1,19 @@
+<li class="card-item card-item-category-{{ post.category }} {% if forloop.index > include.postlimit %} initially-hidden-{{ include.group }} hidden{% endif %}">
+  {% unless post.still == true %}<a href="{% if post.external %}{{ post.external }}{% else %}{{ post.url }}{% endif %}" {% if post.external %}target="_blank" rel="noopener"{% endif %}>{% endunless %}
+		{% unless post.category contains "article" %}
+			<div class="card-image">
+				<img src="/img/{{ post.url | slugify }}/{{ post.thumbnail }}" alt="{{ post.title }} logo" loading="lazy">
+			</div>
+		{% endunless %}
+		<div class="card-info">
+			{% if post.category contains "project" %}
+				<h3><span class="post-title">{{ post.title }}</span><span class="card-brief">&ensp;–&ensp;{{ post.brief }}</span>{% if post.external %}<span class="post-external">&ensp;↗</span>{% endif %}</h3>
+			{% elsif post.category contains "talk" %}
+				<h3 class="card-brief">{{ post.brief }}</h3>
+				<h3 class="post-title">{{ post.title }}{% if post.external %}<span class="post-external">&ensp;↗</span>{% endif %}</h3>
+			{% elsif post.category contains "article" %}
+				<h3 class="post-title">{{ post.title }}{% if post.external %}<span class="post-external">&ensp;↗</span>{% endif %}</h3>
+			{% endif %}
+		</div>
+	{% unless post.still == true %}</a>{% endunless %}
+</li>

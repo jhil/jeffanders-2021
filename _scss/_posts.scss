@@ -85,7 +85,7 @@ article {
 	p em {
 		font-style: italic;
 	}
-	ul {
+	p ul {
 		margin-bottom: 1.5rem;
 		li {
 			@extend .p;
@@ -95,6 +95,9 @@ article {
 			margin-left: 1.5rem;
 			padding-left: 1rem;
 		}
+	}
+	.card-grid {
+		margin: 3rem 0;
 	}
 }
 

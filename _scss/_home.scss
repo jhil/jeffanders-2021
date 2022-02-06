@@ -4,18 +4,22 @@
 
 // posts grid
 
-.post-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-  gap: 3rem;
+.card-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+	gap: 3rem;
+	img, p, h3, h2, h1 {
+		margin-bottom: 0;
+		margin-top: 0;
+	}
 }
 
-.post-item {
-	.post-image {
+.card-item {
+	.card-image {
 		border-radius: $corner-radius;
 		transition: $t;
 	}
-	.post-brief {
+	.card-brief {
 		@extend p;
 		transition: $t;
 		color: $medium-gray;
@@ -27,10 +31,10 @@
 		transition: $t;
 	}
 	&:hover {
-		.post-image {
+		.card-image {
 			@extend .hover-shadow;
 		}
-		.post-brief {
+		.card-brief {
 			color: $black;
 			transition: $t;
 		}
@@ -40,27 +44,27 @@
 	}
 }
 
-.post-item-category-project {
-
-	.post-image {
+.card-item-category-project {
+	.card-image {
 		margin-bottom: 1.5rem;
 		@extend .image-fill;
 		@extend .ratio;
 		@extend .ratio-8_5;
 	}
 
-	.post-info {
+	.card-info {
 		padding-right: 0.25rem;
 	}
 }
 
-.post-item-category-talk, .post-item-category-talk a {
+.card-item-category-talk,
+.card-item-category-talk a {
 	display: flex;
 	align-items: center;
-	&:hover .post-image {
+	&:hover .card-image {
 		transform: none;
 	}
-	.post-image {
+	.card-image {
 		@extend .image-fill;
 		width: 4.5rem;
 		height: 4.5rem;
@@ -74,7 +78,7 @@
 
 // teams
 
-.compact-grid {
+.card-grid-compact {
 	row-gap: 2rem;
 	// grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
 }
@@ -95,14 +99,16 @@
 	h3 {
 		flex-grow: 1;
 	}
-	img, svg {
+	img,
+	svg {
 		width: 1.5rem;
 		height: 1.5rem;
 		margin-right: 1rem;
 	}
 }
 
-.section-teams .compact-card img,svg {
+.section-teams .compact-card img,
+svg {
 	width: 2rem;
 	height: 2rem;
 	border-radius: $corner-radius;

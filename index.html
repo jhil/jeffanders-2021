@@ -5,7 +5,7 @@ title: Jeff Anders
 
 <section data-section-id="team" class="animated-section section-teams">
 	<a id="teams"><h2 class="section-title">Teams</h2></a>
-	<ul class="post-grid compact-grid">
+	<ul class="card-grid card-grid-compact">
   		{% for team in site.data.teams %}
 			<a href="{{ team.link }}"><li class="compact-card"><img src="{{ team.image }}" alt="{{ team.company }} logo"><h3>{{ team.company }}</h3><p class="card-secondary">{{ team.role }}</p></li></a>
 		{% endfor %}
@@ -16,9 +16,9 @@ title: Jeff Anders
 
 <section data-section-id="project" class="animated-section section-projects">
 	<a id="projects"><h2 class="section-title">Projects</h2></a>
-	<ul class="post-grid">
+	<ul class="card-grid">
 		{% for post in site.categories.project %}
-			{% include post-item.html group="projects" postlimit=24 %}
+			{% include card-item.html group="projects" postlimit=24 %}
 		{% endfor %}
 	</ul>
 	<button data-group="projects" class="button-more button-link initially-hidden-projects">View More</button>
@@ -30,7 +30,7 @@ title: Jeff Anders
 	<a id="talks"><h2 class="section-title">Talks & Publications</h2></a>
 	<ul class="two-column">
 		{% for post in site.categories.talk %}
-			{% include post-item.html group="talks" postlimit=8 %}
+			{% include card-item.html group="talks" postlimit=8 %}
 		{% endfor %}
 	</ul>
 	<button data-group="talks" class="button-more button-link initially-hidden-talks">View More</button>
@@ -42,7 +42,7 @@ title: Jeff Anders
 	<a id="writing"><h2 class="section-title">Writing</h2></a>
 	<ul class="two-column">
 		{% for post in site.categories.article %}
-			{% include post-item.html %}
+			{% include card-item.html %}
 		{% endfor %}
 	</ul>
 </section>
@@ -51,7 +51,7 @@ title: Jeff Anders
 
 <section data-section-id="list" class="animated-section section-lists">
 	<a id="lists"><h2 class="section-title">Lists</h2></a>
-	<ul class="post-grid compact-grid">
+	<ul class="card-grid card-grid-compact">
 	    {% assign sortedlists = site.categories.list | sort: 'title' %}
     	{% for post in sortedlists %}
 			<a href="{% if post.external %}{{ post.external }}{% else %}{{ post.url }}{% endif %}" {% if post.external %}target="_blank" rel="noopener"{% endif %}>
@@ -65,7 +65,7 @@ title: Jeff Anders
 
 <section data-section-id="contact" class="animated-section section-contact">
 	<a id="contact"><h2 class="section-title">Contact</h2></a>
-	<ul class="post-grid compact-grid contact-grid">
+	<ul class="card-grid card-grid-compact contact-grid">
   		{% for contact in site.data.contacts %}
 			<a href="{{ contact.link }}" target="_blank" rel="noopener"><li class="compact-card">{% include icons/{{ contact.icon }}.html %}<h3>{{ contact.name }}</h3><p class="card-secondary">{{ contact.handle }}</p></li></a>
 		{% endfor %}

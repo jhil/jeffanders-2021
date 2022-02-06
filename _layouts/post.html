@@ -8,11 +8,11 @@ layout: default
     
 	<div class="article-intro {% ifhascontent intro %}article-intro-bottom{% endifhascontent %}">
 		<div class="article-metadata">
-			<p class="">{{ page.date | date: "%B %Y" }}</p>
+			{% unless page.category contains "list" %}<p>{{ page.date | date: "%B %Y" }}</p>{% endunless %}
 			{% contentblock intro %}
 		</div>
 
-		<a target="_blank" rel="noopener" class="button-link" href="{{ page.link }}"><span>Website</span><span>↗</span></a>
+		{% if page.link %}<a target="_blank" rel="noopener" class="button-link" href="{{ page.link }}"><span>Website</span><span>↗</span></a>{% endif %}
 
 	</div>
 
