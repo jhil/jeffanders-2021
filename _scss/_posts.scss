@@ -63,7 +63,7 @@ article {
 		}
 	}
 
-	img {
+	picture {
 		width: 100%;
 		border-radius: $corner-radius;
 		display: block;
@@ -137,7 +137,7 @@ ul.article-list {
 	display: grid;
 	gap: 3rem;
 	margin: 3rem 0;
-	& > img {
+	& > picture {
 		margin: 0;
 	}
 }
@@ -155,7 +155,7 @@ ul.article-list {
 .article-columns-masonry {
 	gap: 3rem;
 	margin: 3rem 0;
-	> *, > img {
+	> *, > picture {
 		margin: 3rem 0;
 	}
 }

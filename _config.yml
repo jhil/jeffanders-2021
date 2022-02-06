@@ -15,6 +15,10 @@ highlighter: pygments
 permalink: "/:title/"
 url: "https://jeffanders.co" # the base hostname & protocol for your site
 
+# Jekyll Picture Tag
+picture:
+  source: img/
+
 # Build info
 incremental: true
 plugins:
