@@ -38,7 +38,7 @@
 		[].forEach.call(
 			this.sectionElements,
 			function (sectionElement, sectionIndex) {
-			  var begin = Math.max(
+			  var naturalBegin = Math.max(
 				sectionElement.offsetTop - this.lastWindowHeight / 2,
 				0
 			  );
@@ -46,9 +46,16 @@
 				sectionElement.offsetTop -
 				this.lastWindowHeight / 2 +
 				sectionElement.clientHeight;
-			  var limitedEnd = Math.max(naturalEnd, begin + this.lastWindowHeight / 2 + 1);
-			  var wouldCrushFinalSection = sectionIndex < this.sectionElements.length - 1 && limitedEnd > document.documentElement.scrollHeight;
-			  var end = wouldCrushFinalSection ? document.documentElement.scrollHeight - 10 : limitedEnd;
+			  var limitedEnd = Math.max(
+				naturalEnd,
+				naturalBegin + this.lastWindowHeight / 2 + 1
+			  );
+			  var wouldCrushFinalSection =
+				sectionIndex < this.sectionElements.length - 1 &&
+				limitedEnd >
+				  document.documentElement.scrollHeight - this.lastWindowHeight;
+			  var end = wouldCrushFinalSection ? document.documentElement.scrollHeight - this.lastWindowHeight - 16 : limitedEnd;
+			  var begin = sectionIndex === this.sectionElements.length - 1 ? Math.min(naturalBegin, document.documentElement.scrollHeight - this.lastWindowHeight - 16 ) : naturalBegin;
 			  sectionMap.push({
 				element: sectionElement,
 				begin: begin,
