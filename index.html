@@ -3,7 +3,7 @@ layout: default
 title: Jeff Anders
 ---
 
-<section data-section-id="teams" class="animated-section section-teams">
+<section data-section-id="team" class="animated-section section-teams">
 	<a id="teams"><h2 class="section-title">Teams</h2></a>
 	<ul class="post-grid compact-grid">
   		{% for team in site.data.teams %}
@@ -14,7 +14,7 @@ title: Jeff Anders
 
 <hr>
 
-<section data-section-id="projects" class="animated-section section-projects">
+<section data-section-id="project" class="animated-section section-projects">
 	<a id="projects"><h2 class="section-title">Projects</h2></a>
 	<ul class="post-grid">
 		{% for post in site.categories.project %}
@@ -26,7 +26,7 @@ title: Jeff Anders
 
 <hr>
 
-<section data-section-id="speaking" class="animated-section section-speaking">
+<section data-section-id="talk" class="animated-section section-speaking">
 	<a id="speaking"><h2 class="section-title">Speaking</h2></a>
 	<ul class="two-column">
 		{% for post in site.categories.talk %}
@@ -38,7 +38,7 @@ title: Jeff Anders
 
 <hr>
 
-{% comment %} <section data-section-id="writing" class="animated-section section-writing">
+{% comment %} <section data-section-id="article" class="animated-section section-writing">
 	<a id="writing"><h2 class="section-title">Writing</h2></a>
 	<ul class="two-column">
 		{% for post in site.categories.article %}
@@ -49,7 +49,7 @@ title: Jeff Anders
 
 <hr> {% endcomment %}
 
-<section data-section-id="lists" class="animated-section section-lists">
+<section data-section-id="list" class="animated-section section-lists">
 	<a id="lists"><h2 class="section-title">Lists</h2></a>
 	<ul class="post-grid compact-grid">
 	    {% assign sortedlists = site.categories.list | sort: 'title' %}
