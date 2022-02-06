@@ -63,11 +63,15 @@ article {
 		}
 	}
 
-	picture {
+	picture, img {
 		width: 100%;
-		border-radius: $corner-radius;
 		display: block;
+	}
+
+	picture {
+		border-radius: $corner-radius;
 		margin: 4.5rem 0;
+		overflow: hidden;
 	}
 	
 	h2 {
