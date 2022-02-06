@@ -18,11 +18,10 @@ title: Jeff Anders
 	<a id="projects"><h2 class="section-title">Projects</h2></a>
 	<ul class="post-grid">
 		{% for post in site.categories.project %}
-			{% include post-item.html %}
+			{% include post-item.html group="projects" postlimit=24 %}
 		{% endfor %}
 	</ul>
-	<button id="button-more" class="button-link">View More</button>
-	<div class="initially-hidden hidden">Hello</div>
+	<button data-group="projects" class="button-more button-link initially-hidden-projects">View More</button>
 </section>
 
 <hr>
@@ -31,9 +30,10 @@ title: Jeff Anders
 	<a id="speaking"><h2 class="section-title">Speaking</h2></a>
 	<ul class="two-column">
 		{% for post in site.categories.talk %}
-			{% include post-item.html %}
+			{% include post-item.html group="speaking" postlimit=6 %}
 		{% endfor %}
 	</ul>
+	<button data-group="speaking" class="button-more button-link initially-hidden-speaking">View More</button>
 </section>
 
 <hr>
@@ -73,4 +73,4 @@ title: Jeff Anders
 </section>
 
 <!-- Javascript -->
-<script type="text/javascript" src="/js/scripts.js"></script>
+<script type="text/javascript" src="/js/hidden.js"></script>
