@@ -95,14 +95,6 @@ nav {
 		padding: 1rem 3rem;
 		color: $dark-gray;
 		transition: $t;
-		&:active {
-			background: white;
-			color: $black;
-			&:after {
-				content: "•";
-				// TODO: move to right side
-			}
-		}
 		&:hover {
 			color: $black;
 			background: $lighter-gray;
@@ -111,6 +103,17 @@ nav {
 		@media screen and (max-width: $phone-landscape-max) {
 			padding: 0;
 			// TODO: make mobile style
+		}
+	}
+}
+
+.in-section-teams .nav-teams, .in-section-projects .nav-projects, .in-section-speaking .nav-speaking, .in-section-writing .nav-writing, .in-section-lists .nav-lists, .in-section-contact .nav-contact {
+	li{
+		background: $white;
+		color: $black;
+		&:after {
+			content: "•";
+			// TODO: move to right side
 		}
 	}
 }

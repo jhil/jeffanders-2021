@@ -38,19 +38,18 @@
 		[].forEach.call(
 			this.sectionElements,
 			function (sectionElement) {
+				var begin = Math.max(sectionElement.offsetTop - this.lastWindowHeight / 2, 0);
+				var naturalEnd =
+				  sectionElement.offsetTop -
+				  this.lastWindowHeight / 2 +
+				  sectionElement.clientHeight;
 				sectionMap.push({
-					element: sectionElement,
-					begin: Math.max(
-						sectionElement.offsetTop - this.lastWindowHeight / 2,
-						0
-					),
-					end:
-						sectionElement.offsetTop -
-						this.lastWindowHeight / 2 +
-						sectionElement.clientHeight,
-					sectionId: sectionElement.dataset.sectionId,
+				  element: sectionElement,
+				  begin: begin,
+				  end: Math.max(naturalEnd, begin + this.lastWindowHeight /2 + 1),
+				  sectionId: sectionElement.dataset.sectionId,
 				});
-			}.bind(this)
+					}.bind(this)
 		);
 
 		return sectionMap;

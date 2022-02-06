@@ -7,20 +7,14 @@
 
 	<nav class="section-nav">
 		<ul>
-			<a href="/#teams"><li>Teams</li></a>
-			<a href="/#projects"><li>Projects</li></a>
-			<a href="/#speaking"><li>Speaking</li></a>
-			{% comment %} <a href="/#writing"><li>Writing</li></a> {% endcomment %}
-			<a href="/#lists"><li>Lists</li></a>
-			<a href="/#contact"><li>Contact</li></a>
+			<a class="nav-teams" href="/#teams"><li>Teams</li></a>
+			<a class="nav-projects" href="/#projects"><li>Projects</li></a>
+			<a class="nav-speaking" href="/#speaking"><li>Speaking</li></a>
+			{% comment %} <a class="nav-writing" href="/#writing"><li>Writing</li></a> {% endcomment %}
+			<a class="nav-lists" href="/#lists"><li>Lists</li></a>
+			<a class="nav-contact" href="/#contact"><li>Contact</li></a>
 		</ul>
 	</nav>
-
-	{% comment %} <div class="intro">
-		<p>In Denver, CO with Emily & ______</p>
-		<p class="intro-2">Thinking about climate and design</p>
-		<p class="intro-3">Once called Hilnbrand · he / him</p>
-	</div> {% endcomment %}
 
 	<div class="sidebar-social">
   		{% for contact in site.data.contacts limit:3 %}
