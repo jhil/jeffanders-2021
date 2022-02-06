@@ -28,8 +28,4 @@ Emily and I have angel invested small checks in a few startups. We like adding v
 	{% endfor %}
 </ul>
 
-## Equities
-
-## Cryptocurrency
-
-## Other Alternatives
+Equities, cryptocurrencies, and alternatives breakdowns coming soon.

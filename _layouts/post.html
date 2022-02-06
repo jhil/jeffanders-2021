@@ -6,6 +6,7 @@ layout: default
 	
 	<h1 class="post-title">{{ page.title }}</h1>
     
+	{% unless page.category contains "list" %}
 	<div class="article-intro {% ifhascontent intro %}article-intro-bottom{% endifhascontent %}">
 		<div class="article-metadata">
 			{% unless page.category contains "list" %}<p>{{ page.date | date: "%B %Y" }}</p>{% endunless %}
@@ -13,8 +14,8 @@ layout: default
 		</div>
 
 		{% if page.link %}<a target="_blank" rel="noopener" class="button-link" href="{{ page.link }}"><span>Website</span><span>↗</span></a>{% endif %}
-
 	</div>
+	{% endunless %}
 
 	<div class="article-body">{{ content }}</div>
 </article>

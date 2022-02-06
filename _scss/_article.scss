@@ -54,6 +54,7 @@ article {
 	}
 	p {
 		margin-bottom: 1rem;
+		max-width: 39rem;
 	}
 	
 	p a {
@@ -94,7 +95,7 @@ article {
 	p ul {
 		margin-bottom: 1.5rem;
 		li {
-			@extend .p;
+			@extend p;
 			display: list-item;
 			list-style-type: disc;
 			margin-bottom: 1rem;
