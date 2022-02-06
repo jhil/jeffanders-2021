@@ -1,6 +1,6 @@
 ---
 layout: post
-category: article
+category: list
 title: "Favorite Albums 2018 (So Far)"
 date: 2018-09-26
 thumbnail: Glitter.jpeg

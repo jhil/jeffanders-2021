@@ -92,26 +92,25 @@
 	h3 {
 		flex-grow: 1;
 	}
-	p {
-		color: $medium-gray;
-	}
 	img, svg {
+		width: 1.5rem;
+		height: 1.5rem;
 		margin-right: 1rem;
-		width: 2rem;
-		height: 2rem;
-		border-radius: $corner-radius;
 	}
+}
+
+.section-teams .compact-card img,svg {
+	width: 2rem;
+	height: 2rem;
+	border-radius: $corner-radius;
 }
 
 .section-contact {
 	.compact-grid {
 		grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
 	}	
-	.compact-card {
-		svg {
-			width: 1.5rem;
-			height: 1.5rem;
-			border-radius: 0;
-		}
-	}
+}
+
+.team-role {
+	color: $medium-gray;
 }

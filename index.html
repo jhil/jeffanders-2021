@@ -3,11 +3,11 @@ layout: default
 title: Jeff Anders
 ---
 
-<section>
+<section class="section-teams">
 	<a id="teams"><h2 class="section-title">Teams</h2></a>
 	<ul class="post-grid compact-grid">
   		{% for team in site.data.teams %}
-			<a href="{{ team.link }}"><li class="compact-card"><img src="{{ team.image }}" alt="{{ team.company }} logo"><h3 style="color:{{ team.color }};">{{ team.company }}</h3><p>{{ team.role }}</p></li></a>
+			<a href="{{ team.link }}"><li class="compact-card"><img src="{{ team.image }}" alt="{{ team.company }} logo"><h3 style="color:{{ team.color }};">{{ team.company }}</h3><p class="team-role">{{ team.role }}</p></li></a>
 		{% endfor %}
 	</ul>
 </section>
@@ -48,6 +48,20 @@ title: Jeff Anders
 </section>
 
 <hr> {% endcomment %}
+
+<section class="section-lists">
+	<a id="lists"><h2 class="section-title">Lists</h2></a>
+	<ul class="post-grid compact-grid">
+	    {% assign sortedlists = site.categories.list | sort: 'title' %}
+    	{% for post in sortedlists %}
+			<a href="{% if post.external %}{{ post.external }}{% else %}{{ post.url }}{% endif %}" {% if post.external %}target="_blank" rel="noopener"{% endif %}>
+				<li class="compact-card"><img src="/img/icons/{{ post.thumbnail }}" alt="{{ post.title }} icon"><h3>{{ post.title }}</h3></li>
+			</a>
+		{% endfor %}
+	</ul>
+</section>
+
+<hr>
 
 <section class="section-contact">
 	<a id="contact"><h2 class="section-title">Contact</h2></a>
