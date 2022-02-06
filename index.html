@@ -7,7 +7,7 @@ title: Jeff Anders
 	<a id="teams"><h2 class="section-title">Teams</h2></a>
 	<ul class="post-grid compact-grid">
   		{% for team in site.data.teams %}
-			<a href="{{ team.link }}"><li class="compact-card"><img src="{{ team.image }}" alt="{{ team.company }} logo"><h3 style="color:{{ team.color }};">{{ team.company }}</h3><p class="team-role">{{ team.role }}</p></li></a>
+			<a href="{{ team.link }}"><li class="compact-card"><img src="{{ team.image }}" alt="{{ team.company }} logo"><h3>{{ team.company }}</h3><p class="card-secondary">{{ team.role }}</p></li></a>
 		{% endfor %}
 	</ul>
 </section>
@@ -26,14 +26,14 @@ title: Jeff Anders
 
 <hr>
 
-<section data-section-id="talk" class="animated-section section-speaking">
-	<a id="speaking"><h2 class="section-title">Speaking</h2></a>
+<section data-section-id="talk" class="animated-section section-talks">
+	<a id="talks"><h2 class="section-title">Talks</h2></a>
 	<ul class="two-column">
 		{% for post in site.categories.talk %}
-			{% include post-item.html group="speaking" postlimit=6 %}
+			{% include post-item.html group="talks" postlimit=8 %}
 		{% endfor %}
 	</ul>
-	<button data-group="speaking" class="button-more button-link initially-hidden-speaking">View More</button>
+	<button data-group="talks" class="button-more button-link initially-hidden-talks">View More</button>
 </section>
 
 <hr>

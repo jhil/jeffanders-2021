@@ -6,7 +6,7 @@
 
 .post-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   gap: 3rem;
 }
 
@@ -75,7 +75,7 @@
 // teams
 
 .compact-grid {
-	row-gap: 1.5rem;
+	row-gap: 2rem;
 	// grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
 }
 
@@ -88,6 +88,9 @@
 	transition: $t;
 	&:hover {
 		@extend .hover-shadow;
+		.card-secondary {
+			color: $black;
+		}
 	}
 	h3 {
 		flex-grow: 1;
@@ -105,8 +108,9 @@
 	border-radius: $corner-radius;
 }
 
-.team-role {
+.card-secondary {
 	color: $medium-gray;
+	transition: $t;
 }
 
 .button-more {

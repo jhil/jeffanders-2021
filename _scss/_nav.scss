@@ -11,7 +11,7 @@
 		top: 0;
 		left: 0;	
 		gap: 3rem;
-		width: 21rem;
+		width: $sidebar-width;
 		height: 100%;
 	}
 }
@@ -92,9 +92,11 @@ nav {
 		}
 	}
 	li {
+		display: flex;
+		justify-content: space-between;
 		padding: 1rem 3rem;
 		color: $dark-gray;
-		transition: $t;
+		transition: $t-fast;
 		&:hover {
 			color: $black;
 			background: $lighter-gray;
@@ -107,13 +109,18 @@ nav {
 	}
 }
 
+.active-dot {
+	opacity: 0;
+	transition: $t-fast;
+}
+
+
 .in-section-team .nav-team, .in-section-project .nav-project, .in-section-talk .nav-talk, .in-section-article .nav-article, .in-section-list .nav-list, .in-section-contact .nav-contact {
 	li{
 		background: $white;
 		color: $black;
-		&:after {
-			content: "•";
-			// TODO: move to right side
+		.active-dot {
+			opacity: 1;
 		}
 	}
 }

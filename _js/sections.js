@@ -40,12 +40,14 @@
 			function (sectionElement, sectionIndex) {
 			  var naturalBegin = Math.max(
 				sectionElement.offsetTop - this.lastWindowHeight / 2,
-				0
+				sectionIndex === 1 ? 16 : 0
 			  );
-			  var naturalEnd =
+			  var naturalEnd = Math.max(
+				this.lastWindowHeight / 2 + 10,
 				sectionElement.offsetTop -
-				this.lastWindowHeight / 2 +
-				sectionElement.clientHeight;
+				  this.lastWindowHeight / 2 +
+				  sectionElement.clientHeight
+			  );
 			  var limitedEnd = Math.max(
 				naturalEnd,
 				naturalBegin + this.lastWindowHeight / 2 + 1
@@ -64,7 +66,7 @@
 			  });
 			}.bind(this)
 		  );
-		  
+							  
 		return sectionMap;
 	};
 
@@ -92,6 +94,7 @@
 				var newSectionClass =
 					this.settings.bodyClassPrefix + this.sectionMap[i].sectionId;
 				this._setBodySectionClass(newSectionClass);
+				console.log(newSectionClass,this.sectionMap,this.lastYOffset);
 			}
 		}
 
