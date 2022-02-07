@@ -18,7 +18,27 @@ title: Jeff Anders
 	<a id="projects"><h2 class="section-title">Projects</h2></a>
 	<ul class="card-grid">
 		{% for post in site.categories.project %}
-			{% include card-item.html group="projects" postlimit=24 %}
+			<li class="card-item card-item-category-{{ post.category }} {% if forloop.index > 24 %} initially-hidden-projects hidden{% endif %}">
+  {% unless post.still == true %}<a href="{% if post.external %}{{ post.external }}{% else %}{{ post.url }}{% endif %}" {% if post.external %}target="_blank" rel="noopener"{% endif %}>{% endunless %}
+		{% unless post.category contains "article" %}
+			<div class="card-image">
+				{% capture postname %}{{ post.title }}{% endcapture %}
+				{% capture thumbnailpath %}{{ post.url }}{{ post.thumbnail }}{% endcapture %}
+				{% include pic.html file=thumbnailpath alt=postname params="8:5"%}
+			</div>
+		{% endunless %}
+		<div class="card-info">
+			{% if post.category contains "project" %}
+				<h3><span class="post-title">{{ post.title }}</span><span class="card-brief">&ensp;–&ensp;{{ post.brief }}</span>{% if post.external %}<span class="post-external">&ensp;↗</span>{% endif %}</h3>
+			{% elsif post.category contains "talk" %}
+				<h3 class="card-brief">{{ post.brief }}</h3>
+				<h3 class="post-title">{{ post.title }}{% if post.external %}<span class="post-external">&ensp;↗</span>{% endif %}</h3>
+			{% elsif post.category contains "article" %}
+				<h3 class="post-title">{{ post.title }}{% if post.external %}<span class="post-external">&ensp;↗</span>{% endif %}</h3>
+			{% endif %}
+		</div>
+	{% unless post.still == true %}</a>{% endunless %}
+</li>
 		{% endfor %}
 	</ul>
 	<button data-group="projects" class="button-more button-link initially-hidden-projects">See More</button>
@@ -30,7 +50,28 @@ title: Jeff Anders
 	<a id="talks"><h2 class="section-title">Talks & Publications</h2></a>
 	<ul class="two-column">
 		{% for post in site.categories.talk %}
-			{% include card-item.html group="talks" postlimit=8 %}
+		<li class="card-item card-item-category-{{ post.category }} {% if forloop.index > 8 %} initially-hidden-talks hidden{% endif %}">
+  {% unless post.still == true %}<a href="{% if post.external %}{{ post.external }}{% else %}{{ post.url }}{% endif %}" {% if post.external %}target="_blank" rel="noopener"{% endif %}>{% endunless %}
+		{% unless post.category contains "article" %}
+			<div class="card-image">
+				{% capture postname %}{{ post.title }}{% endcapture %}
+				{% capture thumbnailpath %}{{ post.url }}{{ post.thumbnail }}{% endcapture %}
+				{% include pic.html file=thumbnailpath alt=postname params="1:1"%}
+			</div>
+		{% endunless %}
+		<div class="card-info">
+			{% if post.category contains "project" %}
+				<h3><span class="post-title">{{ post.title }}</span><span class="card-brief">&ensp;–&ensp;{{ post.brief }}</span>{% if post.external %}<span class="post-external">&ensp;↗</span>{% endif %}</h3>
+			{% elsif post.category contains "talk" %}
+				<h3 class="card-brief">{{ post.brief }}</h3>
+				<h3 class="post-title">{{ post.title }}{% if post.external %}<span class="post-external">&ensp;↗</span>{% endif %}</h3>
+			{% elsif post.category contains "article" %}
+				<h3 class="post-title">{{ post.title }}{% if post.external %}<span class="post-external">&ensp;↗</span>{% endif %}</h3>
+			{% endif %}
+		</div>
+	{% unless post.still == true %}</a>{% endunless %}
+</li>
+
 		{% endfor %}
 	</ul>
 	<button data-group="talks" class="button-more button-link initially-hidden-talks">See More</button>

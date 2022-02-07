@@ -40,7 +40,7 @@ a:hover {
 	text-decoration: none;
 }
 
-img {
+img,picture {
 	max-width: 100%;
 	display: block;
 }
@@ -85,7 +85,7 @@ section,
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
-	img {
+	img, picture {
 		flex-shrink: 0;
 		object-fit: cover;
 		min-width: 100%;

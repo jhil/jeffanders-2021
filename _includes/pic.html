@@ -1,0 +1,15 @@
+{% assign filetype = include.file | slice: -3,3 %}
+
+{% if filetype contains "svg" %}
+
+<picture><img src="/img/{{ page.url | slugify }}/{{ include.file }}{{ include.ext }}" alt="{{ include.alt }}" class="{{ include.class }}" loading="lazy"></picture>
+
+{% else %}
+
+{% if page.layout == 'post' %}
+{% picture "{{ page.url | slugify }}/{{ include.file }}" {{ include.params }} class="{{ include.class }}" --alt {{ include.alt }} %}
+{% else %}
+{% picture "{{ include.file }}" {{ include.params }} class="{{ include.class }}" --alt {{ include.alt }} %}
+{% endif %}
+
+{% endif %}

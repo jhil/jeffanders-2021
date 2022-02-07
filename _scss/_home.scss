@@ -8,10 +8,14 @@
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
 	gap: 3rem;
-	img, p, h3, h2, h1 {
+	picture, p, h3, h2, h1 {
 		margin-bottom: 0;
 		margin-top: 0;
 	}
+	@media screen and (max-width: $phone-landscape-max) {
+		grid-template-columns: repeat(auto-fit, minmax(1fr));
+	}
+
 }
 
 .card-item {

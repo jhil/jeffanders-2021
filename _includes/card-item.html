@@ -2,7 +2,9 @@
   {% unless post.still == true %}<a href="{% if post.external %}{{ post.external }}{% else %}{{ post.url }}{% endif %}" {% if post.external %}target="_blank" rel="noopener"{% endif %}>{% endunless %}
 		{% unless post.category contains "article" %}
 			<div class="card-image">
-				<img src="/img/{{ post.url | slugify }}/{{ post.thumbnail }}" alt="{{ post.title }} logo" loading="lazy">
+				{% capture postname %}{{ post.title }}{% endcapture %}
+				{% capture thumbnailpath %}{{ post.url }}{{ post.thumbnail }}{% endcapture %}
+				{% include pic.html file=thumbnailpath alt=postname params="8:5"%}
 			</div>
 		{% endunless %}
 		<div class="card-info">

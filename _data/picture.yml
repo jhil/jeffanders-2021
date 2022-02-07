@@ -8,8 +8,3 @@ presets:
       avif: 100
       jp2: 100
     keep: center
-    markup: data_auto
-    noscript: true # add a fallback image inside a <noscript> tag.
-    attributes:
-      parent: class="lazy"
-
