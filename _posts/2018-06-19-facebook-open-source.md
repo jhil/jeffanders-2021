@@ -16,7 +16,7 @@ Over the course of two years, I worked with the <a href="https://opensource.face
 
 ## Draft.js
 
-{% include i.html src="draftjs-logo-no-background-black.svg" %}
+{% include pic.html src="draftjs-logo-no-background-black.svg" %}
 {% picture "{{ page.url }}draftjs-logo-1-01.png" %}
 
 View <a href="https://github.com/facebook/draft-js">GitHub</a> (15,500+ stars)
