@@ -70,16 +70,16 @@ h2, %h2, .h2 {
 }
 
 h3, %h3, .h3 {
-	@extend p;
+	@extend .p;
 	font-weight: $medium;
 }
 
 h4, %h4, .h4 {
-	@extend p;
+	@extend .p;
 }
 
 h5, %h5, .h5 {
-	@extend p;
+	@extend .p;
 }
 
 

@@ -20,12 +20,12 @@
 		transition: $t;
 	}
 	.card-brief {
-		@extend p;
+		@extend .p;
 		transition: $t;
 		color: $medium-gray;
 	}
 	.post-external {
-		@extend p;
+		@extend .p;
 		color: $medium-gray;
 		opacity: 0;
 		transition: $t;
@@ -72,7 +72,7 @@
 	}
 	h3:first-of-type {
 		margin-bottom: 0.5rem;
-		@extend p;
+		@extend .p;
 	}
 }
 
