@@ -3,8 +3,8 @@ presets:
     formats: [webp, original]
     quality: 100
     widths: [400, 640, 1280, 1600, 1920]
+    keep: center
     format_quality:
       webp: 100
       avif: 100
       jp2: 100
-    keep: center

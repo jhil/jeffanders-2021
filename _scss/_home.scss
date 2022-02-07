@@ -126,3 +126,12 @@ svg {
 .button-more {
 	margin-top: 3rem;
 }
+
+.about-hello {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 3rem;
+	p {
+		margin-bottom: 1.5rem;
+	}
+}
