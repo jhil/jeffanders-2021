@@ -31,7 +31,7 @@ Projects included…
 
 And it worked! We struck off item after item from our collective to-do list, most of us not even touching a line of code.
 
-{% picture "{{ page.url }}self-hacks-shell.jpg" %}
+{% picture "self-hacks-shell.jpg" %}
 
 We figured this model can be adopted outside of our walls. Internal hackathons are nothing new, [as many companies like Facebook, LinkedIn, and Google have events to encourage employees to explore project ideas](https://www.wired.com/2012/06/hackathons-arent-just-for-hacking/). But at Self-Hack, we focus on building our organization instead of products.
 

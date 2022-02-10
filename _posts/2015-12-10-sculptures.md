@@ -10,53 +10,53 @@ color: "#7D3665"
 
 ## Project 5 - Cross Polination
 
-{% picture "{{ page.url }}sculptures_lights.JPG" %}
-{% picture "{{ page.url }}sculptures_lights-hand.jpg" %}
+{% picture "sculptures_lights.JPG" %}
+{% picture "sculptures_lights-hand.jpg" %}
 
 ## Project 4 - Serial Planes
 
-{% picture "{{ page.url }}sculptures_serial-shadow.jpg" %}
-{% picture "{{ page.url }}sculptures_serial-wall.jpg" %}
-{% picture "{{ page.url }}sculptures_serial-label.JPG" %}
-{% picture "{{ page.url }}sculptures_serial-wood.jpg" %}
-{% picture "{{ page.url }}sculptures_serial-stack.JPG" %}
-{% picture "{{ page.url }}sculptures_serial-paint.JPG" %}
-{% picture "{{ page.url }}sculptures_serial-black.JPG" %}
+{% picture "sculptures_serial-shadow.jpg" %}
+{% picture "sculptures_serial-wall.jpg" %}
+{% picture "sculptures_serial-label.JPG" %}
+{% picture "sculptures_serial-wood.jpg" %}
+{% picture "sculptures_serial-stack.JPG" %}
+{% picture "sculptures_serial-paint.JPG" %}
+{% picture "sculptures_serial-black.JPG" %}
 
 ## Project 3 - Pop Culture
 
-{% picture "{{ page.url }}sculptures_legs.jpg" %}
-{% picture "{{ page.url }}sculptures_legs-noga.JPG" %}
-{% picture "{{ page.url }}sculptures_legs-bandages.JPG" %}
-{% picture "{{ page.url }}sculptures_legs-paint.JPG" %}
-{% picture "{{ page.url }}sculptures_legs-saw.JPG" %}
-{% picture "{{ page.url }}sculptures_legs-enclosure.JPG" %}
-{% picture "{{ page.url }}sculptures_legs-drops.JPG" %}
-{% picture "{{ page.url }}sculptures_legs-drops-painted.JPG" %}
-{% picture "{{ page.url }}sculptures_legs-dry.JPG" %}
-{% picture "{{ page.url }}sculptures_legs-car.JPG" %}
+{% picture "sculptures_legs.jpg" %}
+{% picture "sculptures_legs-noga.JPG" %}
+{% picture "sculptures_legs-bandages.JPG" %}
+{% picture "sculptures_legs-paint.JPG" %}
+{% picture "sculptures_legs-saw.JPG" %}
+{% picture "sculptures_legs-enclosure.JPG" %}
+{% picture "sculptures_legs-drops.JPG" %}
+{% picture "sculptures_legs-drops-painted.JPG" %}
+{% picture "sculptures_legs-dry.JPG" %}
+{% picture "sculptures_legs-car.JPG" %}
 
 ## Project 2 - Repetition
 
-{% picture "{{ page.url }}sculptures_pingpong.JPG" %}
-{% picture "{{ page.url }}sculptures_pingpong-closeup.JPG" %}
-{% picture "{{ page.url }}sculptures_pingpong-top.JPG" %}
+{% picture "sculptures_pingpong.JPG" %}
+{% picture "sculptures_pingpong-closeup.JPG" %}
+{% picture "sculptures_pingpong-top.JPG" %}
 
 ## Project 1 - Cardboard Portrait
 
-{% picture "{{ page.url }}sculptures_cardboard.jpg" %}
-{% picture "{{ page.url }}sculptures_cardboard-back.jpg" %}
-{% picture "{{ page.url }}sculptures_cardboard-beard.JPG" %}
-{% picture "{{ page.url }}sculptures_cardboard-keys.JPG" %}
-{% picture "{{ page.url }}sculptures_cardboard-template.jpg" %}
-{% picture "{{ page.url }}sculptures_cardboard-face.jpg" %}
+{% picture "sculptures_cardboard.jpg" %}
+{% picture "sculptures_cardboard-back.jpg" %}
+{% picture "sculptures_cardboard-beard.JPG" %}
+{% picture "sculptures_cardboard-keys.JPG" %}
+{% picture "sculptures_cardboard-template.jpg" %}
+{% picture "sculptures_cardboard-face.jpg" %}
 
 ## Digital Fabrication 2 - Castle
 
-{% picture "{{ page.url }}sculptures_castle-sink.jpg" %}
-{% picture "{{ page.url }}sculptures_castle-print.jpg" %}
-{% picture "{{ page.url }}sculptures_castle-crit.JPG" %}
+{% picture "sculptures_castle-sink.jpg" %}
+{% picture "sculptures_castle-print.jpg" %}
+{% picture "sculptures_castle-crit.JPG" %}
 
 ## Digital Fabrication 1 - GoPro
 
-{% picture "{{ page.url }}sculptures_gopro.JPG" %}
+{% picture "sculptures_gopro.JPG" %}

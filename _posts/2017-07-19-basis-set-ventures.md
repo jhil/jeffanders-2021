@@ -13,16 +13,16 @@ link: https://www.basisset.ventures/
 I worked with [Lan Xuezhao](https://www.linkedin.com/in/xuezhao-lan-50aa1a1/) and [Kurt Varner](https://www.kurtvarner.com/) on branding BSV's $136M AI-focused venture capital fund. The final logo combines vector and building block imagery, reflecting mathematical concepts behind the namesake.
 {% endcontentfor %}
 
-{% picture "{{ page.url }}bsv_short-color.png" %}
+{% picture "bsv_short-color.png" %}
 
-{% picture "{{ page.url }}bsv-logo-construction.png" %}
+{% picture "bsv-logo-construction.png" %}
 
-{% picture "{{ page.url }}bsv-colors.png" %}
+{% picture "bsv-colors.png" %}
 
 ## Explorations
 
-{% picture "{{ page.url }}sketchall.png" %}
+{% picture "sketchall.png" %}
 
-{% picture "{{ page.url }}bsv-logo-present.png" %}
+{% picture "bsv-logo-present.png" %}
 
-<!-- {% picture "{{ page.url }}bsv-logo-3-present.jpg" %} -->
+<!-- {% picture "bsv-logo-3-present.jpg" %} -->
