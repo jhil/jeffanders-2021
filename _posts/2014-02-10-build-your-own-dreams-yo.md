@@ -23,7 +23,7 @@ Things were going well. Really well. At one point, I was getting enough requests
 
 This system worked for a while, but an underlying problem began developing. It became clear when I started using ProjectFlow to track my progress on projects as they went through different stages: Backburner → Planning → Action → Feedback → Close → Money.
 
-{% picture "project-flow.png" %}
+{% include pic.html file="project-flow.png" %}
 
 Every week, projects would wizz by—open and close, open and close—as I honed in on my lucrative freelance grind. But at one point, a new column called “Ventures” entered my ProjectFlow board. This is where I would store my side projects and crazy ideas that seemed to keep popping up as I learned more and more about the tech scene. Eventually, my Ventures column became overstuffed with project ideas that I never around got to, primarily because I had to put my clients first. After all, I was on a deadline.
 

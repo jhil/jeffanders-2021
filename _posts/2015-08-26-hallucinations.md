@@ -7,7 +7,7 @@ thumbnail: hallucinations_thumbnail.jpg
 color: "#DE6A60"
 ---
 
-{% picture "hallucinations-scale.gif" %}
+{% include pic.html file="hallucinations-scale.gif" %}
 
 ## Scale
 
@@ -18,7 +18,7 @@ The sphere is approaching the size of the hallway and I’m trapped. It passes t
 I can’t leave, so I embrace the sphere. When it reaches my body, I enter it. During my passage, I feel the weight and touch of the sphere, but am not ever physically displaced.
 Inside is nothing.
 
-{% picture "hallucinations-accelerate.gif" %}
+{% include pic.html file="hallucinations-accelerate.gif" %}
 
 ## Accelerate
 
@@ -31,7 +31,7 @@ It’s moving faster and faster. I’m going so fast and I think I’m going to 
 The motion starts glitching and refreshing. My speed is continuously increasing between scenes, but the surroundings abruptly switch.
 Impossibly fast.
 
-{% picture "hallucinations-stretch.gif" %}
+{% include pic.html file="hallucinations-stretch.gif" %}
 
 ## Stretch
 

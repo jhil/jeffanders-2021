@@ -14,7 +14,7 @@ I was studying Mechanical Engineering and wanted to combine my physical design e
 
 ## 3D Marketplace
 
-{% picture "creative-market_3d.jpg" %}
+{% include pic.html file="creative-market_3d.jpg" %}
 
 My main project during my time at Creative Market was leading the development and launch of our <a target="_blank" rel="noopener" href="https://creativemarket.com/3d">3D marketplace category</a>. Our new category enables 3D artists and engineers to sell their models to a community of over 1 million. Architects, industrial designers, game developers, and animators now have access to thousands of high-quality models to use in their work.
 
@@ -37,7 +37,7 @@ We collaborated heavily with several different partners to build a robust, quali
 
 ## Extended License
 
-{% picture "creative-market_extended.jpg" %}
+{% include pic.html file="creative-market_extended.jpg" %}
 
 I also worked on creating our <a target="_blank" rel="noopener" href="https://creativemarket.com/licenses">Extended License</a> to be rolled out on every product on the site. With the old Simple License, there was an ambiguous gray area around the terms, especially in commercial projects. We spent months talking to sellers and customers to create a new licensing system that supported casual and professional uses of products on the site.
 

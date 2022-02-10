@@ -17,24 +17,24 @@ Over the course of two years, I worked with the <a href="https://opensource.face
 ## Draft.js
 
 {% include pic.html file="draftjs-logo-no-background-black.svg" %}
-{% picture "draftjs-logo-1-01.png" %}
+{% include pic.html file="draftjs-logo-1-01.png" %}
 
 View <a href="https://github.com/facebook/draft-js">GitHub</a> (15,500+ stars)
 
 ## Docusaurus
 
-{% picture "docusaurus-jh-square.png" %}
+{% include pic.html file="docusaurus-jh-square.png" %}
 
 View <a href="https://docusaurus.io/">Website</a> or <a href="https://github.com/facebook/docusaurus">GitHub</a> (11,500+ stars)
 
 ## Prepack
 
-{% picture "prepack-logo-1.png" %}
+{% include pic.html file="prepack-logo-1.png" %}
 
 View <a href="https://github.com/facebook/prepack">GitHub</a> (13,500+ stars)
 
 ## Instant Articles Builder
 
-{% picture "iabuilder-logo-masters_iabuilder-logo-background-blue.png" %}
+{% include pic.html file="iabuilder-logo-masters_iabuilder-logo-background-blue.png" %}
 
 View <a href="https://facebook.github.io/instant-articles-builder/">Website</a> or <a href="https://github.com/facebook/instant-articles-builder">GitHub</a> (60+ stars)

@@ -12,7 +12,7 @@ external: https://medium.com/hh-design/facetoasted-reflections-from-mhacks-5a718
 
 ## Facetoaster is a webapp to showcase design iterations.
 
-{% picture "facetoaster_macbook.png" %}
+{% include pic.html file="facetoaster_macbook.png" %}
 
 ---
 
@@ -47,11 +47,11 @@ Tech teams are infamous for poor interactions between design and engineering. By
 
 When you see an app, you don’t see all the work that went behind it. A designer has countless folders full of app-1.ai, app-2.ai, app-3.ai… Finally, we can display those in a productive, beautiful way. Whether using this for job applications which ask for “comprehensive samples of your design thought process”, or just seek to display it as a portfolio item, this is a treat for pixel-pushers.
 
-{% picture "facetoaster_mockup.png" %}
+{% include pic.html file="facetoaster_mockup.png" %}
 
 First UI mockup.
 
-{% picture "facetoaster_screenshot.png" %}
+{% include pic.html file="facetoaster_screenshot.png" %}
 
 Product screenshot straight from the web, complete with a usage example from Hotdrop.
 
