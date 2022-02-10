@@ -23,7 +23,7 @@ title: Jeff Anders
 			<div class="card-image">
 				{% capture postname %}{{ post.title }}{% endcapture %}
 				{% capture thumbnailpath %}{{ post.url }}{{ post.thumbnail }}{% endcapture %}
-				{% include pic.html file=thumbnailpath alt=postname params="8:5"%}
+				{% include pic.html file=thumbnailpath alt=postname params="8:5" %}
 			</div>
 		<div class="card-info">
 				<h3><span class="post-title">{{ post.title }}</span><span class="card-brief">&ensp;–&ensp;{{ post.brief }}</span>{% if post.external %}<span class="post-external">&ensp;↗</span>{% endif %}</h3>
@@ -35,7 +35,7 @@ title: Jeff Anders
 	<button data-group="projects" class="button-more button-link initially-hidden-projects">More Projects</button>
 </section>
 
-<hr class="hr-more">
+<hr>
 
 <section data-section-id="talk" class="animated-section section-talks">
 	<a id="talks"><h2 class="section-title">Talks & Publications</h2></a>
@@ -46,7 +46,7 @@ title: Jeff Anders
 		<div class="card-image">
 			{% capture postname %}{{ post.title }}{% endcapture %}
 			{% capture thumbnailpath %}{{ post.url }}{{ post.thumbnail }}{% endcapture %}
-			{% include pic.html file=thumbnailpath alt=postname params="1:1"%}
+			{% include pic.html file=thumbnailpath alt=postname params="1:1" %}
 		</div>
 		<div class="card-info">
 			<h3 class="card-brief">{{ post.brief }}</h3>
@@ -54,13 +54,12 @@ title: Jeff Anders
 		</div>
 	{% unless post.still == true %}</a>{% endunless %}
 </li>
-
 		{% endfor %}
 	</ul>
 	<button data-group="talks" class="button-more button-link initially-hidden-talks">More Talks</button>
 </section>
 
-<hr class="hr-more">
+<hr>
 
 {% comment %} <section data-section-id="article" class="animated-section section-writing">
 	<a id="writing"><h2 class="section-title">Writing</h2></a>
@@ -90,12 +89,12 @@ title: Jeff Anders
 <section data-section-id="about" class="animated-section section-about">
 	<a id="about"><h2 class="section-title">About</h2></a>
 	<div class="about-hello">
-		{% include pic.html file="jeff-canyon.jpeg" params="1:1"%}
 		<aside>
 			<p>Hi, I'm Jeff Anders! I live in Denver, Colorado, USA with my wife Emily and daughter Nellie. My last last name was Hilnbrand, which you may have known me by.</p>
 			<p>My time is focused on building Ambrook, the company I founded and lead design at. I'm probably thinking about design, climate, and fintech right now. I'm also interested in cartography, roller coasters, energy, urbanism, photography, and so on.</p>
 			<p>Welcome to my website and portfolio. Explore my body of work and reach out to me if you'd like to meet!</p>
 		</aside>
+		{% include pic.html file="jeff-canyon.jpeg" params="1:1" %}
 	</div>
 </section>
 
