@@ -1,7 +1,7 @@
 $content-width: 81rem;
 
 $t: color 0.5s ease, fill 0.5s ease, background-color 0.5s ease,
-	box-shadow 0.5s ease, opacity 0.5s ease, transform 0.5s ease;
+	box-shadow 0.5s ease, opacity 2s ease, transform 0.5s ease;
 
 $t-fast: color 0.25s ease, fill 0.25s ease, background-color 0.25s ease,
 	box-shadow 0.25s ease, opacity 0.25s ease, transform 0.25s ease;
@@ -66,9 +66,10 @@ hr {
 .content {
 	width: 100%;
 	@media screen and (min-width: $tablet-portrait-min) {
-		margin-left: $sidebar-width;
+		padding-left: $sidebar-width + 3rem;
 	}
-	// margin-bottom: 4.5rem;
+	max-width: 93rem;
+	margin: 0 auto;
 }
 
 section,
@@ -189,6 +190,8 @@ button,
 
 .hidden {
 	display: none !important;
+	opacity: 0;
+	transition: $t;
 }
 
 svg {

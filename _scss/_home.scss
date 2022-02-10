@@ -5,9 +5,11 @@
 // posts grid
 
 .card-grid {
+	opacity: 1;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
 	gap: 3rem;
+	transition: $t;
 	picture, p, h3, h2, h1 {
 		margin-bottom: 0;
 		margin-top: 0;
@@ -144,5 +146,6 @@ svg {
 	gap: 3rem;
 	p {
 		margin-bottom: 1.5rem;
+		max-width: 39rem;
 	}
 }
