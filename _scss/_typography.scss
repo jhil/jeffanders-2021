@@ -92,10 +92,11 @@ a {
 }
 
 p code {
+	font-size: 0.875rem;
 	font-family: $mono;
-	padding: .5rem .5rem;
+	padding: 0.125rem 0.5rem;
 	background: $lighter-gray;
-	margin: 0 .125rem;
+	margin: 0 0.125rem;
 }
 
 sub, .sub {
