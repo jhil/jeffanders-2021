@@ -7,7 +7,7 @@ title: Jeff Anders
 	<a id="teams"><h2 class="section-title">Teams</h2></a>
 	<ul class="card-grid card-grid-compact card-grid-compact-medium">
   		{% for team in site.data.teams %}
-			<a href="{{ team.link }}"><li class="compact-card compact-card-medium"><img src="{{ team.image }}" alt="{{ team.company }} logo"><h3>{{ team.company }}</h3><p class="card-secondary">{{ team.role }}</p></li></a>
+			<a href="{{ team.link }}"><li class="compact-card compact-card-medium"><img src="{{ team.image }}" alt="{{ team.company }} logo"><h3>{{ team.company }}</h3><p class="card-secondary{% unless team.active %} team-past{% endunless %}">{{ team.role }}</p></li></a>
 		{% endfor %}
 	</ul>
 </section>

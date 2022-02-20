@@ -1,10 +1,10 @@
 $content-width: 81rem;
 
 $t: color 0.5s ease, fill 0.5s ease, background-color 0.5s ease,
-	box-shadow 0.5s ease, opacity 2s ease, transform 0.5s ease;
+	box-shadow 0.5s ease, opacity 2s ease, transform 0.5s ease, border-bottom 0.5s ease;
 
 $t-fast: color 0.25s ease, fill 0.25s ease, background-color 0.25s ease,
-	box-shadow 0.25s ease, opacity 0.25s ease, transform 0.25s ease;
+	box-shadow 0.25s ease, opacity 0.25s ease, transform 0.25s ease, border-bottom 0.25s ease;
 
 $corner-radius: 0.25rem;
 
@@ -142,6 +142,11 @@ section,
 	transform: translateY(-0.25rem);
 	transition: $t;
 	@extend .shadow;
+}
+
+.underline {
+	text-decoration: underline;
+	text-decoration-color: $light-gray;
 }
 
 .nowrap {

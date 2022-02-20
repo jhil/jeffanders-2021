@@ -20,10 +20,9 @@
 	display: flex;
 	align-items: center;
 	&:hover {
-		text-decoration: underline;
 		img {
 			@extend .hover-shadow;
-			transform: translateY(0);
+			transform: scale(1.1) translateY(0);
 		}
 	}
 }

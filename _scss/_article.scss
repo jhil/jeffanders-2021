@@ -35,7 +35,7 @@ article {
 	transition: $t;
 	a {
 		font-weight: 400;
-		text-decoration: underline;
+		@extend .underline;
 		transition: $t;
 		&:hover {
 			color: $medium-gray;
@@ -58,7 +58,7 @@ article {
 	}
 	
 	p a {
-		text-decoration: underline;
+		@extend .underline;
 		&:hover {
 			color: $dark-gray;
 		}

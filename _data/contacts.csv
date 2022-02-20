@@ -2,6 +2,7 @@ name,icon,link,handle,color,featured
 Email,email,mailto:jahilnbrand@gmail.com,,#666666,true
 Twitter,twitter,https://twitter.com/intent/user?region=follow&screen_name=jeffand_,@jeffand_,#1DA1F2,true
 LinkedIn,linkedin,https://www.linkedin.com/in/jeff-anders,jeff-anders,#0A66C2,true
+Facebook,facebook,https://www.facebook.com/jeff.a.anders,jeff.a.anders,#1B75E4
 GitHub,github,https://github.com/jhil,jhil,#181717
 Dribbble,dribbble,https://dribbble.com/jeffand,jeffand,#EA4C89
 Goodreads,goodreads,https://goodreads.com/jeffanders,jeffanders,#372213
@@ -13,4 +14,3 @@ Venmo,venmo,https://venmo.com/jeff,jeff,#008CFF
 Letterboxd,letterboxd,https://letterboxd.com/jeffand,jeffand,#00E054
 Last.fm,lastdotfm,https://www.last.fm/user/jhilmd,jhilmd,#D51007
 Spotify,spotify,https://open.spotify.com/user/1211985885?si=ff959d593ab042ce,,#1DB954
-Figma,figma,https://www.figma.com/@jeffand,jeffand,#18A0FB

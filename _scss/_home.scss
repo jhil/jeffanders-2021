@@ -90,6 +90,12 @@
 
 // teams
 
+.team-past {
+	text-decoration: line-through;
+    text-decoration-color: $light-gray;
+    text-decoration-thickness: 1px;
+}
+
 .card-grid-compact {
 	row-gap: 2rem;
 	// grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));

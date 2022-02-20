@@ -1,5 +1,5 @@
-company,role,color,image,link
-Ambrook,Co-Founder,#376150,/img/teams/ambrook-icon.png,https://ambrook.com
+company,role,color,image,link,active
+Ambrook,Co-Founder,#376150,/img/teams/ambrook-icon.png,https://ambrook.com,true
 Scale,Design Manager,#8B7EB9,/img/teams/scale-icon.png,https://scale.com
 Meta,Product Designer,#1877f2,/img/teams/meta-icon.png,https://meta.design
 Minimill,Co-Founder,#3399FF,/img/teams/minimill-icon.png,https://minimill.co

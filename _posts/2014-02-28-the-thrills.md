@@ -8,6 +8,8 @@ color: "#804738"
 width: tight
 ---
 
+{% include pic.html file="the-thrills_thumbnail.jpg" %}
+
 My mind races as I slowly ascend the lift hill of the roller coaster, the rhythmic clash of metal and wood echoing in my ears. To either side of me sit my favorite strangers, my loyal companions, my two-minute family.
 
 ### 180 feet to go.
