@@ -153,5 +153,12 @@ svg {
 	p {
 		margin-bottom: 1.5rem;
 		max-width: 39rem;
+		&:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+	img {
+		height: 100%;
+		@extend .image-fill;
 	}
 }
